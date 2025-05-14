@@ -4,5 +4,11 @@
   "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\main.cpp\"",
   "file": "D:/Coding Programs/Code/C++/paint/src/main.cpp",
   "output": "CMakeFiles/main.dir/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Coding Programs/Code/C++/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\app.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\app.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/paint/src/app.cpp",
+  "output": "CMakeFiles/main.dir/src/app.cpp.obj"
 }
 ]

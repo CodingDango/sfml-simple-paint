@@ -1,5 +1,5 @@
-CMakeFiles/main.dir/src/main.cpp.obj: \
- D:\Coding\ Programs\Code\C++\paint\src\main.cpp \
+CMakeFiles/main.dir/src/app.cpp.obj: \
+ D:\Coding\ Programs\Code\C++\paint\src\app.cpp \
  D:\Coding\ Programs\Code\C++\paint\src\app.h \
  D:\Coding\ Programs\Code\C++\paint\src\utils.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \

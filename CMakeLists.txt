@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD_REQUIRED OFF)
 
-add_executable(main ./src/main.cpp)
+add_executable(main ./src/main.cpp ./src/app.cpp)
      
 find_package(SFML 2.6 COMPONENTS graphics audio system window REQUIRED)
 target_link_libraries(main sfml-graphics sfml-audio sfml-system sfml-window)
