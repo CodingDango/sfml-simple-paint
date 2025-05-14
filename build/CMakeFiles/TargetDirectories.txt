@@ -1,0 +1,3 @@
+D:/Coding Programs/Code/C++/paint/build/CMakeFiles/main.dir
+D:/Coding Programs/Code/C++/paint/build/CMakeFiles/edit_cache.dir
+D:/Coding Programs/Code/C++/paint/build/CMakeFiles/rebuild_cache.dir
