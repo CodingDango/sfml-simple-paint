@@ -86,31 +86,99 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\main.cpp" -o CMakeFiles\main.dir\src\main.cpp.s
 
-CMakeFiles/main.dir/src/app.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/app.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/app.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/app.cpp
-CMakeFiles/main.dir/src/app.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/app.cpp.obj"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/app.cpp.obj -MF CMakeFiles\main.dir\src\app.cpp.obj.d -o CMakeFiles\main.dir\src\app.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\app.cpp"
+CMakeFiles/main.dir/src/App.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/App.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/App.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/App.cpp
+CMakeFiles/main.dir/src/App.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/App.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/App.cpp.obj -MF CMakeFiles\main.dir\src\App.cpp.obj.d -o CMakeFiles\main.dir\src\App.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\App.cpp"
 
-CMakeFiles/main.dir/src/app.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/app.cpp.i"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\app.cpp" > CMakeFiles\main.dir\src\app.cpp.i
+CMakeFiles/main.dir/src/App.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/App.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\App.cpp" > CMakeFiles\main.dir\src\App.cpp.i
 
-CMakeFiles/main.dir/src/app.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/app.cpp.s"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\app.cpp" -o CMakeFiles\main.dir\src\app.cpp.s
+CMakeFiles/main.dir/src/App.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/App.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\App.cpp" -o CMakeFiles\main.dir\src\App.cpp.s
+
+CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/Paint/Brush.cpp
+CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Paint/Brush.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Paint/Brush.cpp.obj -MF CMakeFiles\main.dir\src\Paint\Brush.cpp.obj.d -o CMakeFiles\main.dir\src\Paint\Brush.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\Paint\Brush.cpp"
+
+CMakeFiles/main.dir/src/Paint/Brush.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Paint/Brush.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\Paint\Brush.cpp" > CMakeFiles\main.dir\src\Paint\Brush.cpp.i
+
+CMakeFiles/main.dir/src/Paint/Brush.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Paint/Brush.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\Paint\Brush.cpp" -o CMakeFiles\main.dir\src\Paint\Brush.cpp.s
+
+CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.cpp
+CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj -MF CMakeFiles\main.dir\src\Paint\Toolbar.cpp.obj.d -o CMakeFiles\main.dir\src\Paint\Toolbar.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\Paint\Toolbar.cpp"
+
+CMakeFiles/main.dir/src/Paint/Toolbar.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Paint/Toolbar.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\Paint\Toolbar.cpp" > CMakeFiles\main.dir\src\Paint\Toolbar.cpp.i
+
+CMakeFiles/main.dir/src/Paint/Toolbar.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Paint/Toolbar.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\Paint\Toolbar.cpp" -o CMakeFiles\main.dir\src\Paint\Toolbar.cpp.s
+
+CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.cpp
+CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj -MF CMakeFiles\main.dir\src\PaintUI\Button.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUI\Button.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\PaintUI\Button.cpp"
+
+CMakeFiles/main.dir/src/PaintUI/Button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PaintUI/Button.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\PaintUI\Button.cpp" > CMakeFiles\main.dir\src\PaintUI\Button.cpp.i
+
+CMakeFiles/main.dir/src/PaintUI/Button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PaintUI/Button.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\PaintUI\Button.cpp" -o CMakeFiles\main.dir\src\PaintUI\Button.cpp.s
+
+CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.cpp
+CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj -MF CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\PaintUI\ToolbarUI.cpp"
+
+CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\PaintUI\ToolbarUI.cpp" > CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.i
+
+CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\PaintUI\ToolbarUI.cpp" -o CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
-"CMakeFiles/main.dir/src/app.cpp.obj"
+"CMakeFiles/main.dir/src/App.cpp.obj" \
+"CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" \
+"CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj" \
+"CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj" \
+"CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
-main.exe: CMakeFiles/main.dir/src/app.cpp.obj
+main.exe: CMakeFiles/main.dir/src/App.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Paint/Brush.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj
+main.exe: CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj
+main.exe: CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-graphics.dll.a
 main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-audio.dll.a
@@ -119,7 +187,7 @@ main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-system.dll.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

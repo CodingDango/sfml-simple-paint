@@ -1,0 +1,24 @@
+#ifndef TOOLBAR_H
+#define TOOLBAR_H
+
+#include <SFML/Graphics.hpp>
+
+struct Toolbar 
+{
+    sf::CircleShape& m_brush;
+    
+    /////////////////////////////////////////////////////////////
+    // Constructer Declarations
+    /////////////////////////////////////////////////////////////
+
+    Toolbar(sf::CircleShape& brush);
+
+    /////////////////////////////////////////////////////////////
+    // Public Methods Declaraations (the interface)
+    /////////////////////////////////////////////////////////////
+
+    void setBrushColor(const sf::Color& color);
+    void setBrushSize(float size);
+};
+
+#endif

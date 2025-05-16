@@ -39,6 +39,18 @@ namespace utils
         col.a = clamp<sf::Uint8>(255, 0, val); 
         return col;
     }
+
+    template <typename T>
+    inline T multiplyVectByVect(const T& vect1, const T& vect2)
+    {
+        return {vect1.x * vect2.x, vect1.y * vect2.y};
+    }
+
+    template <typename T>
+    inline T multiplyVectByFactor(const T& vect, float factor)
+    {
+        return {vect.x * factor, vect.y * factor};
+    }
 }
 
 #endif

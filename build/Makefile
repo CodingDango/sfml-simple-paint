@@ -128,29 +128,125 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
-src/app.obj: src/app.cpp.obj
-.PHONY : src/app.obj
+src/App.obj: src/App.cpp.obj
+.PHONY : src/App.obj
 
 # target to build an object file
-src/app.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/app.cpp.obj
-.PHONY : src/app.cpp.obj
+src/App.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/App.cpp.obj
+.PHONY : src/App.cpp.obj
 
-src/app.i: src/app.cpp.i
-.PHONY : src/app.i
+src/App.i: src/App.cpp.i
+.PHONY : src/App.i
 
 # target to preprocess a source file
-src/app.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/app.cpp.i
-.PHONY : src/app.cpp.i
+src/App.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/App.cpp.i
+.PHONY : src/App.cpp.i
 
-src/app.s: src/app.cpp.s
-.PHONY : src/app.s
+src/App.s: src/App.cpp.s
+.PHONY : src/App.s
 
 # target to generate assembly for a file
-src/app.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/app.cpp.s
-.PHONY : src/app.cpp.s
+src/App.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/App.cpp.s
+.PHONY : src/App.cpp.s
+
+src/Paint/Brush.obj: src/Paint/Brush.cpp.obj
+.PHONY : src/Paint/Brush.obj
+
+# target to build an object file
+src/Paint/Brush.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Brush.cpp.obj
+.PHONY : src/Paint/Brush.cpp.obj
+
+src/Paint/Brush.i: src/Paint/Brush.cpp.i
+.PHONY : src/Paint/Brush.i
+
+# target to preprocess a source file
+src/Paint/Brush.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Brush.cpp.i
+.PHONY : src/Paint/Brush.cpp.i
+
+src/Paint/Brush.s: src/Paint/Brush.cpp.s
+.PHONY : src/Paint/Brush.s
+
+# target to generate assembly for a file
+src/Paint/Brush.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Brush.cpp.s
+.PHONY : src/Paint/Brush.cpp.s
+
+src/Paint/Toolbar.obj: src/Paint/Toolbar.cpp.obj
+.PHONY : src/Paint/Toolbar.obj
+
+# target to build an object file
+src/Paint/Toolbar.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj
+.PHONY : src/Paint/Toolbar.cpp.obj
+
+src/Paint/Toolbar.i: src/Paint/Toolbar.cpp.i
+.PHONY : src/Paint/Toolbar.i
+
+# target to preprocess a source file
+src/Paint/Toolbar.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Toolbar.cpp.i
+.PHONY : src/Paint/Toolbar.cpp.i
+
+src/Paint/Toolbar.s: src/Paint/Toolbar.cpp.s
+.PHONY : src/Paint/Toolbar.s
+
+# target to generate assembly for a file
+src/Paint/Toolbar.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Toolbar.cpp.s
+.PHONY : src/Paint/Toolbar.cpp.s
+
+src/PaintUI/Button.obj: src/PaintUI/Button.cpp.obj
+.PHONY : src/PaintUI/Button.obj
+
+# target to build an object file
+src/PaintUI/Button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj
+.PHONY : src/PaintUI/Button.cpp.obj
+
+src/PaintUI/Button.i: src/PaintUI/Button.cpp.i
+.PHONY : src/PaintUI/Button.i
+
+# target to preprocess a source file
+src/PaintUI/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/Button.cpp.i
+.PHONY : src/PaintUI/Button.cpp.i
+
+src/PaintUI/Button.s: src/PaintUI/Button.cpp.s
+.PHONY : src/PaintUI/Button.s
+
+# target to generate assembly for a file
+src/PaintUI/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/Button.cpp.s
+.PHONY : src/PaintUI/Button.cpp.s
+
+src/PaintUI/ToolbarUI.obj: src/PaintUI/ToolbarUI.cpp.obj
+.PHONY : src/PaintUI/ToolbarUI.obj
+
+# target to build an object file
+src/PaintUI/ToolbarUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj
+.PHONY : src/PaintUI/ToolbarUI.cpp.obj
+
+src/PaintUI/ToolbarUI.i: src/PaintUI/ToolbarUI.cpp.i
+.PHONY : src/PaintUI/ToolbarUI.i
+
+# target to preprocess a source file
+src/PaintUI/ToolbarUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.i
+.PHONY : src/PaintUI/ToolbarUI.cpp.i
+
+src/PaintUI/ToolbarUI.s: src/PaintUI/ToolbarUI.cpp.s
+.PHONY : src/PaintUI/ToolbarUI.s
+
+# target to generate assembly for a file
+src/PaintUI/ToolbarUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.s
+.PHONY : src/PaintUI/ToolbarUI.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -185,9 +281,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
-	@echo ... src/app.obj
-	@echo ... src/app.i
-	@echo ... src/app.s
+	@echo ... src/App.obj
+	@echo ... src/App.i
+	@echo ... src/App.s
+	@echo ... src/Paint/Brush.obj
+	@echo ... src/Paint/Brush.i
+	@echo ... src/Paint/Brush.s
+	@echo ... src/Paint/Toolbar.obj
+	@echo ... src/Paint/Toolbar.i
+	@echo ... src/Paint/Toolbar.s
+	@echo ... src/PaintUI/Button.obj
+	@echo ... src/PaintUI/Button.i
+	@echo ... src/PaintUI/Button.s
+	@echo ... src/PaintUI/ToolbarUI.obj
+	@echo ... src/PaintUI/ToolbarUI.i
+	@echo ... src/PaintUI/ToolbarUI.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

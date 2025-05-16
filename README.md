@@ -11,9 +11,22 @@
        - Toolbar Object
        - Brush Object
        - Button Object
+       
+       
+       
+       
+## Simplified Plan
+
+1. Application will have
+    - ToolBar (Handles logic of changing brush color)
+        - reference to brush sprite
+        - interface for changing brush sprite properties
     
-    3. For dealing with entities
-       - A Vector for holding entity pointers.
-        an update() method for each entity (pass in delta time and mouse_pos);
-    
-    4. 
+    - ToolBarUI ( handles checking for user input, then calling back to the interface given by toolbar )
+       - A Reference to a toolbar object. 
+       - Display 3 Rectangles Going downwards on the right edge of the screen.
+       - Check hover
+         - If hover, scales up a tiny bit to show hover.
+       - Check click
+         - If click, call the ToolBar called changeBrushColor(button_color); 
+  

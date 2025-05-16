@@ -7,8 +7,32 @@
 },
 {
   "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\app.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\app.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/app.cpp",
-  "output": "CMakeFiles/main.dir/src/app.cpp.obj"
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\App.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\App.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/paint/src/App.cpp",
+  "output": "CMakeFiles/main.dir/src/App.cpp.obj"
+},
+{
+  "directory": "D:/Coding Programs/Code/C++/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\Brush.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\Paint\\Brush.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/paint/src/Paint/Brush.cpp",
+  "output": "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj"
+},
+{
+  "directory": "D:/Coding Programs/Code/C++/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\Toolbar.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\Paint\\Toolbar.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/paint/src/Paint/Toolbar.cpp",
+  "output": "CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj"
+},
+{
+  "directory": "D:/Coding Programs/Code/C++/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\Button.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\PaintUI\\Button.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/paint/src/PaintUI/Button.cpp",
+  "output": "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj"
+},
+{
+  "directory": "D:/Coding Programs/Code/C++/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\ToolbarUI.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\PaintUI\\ToolbarUI.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/paint/src/PaintUI/ToolbarUI.cpp",
+  "output": "CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
 }
 ]

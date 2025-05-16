@@ -3,7 +3,10 @@
     {
       "name": "windows-gcc-x64",
       "includePath": [
-        "${workspaceFolder}/includes**"
+        "${workspaceFolder}/src/Entity**",
+        "${workspaceFolder}/src/Paint**",
+        "${workspaceFolder}/src/PaintUI**",
+        "${workspaceFolder}/src/**",
       ],
       "compilerPath": "D:/Coding Programs/MSYS/mingw64/bin/gcc.exe",
       "cStandard": "${default}",

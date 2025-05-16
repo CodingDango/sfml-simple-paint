@@ -6,13 +6,27 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD_REQUIRED OFF)
 
-add_executable(main ./src/main.cpp ./src/app.cpp)
-     
-find_package(SFML 2.6 COMPONENTS graphics audio system window REQUIRED)
-target_link_libraries(main sfml-graphics sfml-audio sfml-system sfml-window)
+add_executable(
+    main 
+    ./src/main.cpp 
+    ./src/app.cpp
 
-target_include_directories(main PRIVATE ./includes)
+    # Paint 
+    ./src/Paint/Brush.cpp
+    ./src/Paint/Toolbar.cpp
+
+    # Paint UI
+    ./src/PaintUI/Button.cpp
+    ./src/PaintUI/ToolbarUI.cpp
+)
      
+target_include_directories(
+    main PRIVATE 
+    ./src/Paint
+    ./src/PaintUI
+    ./src/
+)
+   
 target_compile_options(
     main PRIVATE 
     "-O0"
@@ -20,5 +34,8 @@ target_compile_options(
     "-ggdb"
     "-pedantic"
 )
+
+find_package(SFML 2.6 COMPONENTS graphics audio system window REQUIRED)
+target_link_libraries(main sfml-graphics sfml-audio sfml-system sfml-window)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})

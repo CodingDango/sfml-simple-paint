@@ -1,7 +1,6 @@
-CMakeFiles/main.dir/src/App.cpp.obj: \
- D:\Coding\ Programs\Code\C++\paint\src\App.cpp \
- D:\Coding\ Programs\Code\C++\paint\src\app.h \
- D:/Coding\ Programs/Code/C++/paint/src/Paint/Brush.h \
+CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: \
+ D:\Coding\ Programs\Code\C++\paint\src\Paint\Toolbar.cpp \
+ D:\Coding\ Programs\Code\C++\paint\src\Paint\Toolbar.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System.hpp \
@@ -252,38 +251,4 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Glsl.inl \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
- D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
- D:/Coding\ Programs/Code/C++/paint/src/Utils.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
- D:/Coding\ Programs/MSYS/mingw64/include/math.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/limits \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/functional \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_function.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/unordered_map \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/unordered_map.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/hashtable.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/hashtable_policy.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/array \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/compare \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
- D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.h \
- D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.h \
- D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
- D:\Coding\ Programs\Code\C++\paint\src\Utils.h
+ D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp

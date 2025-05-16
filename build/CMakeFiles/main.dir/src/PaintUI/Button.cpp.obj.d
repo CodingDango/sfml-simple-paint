@@ -1,7 +1,67 @@
-CMakeFiles/main.dir/src/App.cpp.obj: \
- D:\Coding\ Programs\Code\C++\paint\src\App.cpp \
- D:\Coding\ Programs\Code\C++\paint\src\app.h \
- D:/Coding\ Programs/Code/C++/paint/src/Paint/Brush.h \
+CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: \
+ D:\Coding\ Programs\Code\C++\paint\src\PaintUI\Button.cpp \
+ D:\Coding\ Programs\Code\C++\paint\src\PaintUI\Button.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Utils.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ext/type_traits.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/math.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/crtdefs.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/corecrt.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/_mingw.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/_mingw_mac.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/_mingw_secapi.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/vadefs.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/sdks/_mingw_ddk.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_abs.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/stdlib.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/corecrt_wstdlib.h \
+ D:/Coding\ Programs/MSYS/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
+ D:/Coding\ Programs/MSYS/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/limits.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/sec_api/stdlib_s.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/stdlib.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/malloc.h \
+ D:/Coding\ Programs/MSYS/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/errno.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/version.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/functexcept.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/exception_defines.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_pair.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/type_traits \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/move.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/utility.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/concept_check.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/debug/assertions.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/debug/debug.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/predefined_ops.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bit \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/concepts \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/limits \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System.hpp \
@@ -11,11 +71,6 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Time.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Err.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ostream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/requires_hosted.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++config.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/os_defines.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/cpu_defines.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/pstl_config.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ios \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iosfwd \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stringfwd.h \
@@ -23,14 +78,7 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/postypes.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cwchar \
  D:/Coding\ Programs/MSYS/mingw64/include/wchar.h \
- D:/Coding\ Programs/MSYS/mingw64/include/corecrt.h \
- D:/Coding\ Programs/MSYS/mingw64/include/_mingw.h \
- D:/Coding\ Programs/MSYS/mingw64/include/_mingw_mac.h \
- D:/Coding\ Programs/MSYS/mingw64/include/_mingw_secapi.h \
- D:/Coding\ Programs/MSYS/mingw64/include/vadefs.h \
- D:/Coding\ Programs/MSYS/mingw64/include/sdks/_mingw_ddk.h \
  D:/Coding\ Programs/MSYS/mingw64/include/corecrt_stdio_config.h \
- D:/Coding\ Programs/MSYS/mingw64/include/corecrt_wstdlib.h \
  D:/Coding\ Programs/MSYS/mingw64/include/corecrt_wctype.h \
  D:/Coding\ Programs/MSYS/mingw64/include/_mingw_off_t.h \
  D:/Coding\ Programs/MSYS/mingw64/include/_mingw_stat64.h \
@@ -38,18 +86,13 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/sec_api/wchar_s.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/exception \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/exception.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/version.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/exception_ptr.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/exception_defines.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/cxxabi_init_exception.h \
  D:/Coding\ Programs/MSYS/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/stddef.h \
  D:/Coding\ Programs/MSYS/mingw64/include/stddef.h \
- D:/Coding\ Programs/MSYS/mingw64/include/crtdefs.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/typeinfo \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/hash_bytes.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/new \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/move.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/type_traits \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/nested_exception.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/char_traits.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/localefwd.h \
@@ -65,13 +108,9 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/gthr-default.h \
  D:/Coding\ Programs/MSYS/mingw64/include/pthread.h \
- D:/Coding\ Programs/MSYS/mingw64/include/errno.h \
  D:/Coding\ Programs/MSYS/mingw64/include/sys/types.h \
  D:/Coding\ Programs/MSYS/mingw64/include/process.h \
  D:/Coding\ Programs/MSYS/mingw64/include/corecrt_startup.h \
- D:/Coding\ Programs/MSYS/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/limits.h \
- D:/Coding\ Programs/MSYS/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/syslimits.h \
- D:/Coding\ Programs/MSYS/mingw64/include/limits.h \
  D:/Coding\ Programs/MSYS/mingw64/include/signal.h \
  D:/Coding\ Programs/MSYS/mingw64/include/pthread_signal.h \
  D:/Coding\ Programs/MSYS/mingw64/include/time.h \
@@ -88,27 +127,10 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/allocator.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/x86_64-w64-mingw32/bits/c++allocator.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/new_allocator.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/functexcept.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/cpp_type_traits.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/ostream_insert.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/cxxabi_forced.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_iterator_base_funcs.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/concept_check.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/debug/assertions.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_iterator_base_types.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_iterator.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ext/type_traits.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/ptr_traits.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_function.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/binders.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ext/numeric_traits.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_pair.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/utility.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/debug/debug.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/predefined_ops.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bit \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/concepts \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/refwrap.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/invoke.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/range_access.h \
@@ -122,12 +144,6 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/string_view.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ext/string_conversions.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdlib \
- D:/Coding\ Programs/MSYS/mingw64/include/stdlib.h \
- D:/Coding\ Programs/MSYS/mingw64/include/sec_api/stdlib_s.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/stdlib.h \
- D:/Coding\ Programs/MSYS/mingw64/include/malloc.h \
- D:/Coding\ Programs/MSYS/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_abs.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdio \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cerrno \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/charconv.h \
@@ -253,24 +269,6 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
- D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
- D:/Coding\ Programs/Code/C++/paint/src/Utils.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
- D:/Coding\ Programs/MSYS/mingw64/include/math.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/limits \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/functional \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_function.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/unordered_map \
@@ -282,8 +280,4 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/compare \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
- D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.h \
- D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.h \
- D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
- D:\Coding\ Programs\Code\C++\paint\src\Utils.h
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc
