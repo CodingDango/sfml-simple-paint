@@ -52,9 +52,9 @@ private:
     sf::Sprite m_canvas_sprite {};  
 
     // Brush Config
+    inline static const sf::Vector2f M_BRUSH_INACTIVE_POS {-1000.0f, -1000.0f}; // When the user stops painting, outof obunds
     inline static const float M_BRUSH_SIZE_PX = 20.0f; 
-    inline static const sf::Color M_BRUSH_COLOR = sf::Color::Red;
-    inline static const sf::Color M_BRUSH_COLOR_INVISIBLE = utils::modifyOpacity(M_BRUSH_COLOR, 0); 
+    inline static const sf::Color M_STARTING_BRUSH_COLOR = sf::Color::Red;
     
     // Brush State
     bool m_is_brush_painting = false;

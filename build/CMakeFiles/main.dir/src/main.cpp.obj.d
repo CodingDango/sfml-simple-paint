@@ -253,6 +253,19 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/align.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ext/concurrence.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_base.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
  D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
  D:/Coding\ Programs/Code/C++/paint/src/Utils.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
@@ -286,4 +299,11 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.h \
  D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.h \
  D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Debug.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/fmt/base.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/string.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/sec_api/string_s.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
  D:\Coding\ Programs\Code\C++\paint\src\Utils.h

@@ -42,16 +42,21 @@ namespace ui
         const sf::RectangleShape& getDrawableRect() const;
 
     private:
-        static constexpr float m_normal_scale_factor = 1.0f;
-        static constexpr float m_hover_scale_factor  = 1.1f;
+        const float m_normal_scale_factor = 1.0f;
+        const float m_hover_scale_factor  = 1.1f;
 
-        sf::RectangleShape m_rect_shape;
+        sf::RectangleShape m_shape;
         sf::Color m_fill_color;
 
         std::function<void()> m_hover_callback;
         std::function<void()> m_no_hover_callback;
         std::function<void()> m_click_callback;
     };
+
+    // class CircleButton : public Button
+    // {
+        
+    // }
 
     struct BtnInitData
     {

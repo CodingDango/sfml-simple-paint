@@ -15,7 +15,7 @@ App::App()
 
     // -- Brush Setup
     m_brush.setOrigin(m_brush.getRadius(), m_brush.getRadius());
-    m_brush.setFillColor(M_BRUSH_COLOR);
+    m_brush.setFillColor(M_STARTING_BRUSH_COLOR);    
 
     // -- UI Setup
 }
@@ -33,7 +33,6 @@ void App::run()
         drawEntities();
     }
 }
-
 
 /////////////////////////////////////////////////////////////
 // Private Methods Definition
@@ -75,16 +74,15 @@ void App::updateEntities()
 {   
     const sf::Vector2f mouse_pos { utils::toVector2f(sf::Mouse::getPosition(m_window)) };
 
-    // -- Update Brush Visibility
+    // -- Update Brush
     if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
     {
-        m_brush.setFillColor(M_BRUSH_COLOR);
         m_brush.setPosition(mouse_pos);
     }
-    else
+    else 
     {
-        m_brush.setFillColor(M_BRUSH_COLOR_INVISIBLE);
-    }  
+        m_brush.setPosition(M_BRUSH_INACTIVE_POS); 
+    }
 }
 
 void App::drawEntities()
