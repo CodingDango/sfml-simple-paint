@@ -3,7 +3,6 @@
 /////////////////////////////////////////////////////////////
 //  Button Constructers
 /////////////////////////////////////////////////////////////
-
 ui::Button::Button(const sf::Color& fill_color, const sf::Vector2f& btn_size)
 :    
     m_shape { btn_size },
@@ -20,38 +19,8 @@ ui::Button::Button(const sf::Color& fill_color, const sf::Vector2f& btn_size)
 }
 
 /////////////////////////////////////////////////////////////
-//  Button Update Methods
-/////////////////////////////////////////////////////////////
-
-void ui::Button::checkHover(const sf::Event& event)
-{   
-    if (event.type != sf::Event::MouseMoved)
-        return;
-
-    if (m_shape.getGlobalBounds().contains(event.mouseMove.x, event.mouseMove.y))
-    {
-        m_hover_callback();
-    }
-    else
-    {   
-        m_no_hover_callback();
-    }
-}
-
-void ui::Button::checkClick(const sf::Event& event)
-{   
-    if (event.type != sf::Event::MouseButtonPressed)
-        return;
-        
-    if (m_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y)
-        && event.mouseButton.button == sf::Mouse::Button::Left)
-        m_click_callback();   // Weirdly this one works fine. so its a problem with this reference?
-}
-
-/////////////////////////////////////////////////////////////
 //  Button Callback Setters
 /////////////////////////////////////////////////////////////
-
 void ui::Button::setClickCallback(const std::function<void()>& callback)
 {
     m_click_callback = callback;
@@ -70,7 +39,6 @@ void ui::Button::setNoHoverCallback(const std::function<void()>& callback)
 /////////////////////////////////////////////////////////////
 //  Button Transform Setters
 /////////////////////////////////////////////////////////////
-
 void ui::Button::setPosition(const sf::Vector2f& pos)
 {
     m_shape.setPosition(pos);
@@ -84,7 +52,6 @@ void ui::Button::setPosition(float x, float y)
 /////////////////////////////////////////////////////////////
 //  Button Drawable Related Getters 
 /////////////////////////////////////////////////////////////
-
 sf::Color ui::Button::getFillColor() const 
 {
     return m_fill_color;
@@ -98,8 +65,44 @@ const sf::RectangleShape& ui::Button::getDrawableRect() const
 /////////////////////////////////////////////////////////////
 // BtnInitData Constructer
 /////////////////////////////////////////////////////////////
-
 ui::BtnInitData::BtnInitData(const sf::Color& color, const sf::Vector2f& btn_size)
 :   m_color { color },
     m_btn_size { btn_size }
 {}
+
+
+/////////////////////////////////////////////////////////////
+// Entity Overrides
+/////////////////////////////////////////////////////////////        
+void ui::Button::handleEvent(const sf::Event& event)
+{
+    switch (event.type)
+    {
+    case sf::Event::MouseMoved:
+        Entity::is_hovered = m_shape.getGlobalBounds().contains(event.mouseMove.x, event.mouseMove.y);
+        break;
+
+    case sf::Event::MouseButtonPressed:
+        Entity::is_clicked = (m_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y)
+        && event.mouseButton.button == sf::Mouse::Button::Left);
+
+    default:
+        break;
+    }
+}
+
+void ui::Button::update(float dt, const sf::Vector2f& mouse_pos)
+{
+    if (Entity::is_hovered)
+        m_hover_callback();
+    else
+        m_no_hover_callback();
+
+    if (Entity::is_clicked)
+        m_click_callback();
+}
+
+void ui::Button::render(sf::RenderTarget& dest) const
+{
+    dest.draw(m_shape);
+}

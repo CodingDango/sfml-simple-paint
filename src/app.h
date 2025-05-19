@@ -22,52 +22,39 @@ private:
     // Attribute Definitions
     /////////////////////////////////////////////////////////////
 
-    // -- Window Config --
-    inline static const std::string M_WINDOW_TITLE { "SimplePaint" };
-    inline static const int M_WINDOW_WIDTH_PX   = 1280;
-    inline static const int M_WINDOW_HEIGHT_PX  = 720;
-    inline static const int M_MAX_FPS = 120;
-
     // -- Window Setup --
-    sf::RenderWindow m_window {
-        sf::VideoMode { M_WINDOW_WIDTH_PX, M_WINDOW_HEIGHT_PX },
-        M_WINDOW_TITLE
-    };
+    inline static const std::string WINDOW_TITLE { "SimplePaint" };
+    inline static const int WINDOW_WIDTH_PX   = 1280;
+    inline static const int WINDOW_HEIGHT_PX  = 720;
+    inline static const int MAX_FPS = 120;
+
+    sf::RenderWindow m_window;
 
     // -- System Setup --
-    sf::Clock m_clock {};
+    sf::Clock m_clock;
 
-    // -- Paint Setup --
-
-    // Canvas Config 
-    inline static const sf::Vector2u M_CANVAS_SIZE { 
-        800, M_WINDOW_HEIGHT_PX 
+    // -- Canvas Setup --
+    inline static const sf::Vector2u CANVAS_SIZE { 
+        800, WINDOW_HEIGHT_PX 
     };
-
-    // Canvas Setup 
-    sf::RenderTexture m_canvas_texture {};
 
     // not initializing sprite with canvas texture yet
     // m_canvas_texture is in an invalid state before calling create()
-    sf::Sprite m_canvas_sprite {};  
+    sf::RenderTexture m_canvas_texture;
+    sf::Sprite m_canvas_sprite;
 
-    // Brush Config
-    inline static const sf::Vector2f M_BRUSH_INACTIVE_POS {-1000.0f, -1000.0f}; // When the user stops painting, outof obunds
-    inline static const float M_BRUSH_SIZE_PX = 20.0f; 
-    inline static const sf::Color M_STARTING_BRUSH_COLOR = sf::Color::Red;
+    // -- Brush Setup --
+    inline static const Brush::ShapeType BRUSH_STARTING_SHAPE = Brush::ShapeType::Circle;
+    inline static const sf::Color BRUSH_STARTING_COL = sf::Color::White;
+    inline static const float BRUSH_STARTING_SIZE = 20.0f;
+
+    Brush m_brush { BRUSH_STARTING_SHAPE, BRUSH_STARTING_COL, BRUSH_STARTING_SIZE };
     
-    // Brush State
-    bool m_is_brush_painting = false;
-    sf::Vector2f m_last_mouse_pos {};
+    // -- Toolbar Setup --
+    inline static const sf::Vector2f TOOLBAR_STARTING_POS { 1000, 200 };
 
-    // Brush Setup
-    sf::CircleShape m_brush { M_BRUSH_SIZE_PX };
-
-    // Toolbar Config
-    Toolbar m_toolbar { m_brush };
-    ui::ToolbarUI m_toolbar_ui { m_toolbar, { 1000, 200} };
-
-    // Button Setup
+    Toolbar m_toolbar;
+    ui::ToolbarUI m_toolbar_ui;
 
     /////////////////////////////////////////////////////////////
     // Private Method Declarations  

@@ -1,6 +1,7 @@
 CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: \
  D:\Coding\ Programs\Code\C++\paint\src\Paint\Toolbar.cpp \
  D:\Coding\ Programs\Code\C++\paint\src\Paint\Toolbar.h \
+ D:\Coding\ Programs\Code\C++\paint\src\Paint\Brush.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System.hpp \
@@ -251,4 +252,20 @@ CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Glsl.inl \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp
+ D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/align.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ext/concurrence.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_base.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h

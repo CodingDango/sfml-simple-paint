@@ -252,6 +252,9 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/align.h \

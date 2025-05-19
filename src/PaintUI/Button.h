@@ -1,6 +1,7 @@
 #ifndef BUTTON_H
 #define BUTTON_H
 
+#include "Entity.h"
 #include "Utils.h"
 #include <functional>
 #include <iostream>
@@ -8,26 +9,17 @@
 
 namespace ui
 {
-    class Button
+    class Button : public Entity
     {
     public:
         /////////////////////////////////////////////////////////////
         // Constructor Declarations  
         /////////////////////////////////////////////////////////////
-
         Button(const sf::Color& fill_color, const sf::Vector2f& btn_size);
-
-        /////////////////////////////////////////////////////////////
-        // Update Methods
-        /////////////////////////////////////////////////////////////
-
-        void checkHover(const sf::Event& event);
-        void checkClick(const sf::Event& event);
 
         /////////////////////////////////////////////////////////////
         // Setters  
         /////////////////////////////////////////////////////////////
-
         void setPosition(const sf::Vector2f& pos);
         void setPosition(float x, float y);
         void setClickCallback(const std::function<void()>& callback);
@@ -37,9 +29,15 @@ namespace ui
         /////////////////////////////////////////////////////////////
         // Getters  
         /////////////////////////////////////////////////////////////
-
         sf::Color getFillColor() const;
         const sf::RectangleShape& getDrawableRect() const;
+
+        /////////////////////////////////////////////////////////////
+        // Entity Overrides
+        /////////////////////////////////////////////////////////////
+        void handleEvent(const sf::Event& event) override;
+        void update(float dt, const sf::Vector2f& mouse_pos) override;
+        void render(sf::RenderTarget& dest) const override;
 
     private:
         const float m_normal_scale_factor = 1.0f;
@@ -53,10 +51,9 @@ namespace ui
         std::function<void()> m_click_callback;
     };
 
-    // class CircleButton : public Button
-    // {
-        
-    // }
+    // # TODO
+    // Create a CircleButton and RectButton class
+    // Turn the Button into a Base Class.
 
     struct BtnInitData
     {

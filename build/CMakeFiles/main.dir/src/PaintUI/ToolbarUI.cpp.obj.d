@@ -290,6 +290,7 @@ CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
  D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Paint/Brush.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/align.h \

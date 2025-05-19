@@ -1,24 +1,27 @@
 #ifndef TOOLBAR_H
 #define TOOLBAR_H
 
+#include "Brush.h"
+#include "Entity.h"
+
 #include <SFML/Graphics.hpp>
 
-struct Toolbar 
+class Toolbar : public Entity
 {
-    sf::CircleShape& m_brush;
-    
+public:
     /////////////////////////////////////////////////////////////
     // Constructer Declarations
     /////////////////////////////////////////////////////////////
-
-    Toolbar(sf::CircleShape& brush);
+    Toolbar(Brush& brush);
 
     /////////////////////////////////////////////////////////////
-    // Public Methods Declaraations (the interface)
+    // Public Methods Declarations (the interface)
     /////////////////////////////////////////////////////////////
-
     void setBrushColor(const sf::Color& color);
     void setBrushSize(float size);
+    
+private:
+    Brush& m_brush;
 };
 
 #endif

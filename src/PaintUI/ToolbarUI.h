@@ -12,16 +12,18 @@
 
 namespace ui
 {
-    class ToolbarUI
+    class ToolbarUI : public Entity
     {
     public:
         ToolbarUI(Toolbar& toolbar, const sf::Vector2f& start_pos);
         
-        void checkForBtnHover(const sf::Event& event);
-        void checkForBtnClick(const sf::Event& event);
-
-        void drawOnWindow(sf::RenderWindow& dest);
-
+        /////////////////////////////////////////////////////////////
+        // Entity Overrides
+        /////////////////////////////////////////////////////////////
+        void handleEvent(const sf::Event& event) override;
+        void update(float dt, const sf::Vector2f& mouse_pos) override;
+        void render(sf::RenderTarget& dest) const override;
+        
     private:
         const sf::Vector2f m_btn_size_px { 75.0f, 75.0f };
 
@@ -36,6 +38,7 @@ namespace ui
         Toolbar& m_toolbar;
 
         void prepareBtns(const sf::Vector2f& start_pos);
+        void handleButtonEvents(const sf::Event& event);
     };
 }
 

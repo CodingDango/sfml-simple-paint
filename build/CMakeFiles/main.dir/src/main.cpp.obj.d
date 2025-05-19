@@ -253,6 +253,9 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/align.h \
@@ -293,10 +296,8 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/array \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/compare \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
  D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Paint/Brush.h \
  D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.h \
  D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
  D:/Coding\ Programs/Code/C++/paint/src/Debug.h \

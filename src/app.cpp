@@ -5,19 +5,19 @@
 /////////////////////////////////////////////////////////////
 
 App::App()
+:   m_window     { sf::VideoMode { WINDOW_WIDTH_PX, WINDOW_HEIGHT_PX }, WINDOW_TITLE },
+    m_brush      { BRUSH_STARTING_SHAPE, BRUSH_STARTING_COL, BRUSH_STARTING_SIZE },
+    m_toolbar    { m_brush },
+    m_toolbar_ui { m_toolbar, TOOLBAR_STARTING_POS }
 {   
     // -- Window Setup
-    m_window.setFramerateLimit(M_MAX_FPS);
+    m_window.setFramerateLimit(MAX_FPS);
 
     // -- Canvas Setup --
-    m_canvas_texture.create(M_CANVAS_SIZE.x, M_CANVAS_SIZE.y);
+    m_canvas_texture.create(CANVAS_SIZE.x, CANVAS_SIZE.y);
     m_canvas_sprite.setTexture(m_canvas_texture.getTexture());
 
     // -- Brush Setup
-    m_brush.setOrigin(m_brush.getRadius(), m_brush.getRadius());
-    m_brush.setFillColor(M_STARTING_BRUSH_COLOR);    
-
-    // -- UI Setup
 }
 
 /////////////////////////////////////////////////////////////
@@ -40,9 +40,9 @@ void App::run()
 
 void App::processEvents()
 {
-    const float delta_time { m_clock.restart().asSeconds() };
-
+    [[maybe_unused]] const float delta_time { m_clock.restart().asSeconds() };
     sf::Event event {};
+    
     while (m_window.pollEvent(event))
     {
         switch (event.type)
@@ -54,6 +54,24 @@ void App::processEvents()
         case sf::Event::KeyPressed:
             if (event.key.control && event.key.code == sf::Keyboard::C)
                 m_canvas_texture.clear();
+            
+            else if (event.key.code == sf::Keyboard::F)
+            {
+                switch (m_brush.getShapeType())
+                {
+                case Brush::ShapeType::Rectangle:
+                    m_brush.setShapeType(Brush::ShapeType::Circle);
+                    break;
+                
+                case Brush::ShapeType::Circle:
+                    m_brush.setShapeType(Brush::ShapeType::Rectangle);
+                    break;
+                
+                default:
+                    break;
+                }
+            }
+
             break;
         
         case sf::Event::MouseMoved:
@@ -73,16 +91,7 @@ void App::processEvents()
 void App::updateEntities()
 {   
     const sf::Vector2f mouse_pos { utils::toVector2f(sf::Mouse::getPosition(m_window)) };
-
-    // -- Update Brush
-    if (sf::Mouse::isButtonPressed(sf::Mouse::Left))
-    {
-        m_brush.setPosition(mouse_pos);
-    }
-    else 
-    {
-        m_brush.setPosition(M_BRUSH_INACTIVE_POS); 
-    }
+    m_brush.update(mouse_pos);
 }
 
 void App::drawEntities()
@@ -91,7 +100,7 @@ void App::drawEntities()
     m_toolbar_ui.drawOnWindow(m_window);
     
     // -- Draw Brush And Canvas
-    m_canvas_texture.draw(m_brush);
+    m_canvas_texture.draw(*m_brush.getShape());
     m_window.draw(m_canvas_sprite);
     
     m_canvas_texture.display();

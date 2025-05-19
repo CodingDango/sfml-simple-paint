@@ -7,19 +7,9 @@ ui::ToolbarUI::ToolbarUI(Toolbar& toolbar, const sf::Vector2f& start_pos)
     prepareBtns(start_pos);
 }
 
-void ui::ToolbarUI::checkForBtnHover(const sf::Event& event)
+void ui::ToolbarUI::handleButtonEvents(const sf::Event& event)
 {
-    for (auto& btn : m_btns) { btn->checkHover(event); }
-}
-
-void ui::ToolbarUI::checkForBtnClick(const sf::Event& event)
-{ 
-    for (auto& btn : m_btns) { btn->checkClick(event); }
-}
-
-void ui::ToolbarUI::drawOnWindow(sf::RenderWindow& dest)
-{
-    for (auto& btn : m_btns) { dest.draw(btn->getDrawableRect()); }
+    for (auto& btn : m_btns) { btn->handleEvent(event); }
 }
 
 void ui::ToolbarUI::prepareBtns(const sf::Vector2f& start_pos)
@@ -40,4 +30,30 @@ void ui::ToolbarUI::prepareBtns(const sf::Vector2f& start_pos)
 
         curr_y += btn_size.y + MARGIN_Y_PX;
     }
+}
+
+/////////////////////////////////////////////////////////////
+// Entity Overrides
+/////////////////////////////////////////////////////////////
+void ui::ToolbarUI::handleEvent(const sf::Event& event)
+{
+    switch (event.type)
+    {
+    case sf::Event::MouseButtonPressed:
+        if (event.mouseButton.button == sf::Mouse::Left)
+            handleButtonEvents(event);
+        break;
+        
+    case sf::Event::MouseMoved:
+        handleButtonEvents;
+        break;
+
+    default:
+        break;
+    }
+}
+
+void ui::ToolbarUI::render(sf::RenderTarget& dest) const
+{
+
 }
