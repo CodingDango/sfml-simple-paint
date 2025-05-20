@@ -7,7 +7,7 @@ ui::ToolbarUI::ToolbarUI(Toolbar& toolbar, const sf::Vector2f& start_pos)
     prepareBtns(start_pos);
 }
 
-void ui::ToolbarUI::handleButtonEvents(const sf::Event& event)
+void ui::ToolbarUI::handleBtnsEvents(const sf::Event& event)
 {
     for (auto& btn : m_btns) { btn->handleEvent(event); }
 }
@@ -32,6 +32,14 @@ void ui::ToolbarUI::prepareBtns(const sf::Vector2f& start_pos)
     }
 }
 
+void ui::ToolbarUI::renderBtns(sf::RenderTarget& dest) const
+{
+    for (const auto& elem : m_btns)
+    {
+        dest.draw(elem->getDrawableRect());
+    }
+}
+
 /////////////////////////////////////////////////////////////
 // Entity Overrides
 /////////////////////////////////////////////////////////////
@@ -41,11 +49,11 @@ void ui::ToolbarUI::handleEvent(const sf::Event& event)
     {
     case sf::Event::MouseButtonPressed:
         if (event.mouseButton.button == sf::Mouse::Left)
-            handleButtonEvents(event);
+            handleBtnsEvents(event);
         break;
         
     case sf::Event::MouseMoved:
-        handleButtonEvents;
+        handleBtnsEvents(event);
         break;
 
     default:
@@ -55,5 +63,5 @@ void ui::ToolbarUI::handleEvent(const sf::Event& event)
 
 void ui::ToolbarUI::render(sf::RenderTarget& dest) const
 {
-
+    renderBtns(dest);
 }

@@ -28,17 +28,17 @@ namespace ui
         const sf::Vector2f m_btn_size_px { 75.0f, 75.0f };
 
         const std::vector<ui::BtnInitData> m_btn_inits {
-            { sf::Color::Red,   m_btn_size_px   },
-            { sf::Color::Green, m_btn_size_px },
-            { sf::Color::Blue,   m_btn_size_px   },
-            // { sf::Color::Blue, m_btn_size_px  },
+            { sf::Color::Red,   m_btn_size_px  },
+            { sf::Color::Green, m_btn_size_px  },
+            { sf::Color::Blue,  m_btn_size_px  },
         };
 
         std::vector<std::unique_ptr<ui::Button>> m_btns;
         Toolbar& m_toolbar;
 
         void prepareBtns(const sf::Vector2f& start_pos);
-        void handleButtonEvents(const sf::Event& event);
+        void handleBtnsEvents(const sf::Event& event);
+        void renderBtns(sf::RenderTarget& dest) const;
     };
 }
 
