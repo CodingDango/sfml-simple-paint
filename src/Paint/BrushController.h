@@ -1,18 +1,18 @@
-#ifndef TOOLBAR_H
-#define TOOLBAR_H
+#ifndef BRUSH_CONTROLLER_H
+#define BRUSH_CONTROLLER_H
 
 #include "Brush.h"
 #include "Entity.h"
 
 #include <SFML/Graphics.hpp>
 
-class Toolbar : public Entity
+class BrushController : public Entity
 {
 public:
     /////////////////////////////////////////////////////////////
     // Constructer Declarations
     /////////////////////////////////////////////////////////////
-    Toolbar(Brush* brush_ptr);
+    BrushController(Brush* brush_ptr);
 
     /////////////////////////////////////////////////////////////
     // Public Methods Declarations (the interface)

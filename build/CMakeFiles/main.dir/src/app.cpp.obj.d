@@ -297,10 +297,9 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/array \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/compare \
- D:/Coding\ Programs/Code/C++/paint/src/Paint/Canvas.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Paint/BrushController.h \
  D:/Coding\ Programs/Code/C++/paint/src/Paint/Brush.h \
- D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.h \
- D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.h \
+ D:/Coding\ Programs/Code/C++/paint/src/PaintUI/BrushControllerUI.h \
  D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
  D:/Coding\ Programs/Code/C++/paint/src/Debug.h \
  D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h \
@@ -309,4 +308,5 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/sec_api/string_s.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
+ D:/Coding\ Programs/Code/C++/paint/src/Paint/Canvas.h \
  D:\Coding\ Programs\Code\C++\paint\src\Utils.h

@@ -204,7 +204,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/Paint/Toolbar.cpp",
+			"path" : "src/Paint/BrushController.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -222,7 +222,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/PaintUI/ToolbarUI.cpp",
+			"path" : "src/PaintUI/BrushControllerUI.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

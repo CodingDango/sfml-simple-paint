@@ -3,10 +3,10 @@
 
 #include "Brush.h"
 #include "Button.h"
+#include "BrushController.h"
+#include "BrushControllerUI.h"
 #include "Canvas.h"
 #include "Entity.h"
-#include "Toolbar.h"
-#include "ToolbarUI.h"
 #include "Utils.h"
 
 #include <SFML/Graphics.hpp>
@@ -45,7 +45,7 @@ private:
     inline static const sf::Color BRUSH_STARTING_COL = sf::Color::White;
     inline static const float BRUSH_STARTING_SIZE = 20.0f;
     
-    // -- Toolbar Config --
+    // -- BrushController Config --
     inline static const sf::Vector2f TOOLBAR_STARTING_POS { 1000, 200 };
 
     /////////////////////////////////////////////////////////////

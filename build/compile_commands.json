@@ -19,9 +19,9 @@
 },
 {
   "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\Toolbar.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\Paint\\Toolbar.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/Paint/Toolbar.cpp",
-  "output": "CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj"
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\BrushController.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\Paint\\BrushController.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/paint/src/Paint/BrushController.cpp",
+  "output": "CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj"
 },
 {
   "directory": "D:/Coding Programs/Code/C++/paint/build",
@@ -37,8 +37,8 @@
 },
 {
   "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\ToolbarUI.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\PaintUI\\ToolbarUI.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/PaintUI/ToolbarUI.cpp",
-  "output": "CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\BrushControllerUI.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\PaintUI\\BrushControllerUI.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/paint/src/PaintUI/BrushControllerUI.cpp",
+  "output": "CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj"
 }
 ]

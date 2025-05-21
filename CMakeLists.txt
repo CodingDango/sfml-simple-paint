@@ -13,12 +13,12 @@ add_executable(
     
     # Paint 
     ./src/Paint/Brush.cpp
-    ./src/Paint/Toolbar.cpp
+    ./src/Paint/BrushController.cpp
     ./src/Paint/Canvas.cpp
 
     # Paint UI
     ./src/PaintUI/Button.cpp
-    ./src/PaintUI/ToolbarUI.cpp
+    ./src/PaintUI/BrushControllerUI.cpp
 )
      
 target_include_directories(

@@ -10,10 +10,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Coding Programs/Code/C++/paint/src/App.cpp" "CMakeFiles/main.dir/src/App.cpp.obj" "gcc" "CMakeFiles/main.dir/src/App.cpp.obj.d"
   "D:/Coding Programs/Code/C++/paint/src/Paint/Brush.cpp" "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/paint/src/Paint/BrushController.cpp" "CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj.d"
   "D:/Coding Programs/Code/C++/paint/src/Paint/Canvas.cpp" "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj.d"
-  "D:/Coding Programs/Code/C++/paint/src/Paint/Toolbar.cpp" "CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/paint/src/PaintUI/BrushControllerUI.cpp" "CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj.d"
   "D:/Coding Programs/Code/C++/paint/src/PaintUI/Button.cpp" "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj.d"
-  "D:/Coding Programs/Code/C++/paint/src/PaintUI/ToolbarUI.cpp" "CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj.d"
   "D:/Coding Programs/Code/C++/paint/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
 

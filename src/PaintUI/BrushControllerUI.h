@@ -1,9 +1,9 @@
-#ifndef TOOLBAR_UI_H
-#define TOOLBAR_UI_H
+#ifndef BRUSH_CONTROLLER_UI_H
+#define BRUSH_CONTROLLER_UI_H
 
 #include "Button.h"
+#include "BrushController.h"
 #include "Debug.h"
-#include "Toolbar.h"
 
 #include <SFML/Graphics.hpp>
 #include <memory>
@@ -11,10 +11,10 @@
 
 namespace ui
 {
-    class ToolbarUI : public Entity
+    class BrushControllerUI : public Entity
     {
     public:
-        ToolbarUI(Toolbar* toolbar_ptr, const sf::Vector2f& start_pos);
+        BrushControllerUI(BrushController* toolbar_ptr, const sf::Vector2f& start_pos);
         
         /////////////////////////////////////////////////////////////
         // Entity Overrides
@@ -25,7 +25,6 @@ namespace ui
         
     private:
         const sf::Vector2f m_btn_size_px { 75.0f, 75.0f };
-
         const std::vector<ui::BtnInitData> m_btn_inits {
             { sf::Color::Red,   m_btn_size_px  },
             { sf::Color::Green, m_btn_size_px  },
@@ -33,7 +32,7 @@ namespace ui
         };
 
         std::vector<std::unique_ptr<ui::Button>> m_btns;
-        Toolbar* m_toolbar_ptr;
+        BrushController* m_brush_controller_ptr;
 
         void prepareBtns(const sf::Vector2f& start_pos);
         void handleBtnsEvents(const sf::Event& event);

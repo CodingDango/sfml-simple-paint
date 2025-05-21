@@ -86,15 +86,15 @@ void App::initializeEntities()
         std::make_unique<paint::Canvas>(brush_ptr, CANVAS_POS, CANVAS_SIZE)
     );
 
-    // -- Toolbar
+    // -- BrushController
     m_entities.emplace_back(
-        std::make_unique<Toolbar>(brush_ptr)
+        std::make_unique<BrushController>(brush_ptr)
     );
 
-    Toolbar* toolbar_ptr = static_cast<Toolbar*>(m_entities.back().get());
+    BrushController* toolbar_ptr = static_cast<BrushController*>(m_entities.back().get());
 
-    // -- ToolbarUI
+    // -- BrushControllerUI
     m_entities.emplace_back(
-        std::make_unique<ui::ToolbarUI>(toolbar_ptr, TOOLBAR_STARTING_POS)
+        std::make_unique<ui::BrushControllerUI>(toolbar_ptr, TOOLBAR_STARTING_POS)
     );
 }

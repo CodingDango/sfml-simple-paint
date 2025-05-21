@@ -1,26 +1,26 @@
-#include "Toolbar.h"
+#include "BrushController.h"
 
 /////////////////////////////////////////////////////////////
 // Constructer Definitions
 /////////////////////////////////////////////////////////////
-Toolbar::Toolbar(Brush* brush_ptr)
+BrushController::BrushController(Brush* brush_ptr)
 :   m_brush_ptr { brush_ptr }
 {}
 
 /////////////////////////////////////////////////////////////
 // Public Methods Definitions
 /////////////////////////////////////////////////////////////
-void Toolbar::setBrushColor(const sf::Color& color)
+void BrushController::setBrushColor(const sf::Color& color)
 {
     m_brush_ptr->setColor(color);
 }
 
-void Toolbar::setBrushSize(float size)
+void BrushController::setBrushSize(float size)
 {   
     m_brush_ptr->setSize(size);
 }
 
-void Toolbar::setBrushShape(Brush::ShapeType type)
+void BrushController::setBrushShape(Brush::ShapeType type)
 {
     m_brush_ptr->setShapeType(type);
 }

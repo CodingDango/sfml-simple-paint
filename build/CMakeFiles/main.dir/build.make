@@ -116,20 +116,20 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Paint/Brush.cpp.s"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\Paint\Brush.cpp" -o CMakeFiles\main.dir\src\Paint\Brush.cpp.s
 
-CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.cpp
-CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj -MF CMakeFiles\main.dir\src\Paint\Toolbar.cpp.obj.d -o CMakeFiles\main.dir\src\Paint\Toolbar.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\Paint\Toolbar.cpp"
+CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/Paint/BrushController.cpp
+CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj -MF CMakeFiles\main.dir\src\Paint\BrushController.cpp.obj.d -o CMakeFiles\main.dir\src\Paint\BrushController.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\Paint\BrushController.cpp"
 
-CMakeFiles/main.dir/src/Paint/Toolbar.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Paint/Toolbar.cpp.i"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\Paint\Toolbar.cpp" > CMakeFiles\main.dir\src\Paint\Toolbar.cpp.i
+CMakeFiles/main.dir/src/Paint/BrushController.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Paint/BrushController.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\Paint\BrushController.cpp" > CMakeFiles\main.dir\src\Paint\BrushController.cpp.i
 
-CMakeFiles/main.dir/src/Paint/Toolbar.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Paint/Toolbar.cpp.s"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\Paint\Toolbar.cpp" -o CMakeFiles\main.dir\src\Paint\Toolbar.cpp.s
+CMakeFiles/main.dir/src/Paint/BrushController.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Paint/BrushController.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\Paint\BrushController.cpp" -o CMakeFiles\main.dir\src\Paint\BrushController.cpp.s
 
 CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
@@ -161,30 +161,30 @@ CMakeFiles/main.dir/src/PaintUI/Button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PaintUI/Button.cpp.s"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\PaintUI\Button.cpp" -o CMakeFiles\main.dir\src\PaintUI\Button.cpp.s
 
-CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.cpp
-CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj -MF CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\PaintUI\ToolbarUI.cpp"
+CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/PaintUI/BrushControllerUI.cpp
+CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj -MF CMakeFiles\main.dir\src\PaintUI\BrushControllerUI.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUI\BrushControllerUI.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\PaintUI\BrushControllerUI.cpp"
 
-CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.i"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\PaintUI\ToolbarUI.cpp" > CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.i
+CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\PaintUI\BrushControllerUI.cpp" > CMakeFiles\main.dir\src\PaintUI\BrushControllerUI.cpp.i
 
-CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.s"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\PaintUI\ToolbarUI.cpp" -o CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.s
+CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\PaintUI\BrushControllerUI.cpp" -o CMakeFiles\main.dir\src\PaintUI\BrushControllerUI.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
 "CMakeFiles/main.dir/src/App.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" \
-"CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj" \
+"CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj" \
 "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj" \
-"CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
+"CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -192,10 +192,10 @@ main_EXTERNAL_OBJECTS =
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 main.exe: CMakeFiles/main.dir/src/App.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/Brush.cpp.obj
-main.exe: CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj
 main.exe: CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj
-main.exe: CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj
+main.exe: CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-graphics.dll.a
 main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-audio.dll.a
