@@ -1,15 +1,10 @@
 #include "ToolbarUI.h"
 
 
-ui::ToolbarUI::ToolbarUI(Toolbar& toolbar, const sf::Vector2f& start_pos)
-:   m_toolbar { toolbar }
+ui::ToolbarUI::ToolbarUI(Toolbar* toolbar_ptr, const sf::Vector2f& start_pos)
+:   m_toolbar_ptr { toolbar_ptr }
 {
     prepareBtns(start_pos);
-}
-
-void ui::ToolbarUI::handleBtnsEvents(const sf::Event& event)
-{
-    for (auto& btn : m_btns) { btn->handleEvent(event); }
 }
 
 void ui::ToolbarUI::prepareBtns(const sf::Vector2f& start_pos)
@@ -22,7 +17,7 @@ void ui::ToolbarUI::prepareBtns(const sf::Vector2f& start_pos)
     {
         const auto& btn_color = m_btn_inits[i].m_color;
         const auto& btn_size  = m_btn_inits[i].m_btn_size;
-        const auto& btn_click_callback = [this, btn_color](){ m_toolbar.setBrushColor(btn_color); };  
+        const auto& btn_click_callback = [this, btn_color](){ m_toolbar_ptr->setBrushColor(btn_color); };  
     
         m_btns.emplace_back(std::make_unique<ui::Button>(btn_color, btn_size));
         m_btns.back()->setPosition(curr_x, curr_y);
@@ -32,11 +27,21 @@ void ui::ToolbarUI::prepareBtns(const sf::Vector2f& start_pos)
     }
 }
 
-void ui::ToolbarUI::renderBtns(sf::RenderTarget& dest) const
+void ui::ToolbarUI::handleBtnsEvents(const sf::Event& event)
 {
-    for (const auto& elem : m_btns)
+    for (auto& btn_ptr : m_btns) { btn_ptr->handleEvent(event); }
+}
+
+void ui::ToolbarUI::updateBtns(float dt, const sf::Vector2f& mouse_pos)
+{
+    for (auto& btn_ptr : m_btns) { btn_ptr->update(dt, mouse_pos); }
+}
+
+void ui::ToolbarUI::renderBtns(sf::RenderTarget& dest)
+{
+    for (const auto& btn_ptr : m_btns)
     {
-        dest.draw(elem->getDrawableRect());
+        dest.draw(btn_ptr->getDrawableRect());
     }
 }
 
@@ -61,7 +66,12 @@ void ui::ToolbarUI::handleEvent(const sf::Event& event)
     }
 }
 
-void ui::ToolbarUI::render(sf::RenderTarget& dest) const
+void ui::ToolbarUI::update(float dt, const sf::Vector2f& mouse_pos)
+{
+    updateBtns(dt, mouse_pos);
+}
+
+void ui::ToolbarUI::render(sf::RenderTarget& dest) 
 {
     renderBtns(dest);
 }

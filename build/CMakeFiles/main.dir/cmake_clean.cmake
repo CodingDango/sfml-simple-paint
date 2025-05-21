@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/App.cpp.obj.d"
   "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj"
   "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj.d"
+  "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj"
+  "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj.d"
   "CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj"
   "CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj.d"
   "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj"

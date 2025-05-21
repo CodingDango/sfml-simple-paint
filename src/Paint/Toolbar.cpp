@@ -3,8 +3,8 @@
 /////////////////////////////////////////////////////////////
 // Constructer Definitions
 /////////////////////////////////////////////////////////////
-Toolbar::Toolbar(Brush& brush)
-:   m_brush { brush }
+Toolbar::Toolbar(Brush* brush_ptr)
+:   m_brush_ptr { brush_ptr }
 {}
 
 /////////////////////////////////////////////////////////////
@@ -12,12 +12,17 @@ Toolbar::Toolbar(Brush& brush)
 /////////////////////////////////////////////////////////////
 void Toolbar::setBrushColor(const sf::Color& color)
 {
-    m_brush.setColor(color);
+    m_brush_ptr->setColor(color);
 }
 
 void Toolbar::setBrushSize(float size)
 {   
-    m_brush.setSize(size);
+    m_brush_ptr->setSize(size);
+}
+
+void Toolbar::setBrushShape(Brush::ShapeType type)
+{
+    m_brush_ptr->setShapeType(type);
 }
 
 /////////////////////////////////////////////////////////////

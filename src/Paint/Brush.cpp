@@ -2,9 +2,19 @@
 
 void Brush::handleEvent(const sf::Event& event)
 {
-    if (event.type == sf::Event::MouseButtonPressed 
-        && event.mouseButton.button == sf::Mouse::Left)
-        m_is_brush_painting = true;
+    switch (event.type)
+    {
+    case sf::Event::MouseButtonPressed:
+        m_is_brush_painting = event.mouseButton.button == sf::Mouse::Left;
+        break;
+    
+    case sf::Event::MouseButtonReleased:
+        m_is_brush_painting = !(event.mouseButton.button == sf::Mouse::Left);
+        break;
+
+    default:
+        break;
+    }
 }
 
 void Brush::update(float dt, const sf::Vector2f& mouse_pos)
@@ -14,11 +24,6 @@ void Brush::update(float dt, const sf::Vector2f& mouse_pos)
 
     else 
         m_shape_ptr->setPosition(M_BRUSH_INACTIVE_POS); 
-}
-
-void Brush::render(sf::RenderTarget& dest) const
-{
-    dest.draw(*m_shape_ptr);
 }
 
 Brush::Brush(Brush::ShapeType shape_type, sf::Color col, float size)

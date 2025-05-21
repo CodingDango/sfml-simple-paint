@@ -1,6 +1,7 @@
 CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: \
  D:\Coding\ Programs\Code\C++\paint\src\Paint\Brush.cpp \
  D:\Coding\ Programs\Code\C++\paint\src\Paint\Brush.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Entity/Entity.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System.hpp \

@@ -2,6 +2,7 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:\Coding\ Programs\Code\C++\paint\src\App.cpp \
  D:\Coding\ Programs\Code\C++\paint\src\app.h \
  D:/Coding\ Programs/Code/C++/paint/src/Paint/Brush.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Entity/Entity.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System.hpp \
@@ -296,8 +297,9 @@ CMakeFiles/main.dir/src/App.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/array \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/compare \
- D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Paint/Canvas.h \
  D:/Coding\ Programs/Code/C++/paint/src/Paint/Brush.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Paint/Toolbar.h \
  D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.h \
  D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.h \
  D:/Coding\ Programs/Code/C++/paint/src/Debug.h \

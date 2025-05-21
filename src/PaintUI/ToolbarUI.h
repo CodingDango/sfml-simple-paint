@@ -6,7 +6,6 @@
 #include "Toolbar.h"
 
 #include <SFML/Graphics.hpp>
-
 #include <memory>
 #include <vector>
 
@@ -15,14 +14,14 @@ namespace ui
     class ToolbarUI : public Entity
     {
     public:
-        ToolbarUI(Toolbar& toolbar, const sf::Vector2f& start_pos);
+        ToolbarUI(Toolbar* toolbar_ptr, const sf::Vector2f& start_pos);
         
         /////////////////////////////////////////////////////////////
         // Entity Overrides
         /////////////////////////////////////////////////////////////
         void handleEvent(const sf::Event& event) override;
         void update(float dt, const sf::Vector2f& mouse_pos) override;
-        void render(sf::RenderTarget& dest) const override;
+        void render(sf::RenderTarget& dest) override;
         
     private:
         const sf::Vector2f m_btn_size_px { 75.0f, 75.0f };
@@ -34,11 +33,12 @@ namespace ui
         };
 
         std::vector<std::unique_ptr<ui::Button>> m_btns;
-        Toolbar& m_toolbar;
+        Toolbar* m_toolbar_ptr;
 
         void prepareBtns(const sf::Vector2f& start_pos);
         void handleBtnsEvents(const sf::Event& event);
-        void renderBtns(sf::RenderTarget& dest) const;
+        void updateBtns(float dt, const sf::Vector2f& mouse_pos);
+        void renderBtns(sf::RenderTarget& dest);
     };
 }
 

@@ -10,10 +10,11 @@ add_executable(
     main 
     ./src/main.cpp 
     ./src/app.cpp
-
+    
     # Paint 
     ./src/Paint/Brush.cpp
     ./src/Paint/Toolbar.cpp
+    ./src/Paint/Canvas.cpp
 
     # Paint UI
     ./src/PaintUI/Button.cpp
@@ -21,10 +22,11 @@ add_executable(
 )
      
 target_include_directories(
-    main PRIVATE 
+    main PRIVATE
+    ./src/
     ./src/Paint
     ./src/PaintUI
-    ./src/
+    ./src/Entity
 )
    
 target_compile_options(

@@ -5,25 +5,14 @@
 /////////////////////////////////////////////////////////////
 
 App::App()
-:   m_window     { sf::VideoMode { WINDOW_WIDTH_PX, WINDOW_HEIGHT_PX }, WINDOW_TITLE },
-    m_brush      { BRUSH_STARTING_SHAPE, BRUSH_STARTING_COL, BRUSH_STARTING_SIZE },
-    m_toolbar    { m_brush },
-    m_toolbar_ui { m_toolbar, TOOLBAR_STARTING_POS }
-{   
-    // -- Window Setup
-    m_window.setFramerateLimit(MAX_FPS);
-
-    // -- Canvas Setup --
-    m_canvas_texture.create(CANVAS_SIZE.x, CANVAS_SIZE.y);
-    m_canvas_sprite.setTexture(m_canvas_texture.getTexture());
-
-    // -- Brush Setup
+:   m_window { sf::VideoMode {WINDOW_WIDTH_PX, WINDOW_HEIGHT_PX}, WINDOW_TITLE }
+{
+    initializeEntities();   
 }
 
 /////////////////////////////////////////////////////////////
 // Public Methods Definition
 /////////////////////////////////////////////////////////////
-
 void App::run()
 {
     while (m_window.isOpen())
@@ -37,10 +26,8 @@ void App::run()
 /////////////////////////////////////////////////////////////
 // Private Methods Definition
 /////////////////////////////////////////////////////////////
-
 void App::processEvents()
 {
-    [[maybe_unused]] const float delta_time { m_clock.restart().asSeconds() };
     sf::Event event {};
     
     while (m_window.pollEvent(event))
@@ -51,38 +38,12 @@ void App::processEvents()
             m_window.close();
             break;
 
-        case sf::Event::KeyPressed:
-            if (event.key.control && event.key.code == sf::Keyboard::C)
-                m_canvas_texture.clear();
-            
-            else if (event.key.code == sf::Keyboard::F)
+        default:
+            for (const auto& entity_ptr : m_entities)
             {
-                switch (m_brush.getShapeType())
-                {
-                case Brush::ShapeType::Rectangle:
-                    m_brush.setShapeType(Brush::ShapeType::Circle);
-                    break;
-                
-                case Brush::ShapeType::Circle:
-                    m_brush.setShapeType(Brush::ShapeType::Rectangle);
-                    break;
-                
-                default:
-                    break;
-                }
+                entity_ptr->handleEvent(event);
             }
 
-            break;
-        
-        case sf::Event::MouseMoved:
-            m_toolbar_ui.checkForBtnHover(event);
-            break;
-
-        case sf::Event::MouseButtonPressed:
-            m_toolbar_ui.checkForBtnClick(event);
-            break;
-
-        default:
             break;
         }
     }
@@ -90,19 +51,50 @@ void App::processEvents()
 
 void App::updateEntities()
 {   
-    const sf::Vector2f mouse_pos { utils::toVector2f(sf::Mouse::getPosition(m_window)) };
-    m_brush.update(mouse_pos);
+    const float delta_time { m_clock.restart().asSeconds() };
+    const sf::Vector2f mouse_pos { static_cast<sf::Vector2f>(sf::Mouse::getPosition(m_window)) };
+
+    for (const auto& entity_ptr : m_entities)
+    {
+        entity_ptr->update(delta_time, mouse_pos);
+    }
 }
 
 void App::drawEntities()
 {      
     m_window.clear();
-    m_toolbar_ui.drawOnWindow(m_window);
-    
-    // -- Draw Brush And Canvas
-    m_canvas_texture.draw(*m_brush.getShape());
-    m_window.draw(m_canvas_sprite);
-    
-    m_canvas_texture.display();
+
+    for (const auto& entity_ptr : m_entities)
+    {
+        entity_ptr->render(m_window);
+    }
+
     m_window.display();
+}
+
+void App::initializeEntities()
+{   
+    // -- Brush
+    m_entities.emplace_back(
+        std::make_unique<Brush>(BRUSH_STARTING_SHAPE, BRUSH_STARTING_COL, BRUSH_STARTING_SIZE)
+    );
+
+    Brush* brush_ptr = static_cast<Brush*>(m_entities.back().get());
+
+    // -- Canvas
+    m_entities.emplace_back(
+        std::make_unique<paint::Canvas>(brush_ptr, CANVAS_POS, CANVAS_SIZE)
+    );
+
+    // -- Toolbar
+    m_entities.emplace_back(
+        std::make_unique<Toolbar>(brush_ptr)
+    );
+
+    Toolbar* toolbar_ptr = static_cast<Toolbar*>(m_entities.back().get());
+
+    // -- ToolbarUI
+    m_entities.emplace_back(
+        std::make_unique<ui::ToolbarUI>(toolbar_ptr, TOOLBAR_STARTING_POS)
+    );
 }

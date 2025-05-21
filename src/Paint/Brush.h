@@ -26,7 +26,6 @@ public:
     // Entity Overrides
     void handleEvent(const sf::Event& event) override;
     void update(float dt, const sf::Vector2f& mouse_pos) override;
-    void render(sf::RenderTarget& dest) const override;
     
 private:
     // Brush State

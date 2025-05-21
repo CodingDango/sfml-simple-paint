@@ -131,11 +131,26 @@ CMakeFiles/main.dir/src/Paint/Toolbar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Paint/Toolbar.cpp.s"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\Paint\Toolbar.cpp" -o CMakeFiles\main.dir\src\Paint\Toolbar.cpp.s
 
+CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/Paint/Canvas.cpp
+CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj -MF CMakeFiles\main.dir\src\Paint\Canvas.cpp.obj.d -o CMakeFiles\main.dir\src\Paint\Canvas.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\Paint\Canvas.cpp"
+
+CMakeFiles/main.dir/src/Paint/Canvas.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Paint/Canvas.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\paint\src\Paint\Canvas.cpp" > CMakeFiles\main.dir\src\Paint\Canvas.cpp.i
+
+CMakeFiles/main.dir/src/Paint/Canvas.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Paint/Canvas.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\paint\src\Paint\Canvas.cpp" -o CMakeFiles\main.dir\src\Paint\Canvas.cpp.s
+
 CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/PaintUI/Button.cpp
 CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj -MF CMakeFiles\main.dir\src\PaintUI\Button.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUI\Button.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\PaintUI\Button.cpp"
 
 CMakeFiles/main.dir/src/PaintUI/Button.cpp.i: cmake_force
@@ -150,7 +165,7 @@ CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/flags.mak
 CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: D:/Coding\ Programs/Code/C++/paint/src/PaintUI/ToolbarUI.cpp
 CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj -MF CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUI\ToolbarUI.cpp.obj -c "D:\Coding Programs\Code\C++\paint\src\PaintUI\ToolbarUI.cpp"
 
 CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.i: cmake_force
@@ -167,6 +182,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/App.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj" \
+"CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj" \
 "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj" \
 "CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj"
 
@@ -177,6 +193,7 @@ main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 main.exe: CMakeFiles/main.dir/src/App.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/Brush.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj
 main.exe: CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj
 main.exe: CMakeFiles/main.dir/src/PaintUI/ToolbarUI.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
@@ -187,7 +204,7 @@ main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-system.dll.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Coding Programs\Code\C++\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

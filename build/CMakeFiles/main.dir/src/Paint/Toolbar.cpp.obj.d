@@ -2,6 +2,7 @@ CMakeFiles/main.dir/src/Paint/Toolbar.cpp.obj: \
  D:\Coding\ Programs\Code\C++\paint\src\Paint\Toolbar.cpp \
  D:\Coding\ Programs\Code\C++\paint\src\Paint\Toolbar.h \
  D:\Coding\ Programs\Code\C++\paint\src\Paint\Brush.h \
+ D:/Coding\ Programs/Code/C++/paint/src/Entity/Entity.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System.hpp \

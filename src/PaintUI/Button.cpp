@@ -84,7 +84,7 @@ void ui::Button::handleEvent(const sf::Event& event)
 
     case sf::Event::MouseButtonPressed:
         Entity::is_clicked = (m_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y)
-        && event.mouseButton.button == sf::Mouse::Button::Left);
+        && (event.mouseButton.button == sf::Mouse::Button::Left));
 
     default:
         break;
@@ -102,7 +102,7 @@ void ui::Button::update(float dt, const sf::Vector2f& mouse_pos)
         m_click_callback();
 }
 
-void ui::Button::render(sf::RenderTarget& dest) const
+void ui::Button::render(sf::RenderTarget& dest)
 {
     dest.draw(m_shape);
 }

@@ -37,7 +37,7 @@ namespace ui
         /////////////////////////////////////////////////////////////
         void handleEvent(const sf::Event& event) override;
         void update(float dt, const sf::Vector2f& mouse_pos) override;
-        void render(sf::RenderTarget& dest) const override;
+        void render(sf::RenderTarget& dest) override;
 
     private:
         const float m_normal_scale_factor = 1.0f;

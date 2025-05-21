@@ -176,6 +176,30 @@ src/Paint/Brush.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Brush.cpp.s
 .PHONY : src/Paint/Brush.cpp.s
 
+src/Paint/Canvas.obj: src/Paint/Canvas.cpp.obj
+.PHONY : src/Paint/Canvas.obj
+
+# target to build an object file
+src/Paint/Canvas.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj
+.PHONY : src/Paint/Canvas.cpp.obj
+
+src/Paint/Canvas.i: src/Paint/Canvas.cpp.i
+.PHONY : src/Paint/Canvas.i
+
+# target to preprocess a source file
+src/Paint/Canvas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Canvas.cpp.i
+.PHONY : src/Paint/Canvas.cpp.i
+
+src/Paint/Canvas.s: src/Paint/Canvas.cpp.s
+.PHONY : src/Paint/Canvas.s
+
+# target to generate assembly for a file
+src/Paint/Canvas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Canvas.cpp.s
+.PHONY : src/Paint/Canvas.cpp.s
+
 src/Paint/Toolbar.obj: src/Paint/Toolbar.cpp.obj
 .PHONY : src/Paint/Toolbar.obj
 
@@ -287,6 +311,9 @@ help:
 	@echo ... src/Paint/Brush.obj
 	@echo ... src/Paint/Brush.i
 	@echo ... src/Paint/Brush.s
+	@echo ... src/Paint/Canvas.obj
+	@echo ... src/Paint/Canvas.i
+	@echo ... src/Paint/Canvas.s
 	@echo ... src/Paint/Toolbar.obj
 	@echo ... src/Paint/Toolbar.i
 	@echo ... src/Paint/Toolbar.s

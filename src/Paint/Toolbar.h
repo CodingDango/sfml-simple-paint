@@ -12,16 +12,17 @@ public:
     /////////////////////////////////////////////////////////////
     // Constructer Declarations
     /////////////////////////////////////////////////////////////
-    Toolbar(Brush& brush);
+    Toolbar(Brush* brush_ptr);
 
     /////////////////////////////////////////////////////////////
     // Public Methods Declarations (the interface)
     /////////////////////////////////////////////////////////////
     void setBrushColor(const sf::Color& color);
     void setBrushSize(float size);
+    void setBrushShape(Brush::ShapeType type);
     
 private:
-    Brush& m_brush;
+    Brush* m_brush_ptr;
 };
 
 #endif
