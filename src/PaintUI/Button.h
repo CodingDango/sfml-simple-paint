@@ -9,7 +9,7 @@
 
 namespace ui
 {
-    class Button : public Entity
+    class Button : public UIEntity
     {
     public:
         /////////////////////////////////////////////////////////////
@@ -20,8 +20,6 @@ namespace ui
         /////////////////////////////////////////////////////////////
         // Setters  
         /////////////////////////////////////////////////////////////
-        void setPosition(const sf::Vector2f& pos);
-        void setPosition(float x, float y);
         void setClickCallback(const std::function<void()>& callback);
         void setHoverCallback(const std::function<void()>& callback);
         void setNoHoverCallback(const std::function<void()>& callback);
@@ -33,12 +31,24 @@ namespace ui
         const sf::RectangleShape& getDrawableRect() const;
 
         /////////////////////////////////////////////////////////////
+        // Conditional
+        /////////////////////////////////////////////////////////////
+        bool isMouseHovered(const sf::Vector2f& mouse_pos) const;
+
+        /////////////////////////////////////////////////////////////
         // Entity Overrides
         /////////////////////////////////////////////////////////////
         void handleEvent(const sf::Event& event) override;
         void update(float dt, const sf::Vector2f& mouse_pos) override;
         void render(sf::RenderTarget& dest) override;
 
+        /////////////////////////////////////////////////////////////
+        // UIEntity Overrides
+        /////////////////////////////////////////////////////////////
+        void setPosition(const sf::Vector2f& pos) override;
+        void setPosition(float x, float y) override;
+        sf::Vector2f getSize() const override ;
+         
     private:
         const float m_normal_scale_factor = 1.0f;
         const float m_hover_scale_factor  = 1.1f;
@@ -53,13 +63,14 @@ namespace ui
 
     // # TODO
     // Create a CircleButton and RectButton class
+    // Each class should be able to handle holding one icon?
     // Turn the Button into a Base Class.
 
     struct BtnInitData
     {
-        BtnInitData(const sf::Color& color, const sf::Vector2f& btn_size);
+        BtnInitData(const sf::Color& color, const sf::Vector2f& size);
         const sf::Color m_color;
-        const sf::Vector2f m_btn_size;
+        const sf::Vector2f m_size;
     };
 } 
 

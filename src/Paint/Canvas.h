@@ -1,8 +1,9 @@
 #ifndef CANVAS_H
 #define CANVAS_H
 
-#include "Brush.h"
+#include "BrushLogic.h"
 #include "Entity.h"
+#include "Utils.h"
 
 #include <SFML/Graphics/RenderTarget.hpp>
 #include <SFML/Graphics/Sprite.hpp>
@@ -10,13 +11,14 @@
 
 namespace paint
 {
-    class Canvas : public Entity
+    class Canvas : public UIEntity
     {
     public:
         Canvas(
-            Brush* brush_ptr, 
+            BrushLogic* brush_logic_ptr, 
             const sf::Vector2f& canvas_pos,
-            const sf::Vector2u& canvas_size
+            const sf::Vector2u& canvas_size,
+            const sf::Color& canvas_col
         );
 
         /////////////////////////////////////////////////////////////
@@ -26,13 +28,17 @@ namespace paint
         void handleEvent(const sf::Event& event) override;
 
     private:
-        Brush* m_brush_ptr;
+        BrushLogic* m_brush_logic_ptr;
         sf::Vector2f m_canvas_pos;
         sf::Vector2u m_canvas_size;
+        const sf::Color m_canvas_col;
         sf::RenderTexture m_render_texture;
         sf::Sprite m_sprite;
+        sf::Vector2f unmapped_last_brush_pos;
     
         void configRenderObjects();
+        void applySmoothBrushStrokes();
+        void applyBrushDab(const sf::Vector2f& unmapped_brush_pos); 
     };
 }
 

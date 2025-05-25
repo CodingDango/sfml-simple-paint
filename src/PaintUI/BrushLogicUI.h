@@ -1,8 +1,8 @@
-#ifndef BRUSH_CONTROLLER_UI_H
-#define BRUSH_CONTROLLER_UI_H
+#ifndef BRUSH_LOGIC_UI_H
+#define BRUSH_LOGIC_UI_H
 
 #include "Button.h"
-#include "BrushController.h"
+#include "BrushLogic.h"
 #include "Debug.h"
 
 #include <SFML/Graphics.hpp>
@@ -11,10 +11,15 @@
 
 namespace ui
 {
-    class BrushControllerUI : public Entity
+    class BrushLogicUI : public Entity
     {
     public:
-        BrushControllerUI(BrushController* toolbar_ptr, const sf::Vector2f& start_pos);
+        BrushLogicUI(
+            BrushLogic* brush_logic_ptr, 
+            const sf::Vector2f& start_pos,
+            const sf::Vector2f& size,
+            const sf::Color& bg_col
+        );
         
         /////////////////////////////////////////////////////////////
         // Entity Overrides
@@ -29,11 +34,18 @@ namespace ui
             { sf::Color::Red,   m_btn_size_px  },
             { sf::Color::Green, m_btn_size_px  },
             { sf::Color::Blue,  m_btn_size_px  },
+            { sf::Color::Red,   m_btn_size_px  },
+            { sf::Color::Green, m_btn_size_px  },
+            { sf::Color::Blue,  m_btn_size_px  },
+            { sf::Color::Black, m_btn_size_px  },
+            { sf::Color::White, m_btn_size_px  },
         };
 
         std::vector<std::unique_ptr<ui::Button>> m_btns;
-        BrushController* m_brush_controller_ptr;
+        BrushLogic* m_brush_logic_ptr;
+        sf::RectangleShape m_bg_rect;
 
+        void configBg(const sf::Vector2f& bg_pos, const sf::Vector2f& bg_size, const sf::Color& bg_col);
         void prepareBtns(const sf::Vector2f& start_pos);
         void handleBtnsEvents(const sf::Event& event);
         void updateBtns(float dt, const sf::Vector2f& mouse_pos);

@@ -1,44 +1,50 @@
 [
 {
-  "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\main.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/main.cpp",
+  "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\main.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\main.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/main.cpp",
   "output": "CMakeFiles/main.dir/src/main.cpp.obj"
 },
 {
-  "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\App.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\App.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/App.cpp",
+  "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\App.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\App.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/App.cpp",
   "output": "CMakeFiles/main.dir/src/App.cpp.obj"
 },
 {
-  "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\Brush.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\Paint\\Brush.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/Paint/Brush.cpp",
+  "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\Brush.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\Paint\\Brush.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/Brush.cpp",
   "output": "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj"
 },
 {
-  "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\BrushController.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\Paint\\BrushController.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/Paint/BrushController.cpp",
-  "output": "CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj"
+  "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\BrushLogic.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\Paint\\BrushLogic.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.cpp",
+  "output": "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj"
 },
 {
-  "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\Canvas.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\Paint\\Canvas.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/Paint/Canvas.cpp",
+  "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\Paint\\Canvas.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\Paint\\Canvas.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/Canvas.cpp",
   "output": "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj"
 },
 {
-  "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\Button.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\PaintUI\\Button.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/PaintUI/Button.cpp",
+  "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\Button.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\PaintUI\\Button.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUI/Button.cpp",
   "output": "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj"
 },
 {
-  "directory": "D:/Coding Programs/Code/C++/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\BrushControllerUI.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\paint\\src\\PaintUI\\BrushControllerUI.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/paint/src/PaintUI/BrushControllerUI.cpp",
-  "output": "CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj"
+  "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\TextLabel.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\PaintUI\\TextLabel.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUI/TextLabel.cpp",
+  "output": "CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.obj"
+},
+{
+  "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUI\\BrushLogicUI.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\PaintUI\\BrushLogicUI.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUI/BrushLogicUI.cpp",
+  "output": "CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.obj"
 }
 ]

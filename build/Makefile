@@ -56,10 +56,10 @@ RM = "D:\Coding Programs\MSYS\mingw64\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\Coding Programs\Code\C++\paint"
+CMAKE_SOURCE_DIR = "D:\Coding Programs\Code\C++\guiProjects\paint"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\Coding Programs\Code\C++\paint\build"
+CMAKE_BINARY_DIR = "D:\Coding Programs\Code\C++\guiProjects\paint\build"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Coding Programs\Code\C++\paint\build\CMakeFiles" "D:\Coding Programs\Code\C++\paint\build\\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" "D:\Coding Programs\Code\C++\guiProjects\paint\build\\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Coding Programs\Code\C++\paint\build\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -176,29 +176,29 @@ src/Paint/Brush.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Brush.cpp.s
 .PHONY : src/Paint/Brush.cpp.s
 
-src/Paint/BrushController.obj: src/Paint/BrushController.cpp.obj
-.PHONY : src/Paint/BrushController.obj
+src/Paint/BrushLogic.obj: src/Paint/BrushLogic.cpp.obj
+.PHONY : src/Paint/BrushLogic.obj
 
 # target to build an object file
-src/Paint/BrushController.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj
-.PHONY : src/Paint/BrushController.cpp.obj
+src/Paint/BrushLogic.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj
+.PHONY : src/Paint/BrushLogic.cpp.obj
 
-src/Paint/BrushController.i: src/Paint/BrushController.cpp.i
-.PHONY : src/Paint/BrushController.i
+src/Paint/BrushLogic.i: src/Paint/BrushLogic.cpp.i
+.PHONY : src/Paint/BrushLogic.i
 
 # target to preprocess a source file
-src/Paint/BrushController.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/BrushController.cpp.i
-.PHONY : src/Paint/BrushController.cpp.i
+src/Paint/BrushLogic.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.i
+.PHONY : src/Paint/BrushLogic.cpp.i
 
-src/Paint/BrushController.s: src/Paint/BrushController.cpp.s
-.PHONY : src/Paint/BrushController.s
+src/Paint/BrushLogic.s: src/Paint/BrushLogic.cpp.s
+.PHONY : src/Paint/BrushLogic.s
 
 # target to generate assembly for a file
-src/Paint/BrushController.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/BrushController.cpp.s
-.PHONY : src/Paint/BrushController.cpp.s
+src/Paint/BrushLogic.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.s
+.PHONY : src/Paint/BrushLogic.cpp.s
 
 src/Paint/Canvas.obj: src/Paint/Canvas.cpp.obj
 .PHONY : src/Paint/Canvas.obj
@@ -224,29 +224,29 @@ src/Paint/Canvas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Canvas.cpp.s
 .PHONY : src/Paint/Canvas.cpp.s
 
-src/PaintUI/BrushControllerUI.obj: src/PaintUI/BrushControllerUI.cpp.obj
-.PHONY : src/PaintUI/BrushControllerUI.obj
+src/PaintUI/BrushLogicUI.obj: src/PaintUI/BrushLogicUI.cpp.obj
+.PHONY : src/PaintUI/BrushLogicUI.obj
 
 # target to build an object file
-src/PaintUI/BrushControllerUI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.obj
-.PHONY : src/PaintUI/BrushControllerUI.cpp.obj
+src/PaintUI/BrushLogicUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.obj
+.PHONY : src/PaintUI/BrushLogicUI.cpp.obj
 
-src/PaintUI/BrushControllerUI.i: src/PaintUI/BrushControllerUI.cpp.i
-.PHONY : src/PaintUI/BrushControllerUI.i
+src/PaintUI/BrushLogicUI.i: src/PaintUI/BrushLogicUI.cpp.i
+.PHONY : src/PaintUI/BrushLogicUI.i
 
 # target to preprocess a source file
-src/PaintUI/BrushControllerUI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.i
-.PHONY : src/PaintUI/BrushControllerUI.cpp.i
+src/PaintUI/BrushLogicUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.i
+.PHONY : src/PaintUI/BrushLogicUI.cpp.i
 
-src/PaintUI/BrushControllerUI.s: src/PaintUI/BrushControllerUI.cpp.s
-.PHONY : src/PaintUI/BrushControllerUI.s
+src/PaintUI/BrushLogicUI.s: src/PaintUI/BrushLogicUI.cpp.s
+.PHONY : src/PaintUI/BrushLogicUI.s
 
 # target to generate assembly for a file
-src/PaintUI/BrushControllerUI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushControllerUI.cpp.s
-.PHONY : src/PaintUI/BrushControllerUI.cpp.s
+src/PaintUI/BrushLogicUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.s
+.PHONY : src/PaintUI/BrushLogicUI.cpp.s
 
 src/PaintUI/Button.obj: src/PaintUI/Button.cpp.obj
 .PHONY : src/PaintUI/Button.obj
@@ -271,6 +271,30 @@ src/PaintUI/Button.s: src/PaintUI/Button.cpp.s
 src/PaintUI/Button.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/Button.cpp.s
 .PHONY : src/PaintUI/Button.cpp.s
+
+src/PaintUI/TextLabel.obj: src/PaintUI/TextLabel.cpp.obj
+.PHONY : src/PaintUI/TextLabel.obj
+
+# target to build an object file
+src/PaintUI/TextLabel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.obj
+.PHONY : src/PaintUI/TextLabel.cpp.obj
+
+src/PaintUI/TextLabel.i: src/PaintUI/TextLabel.cpp.i
+.PHONY : src/PaintUI/TextLabel.i
+
+# target to preprocess a source file
+src/PaintUI/TextLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.i
+.PHONY : src/PaintUI/TextLabel.cpp.i
+
+src/PaintUI/TextLabel.s: src/PaintUI/TextLabel.cpp.s
+.PHONY : src/PaintUI/TextLabel.s
+
+# target to generate assembly for a file
+src/PaintUI/TextLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.s
+.PHONY : src/PaintUI/TextLabel.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -311,18 +335,21 @@ help:
 	@echo ... src/Paint/Brush.obj
 	@echo ... src/Paint/Brush.i
 	@echo ... src/Paint/Brush.s
-	@echo ... src/Paint/BrushController.obj
-	@echo ... src/Paint/BrushController.i
-	@echo ... src/Paint/BrushController.s
+	@echo ... src/Paint/BrushLogic.obj
+	@echo ... src/Paint/BrushLogic.i
+	@echo ... src/Paint/BrushLogic.s
 	@echo ... src/Paint/Canvas.obj
 	@echo ... src/Paint/Canvas.i
 	@echo ... src/Paint/Canvas.s
-	@echo ... src/PaintUI/BrushControllerUI.obj
-	@echo ... src/PaintUI/BrushControllerUI.i
-	@echo ... src/PaintUI/BrushControllerUI.s
+	@echo ... src/PaintUI/BrushLogicUI.obj
+	@echo ... src/PaintUI/BrushLogicUI.i
+	@echo ... src/PaintUI/BrushLogicUI.s
 	@echo ... src/PaintUI/Button.obj
 	@echo ... src/PaintUI/Button.i
 	@echo ... src/PaintUI/Button.s
+	@echo ... src/PaintUI/TextLabel.obj
+	@echo ... src/PaintUI/TextLabel.i
+	@echo ... src/PaintUI/TextLabel.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

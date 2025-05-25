@@ -1,35 +1,9 @@
 #include "Brush.h"
 
-void Brush::handleEvent(const sf::Event& event)
-{
-    switch (event.type)
-    {
-    case sf::Event::MouseButtonPressed:
-        m_is_brush_painting = event.mouseButton.button == sf::Mouse::Left;
-        break;
-    
-    case sf::Event::MouseButtonReleased:
-        m_is_brush_painting = !(event.mouseButton.button == sf::Mouse::Left);
-        break;
-
-    default:
-        break;
-    }
-}
-
-void Brush::update(float dt, const sf::Vector2f& mouse_pos)
-{
-    if (m_is_brush_painting)
-        m_shape_ptr->setPosition(mouse_pos);
-
-    else 
-        m_shape_ptr->setPosition(M_BRUSH_INACTIVE_POS); 
-}
-
 Brush::Brush(Brush::ShapeType shape_type, sf::Color col, float size)
 :   m_shape_type  { shape_type },
-    m_brush_color { col },
-    m_brush_size  { size }
+    m_color { col },
+    m_size  { size }
 {
     configureBrushShape();
 }
@@ -45,17 +19,10 @@ void Brush::configureBrushShape()
         m_shape_ptr = std::make_unique<sf::RectangleShape>();
         break;
     default:
-        m_shape_ptr = nullptr;
         break;
     }
 
-    if (!m_shape_ptr)
-    {
-        std::cerr << "[Brush] Shape type not identified\n";
-        return;
-    }
-
-    m_shape_ptr->setFillColor(m_brush_color);
+    m_shape_ptr->setFillColor(m_color);
     applySizeToShape();
     centerBrushOrigin();
 }
@@ -74,14 +41,14 @@ void Brush::setSize(float size)
         return;
     }
     
-    m_brush_size = size;
+    m_size = size;
     applySizeToShape();
     centerBrushOrigin();
 }
 
 void Brush::setColor(const sf::Color& col)
 {
-    m_brush_color = col;
+    m_color = col;
 
     if (!m_shape_ptr)
     {
@@ -89,18 +56,17 @@ void Brush::setColor(const sf::Color& col)
         return;
     }
 
-    m_shape_ptr->setFillColor(m_brush_color);
+    m_shape_ptr->setFillColor(m_color);
 }
 
-const sf::Shape* Brush::getShape() const
+void Brush::setPosition(const sf::Vector2f vect)
 {
-    if (!m_shape_ptr)
-    {
-        std::cerr << "[Brush] Returning a null Brush Shape ptr!\n";
-        return nullptr;
-    }
+    m_shape_ptr->setPosition(vect);
+}
 
-    return m_shape_ptr.get();
+const sf::Shape& Brush::getShape() const
+{
+    return *m_shape_ptr.get();
 }
 
 Brush::ShapeType Brush::getShapeType() const
@@ -115,7 +81,7 @@ void Brush::centerBrushOrigin()
         std::cerr << "[Brush] Centering an invalid shape!\n";
         return;
     }   
-    const float origin_cords = m_brush_size / 2.0f;
+    const float origin_cords = m_size / 2.0f;
     m_shape_ptr->setOrigin(origin_cords, origin_cords);
 }
 
@@ -132,12 +98,12 @@ void Brush::applySizeToShape()
     case Brush::ShapeType::Circle:
         // So the total diameter is indeed brush_size
         static_cast<sf::CircleShape*>(m_shape_ptr.get())
-            ->setRadius(m_brush_size / 2);  
+            ->setRadius(m_size / 2);  
         break;
 
     case Brush::ShapeType::Rectangle:
         static_cast<sf::RectangleShape*>(m_shape_ptr.get())
-            ->setSize({m_brush_size, m_brush_size});
+            ->setSize({m_size, m_size});
         break;
 
     default:

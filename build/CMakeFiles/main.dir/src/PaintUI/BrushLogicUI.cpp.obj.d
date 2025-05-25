@@ -1,7 +1,7 @@
-CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushController.cpp \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushController.h \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\Brush.h \
+CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.obj: \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUI\BrushLogicUI.cpp \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUI\BrushLogicUI.h \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUI\Button.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/Entity.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RenderTarget.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Export.hpp \
@@ -200,6 +200,23 @@ CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iterator \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/String.inl \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Utils.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
+ D:/Coding\ Programs/MSYS/mingw64/include/math.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/limits \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System.hpp \
@@ -254,9 +271,20 @@ CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/functional \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_function.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/unordered_map \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/unordered_map.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/hashtable.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/hashtable_policy.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/array \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/compare \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Brush.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/align.h \
@@ -269,4 +297,11 @@ CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_base.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Debug.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/fmt/base.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/string.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/sec_api/string_s.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring

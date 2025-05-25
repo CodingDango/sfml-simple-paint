@@ -1,6 +1,6 @@
-CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushController.cpp \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushController.h \
+CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj: \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushLogic.cpp \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushLogic.h \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\Brush.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/Entity.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RenderTarget.hpp \
@@ -269,4 +269,27 @@ CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_base.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Debug.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/fmt/base.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/string.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/sec_api/string_s.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
+ D:/Coding\ Programs/MSYS/mingw64/include/math.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/limits \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring

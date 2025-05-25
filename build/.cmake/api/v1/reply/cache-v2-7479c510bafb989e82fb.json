@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Coding Programs/Code/C++/paint/build"
+			"value" : "d:/Coding Programs/Code/C++/guiProjects/paint/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -575,7 +575,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Coding Programs/Code/C++/paint/build/CMakeFiles/pkgRedirects"
+			"value" : "D:/Coding Programs/Code/C++/guiProjects/paint/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -647,7 +647,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Coding Programs/Code/C++/paint"
+			"value" : "D:/Coding Programs/Code/C++/guiProjects/paint"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1307,7 +1307,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Coding Programs/Code/C++/paint/build"
+			"value" : "D:/Coding Programs/Code/C++/guiProjects/paint/build"
 		},
 		{
 			"name" : "SimpleSFMLPaintApp_IS_TOP_LEVEL",
@@ -1331,7 +1331,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Coding Programs/Code/C++/paint"
+			"value" : "D:/Coding Programs/Code/C++/guiProjects/paint"
 		},
 		{
 			"name" : "_CMAKE_CXX_LINKER_PUSHPOP_STATE_SUPPORTED",

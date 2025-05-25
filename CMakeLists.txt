@@ -10,15 +10,21 @@ add_executable(
     main 
     ./src/main.cpp 
     ./src/app.cpp
-    
-    # Paint 
-    ./src/Paint/Brush.cpp
-    ./src/Paint/BrushController.cpp
-    ./src/Paint/Canvas.cpp
 
-    # Paint UI
+    # -- Entity Folder
+    # ./src/Entity/Entity.cpp
+
+    # -- Paint Folder 
+    ./src/Paint/Brush.cpp
+    ./src/Paint/BrushLogic.cpp
+    ./src/Paint/Canvas.cpp
+    
+    # -- Paint UI Folder
     ./src/PaintUI/Button.cpp
-    ./src/PaintUI/BrushControllerUI.cpp
+    ./src/PaintUI/TextLabel.cpp
+    ./src/PaintUI/BrushLogicUI.cpp
+
+    # -- Paint UX Folder
 )
      
 target_include_directories(

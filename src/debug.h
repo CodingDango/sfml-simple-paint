@@ -2,9 +2,20 @@
 #define DEBUG_H
 
 #include <fmt/format.h>
+#include <iostream>
+#include <string_view>
 
 namespace dbg 
 {
+    inline void outputErr(
+        std::string_view class_name, 
+        std::string_view func_name,
+        std::string_view text
+    )
+    {
+        std::cerr << '[' << class_name << "] [" << func_name << "] : " << text << '\n'; 
+    }
+
     template <typename T>
     inline void outputColor(const T& col) 
     {

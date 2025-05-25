@@ -1,7 +1,6 @@
-CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushController.cpp \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushController.h \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\Brush.h \
+CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.obj: \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUI\TextLabel.cpp \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUI\TextLabel.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/Entity.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RenderTarget.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Export.hpp \
@@ -200,42 +199,12 @@ CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iterator \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/String.inl \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Err.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ostream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ios \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/basic_ios.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/ostream.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/FileInputStream.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/InputStream.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Lock.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/MemoryInputStream.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Mutex.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Sleep.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Thread.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Thread.inl \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/ThreadLocal.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/ThreadLocalPtr.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/ThreadLocalPtr.inl \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Vector3.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/Vector3.inl \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window/Clipboard.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window/Context.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window/Event.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window/Joystick.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window/Keyboard.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window/Mouse.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window/Sensor.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Window/Touch.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/CircleShape.hpp \
+ D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RectangleShape.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Shape.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Drawable.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Transformable.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexArray.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/ConvexShape.hpp \
+ D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Font.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Glyph.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Texture.hpp \
@@ -245,28 +214,4 @@ CMakeFiles/main.dir/src/Paint/BrushController.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/node_handle.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_map.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/erase_if.h \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RectangleShape.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RenderTexture.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Shader.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Glsl.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Glsl.inl \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_raw_storage_iter.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/align.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/unique_ptr.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/allocated_ptr.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ext/concurrence.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_base.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/erase_if.h

@@ -52,7 +52,7 @@ void App::processEvents()
 void App::updateEntities()
 {   
     const float delta_time { m_clock.restart().asSeconds() };
-    const sf::Vector2f mouse_pos { static_cast<sf::Vector2f>(sf::Mouse::getPosition(m_window)) };
+    const sf::Vector2f mouse_pos { m_window.mapPixelToCoords(sf::Mouse::getPosition(m_window)) };
 
     for (const auto& entity_ptr : m_entities)
     {
@@ -62,7 +62,7 @@ void App::updateEntities()
 
 void App::drawEntities()
 {      
-    m_window.clear();
+    m_window.clear(WINDOW_BG_COLOR);
 
     for (const auto& entity_ptr : m_entities)
     {
@@ -74,27 +74,25 @@ void App::drawEntities()
 
 void App::initializeEntities()
 {   
-    // -- Brush
+    // -- Brush Logic
     m_entities.emplace_back(
-        std::make_unique<Brush>(BRUSH_STARTING_SHAPE, BRUSH_STARTING_COL, BRUSH_STARTING_SIZE)
+        std::make_unique<BrushLogic>(BRUSH_STARTING_SHAPE, BRUSH_STARTING_COL, BRUSH_STARTING_SIZE)
     );
 
-    Brush* brush_ptr = static_cast<Brush*>(m_entities.back().get());
+    BrushLogic* brush_logic_ptr = static_cast<BrushLogic*>(m_entities.back().get());
 
     // -- Canvas
     m_entities.emplace_back(
-        std::make_unique<paint::Canvas>(brush_ptr, CANVAS_POS, CANVAS_SIZE)
+        std::make_unique<paint::Canvas>(brush_logic_ptr, CANVAS_POS, CANVAS_SIZE, CANVAS_BG_COL)
     );
 
-    // -- BrushController
+    // -- BrushLogicUI
     m_entities.emplace_back(
-        std::make_unique<BrushController>(brush_ptr)
-    );
-
-    BrushController* toolbar_ptr = static_cast<BrushController*>(m_entities.back().get());
-
-    // -- BrushControllerUI
-    m_entities.emplace_back(
-        std::make_unique<ui::BrushControllerUI>(toolbar_ptr, TOOLBAR_STARTING_POS)
+        std::make_unique<ui::BrushLogicUI>(
+            brush_logic_ptr, 
+            BRUSH_UI_STARTING_POS,
+            BRUSH_UI_SIZE,
+            BRUSH_UI_BG_COL
+        )
     );
 }

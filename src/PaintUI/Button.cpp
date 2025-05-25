@@ -15,7 +15,7 @@ ui::Button::Button(const sf::Color& fill_color, const sf::Vector2f& btn_size)
     // Default Button Callbacks    
     m_hover_callback    = [this](){ m_shape.setScale(m_hover_scale_factor, m_hover_scale_factor); };
     m_no_hover_callback = [this](){ m_shape.setScale(m_normal_scale_factor, m_normal_scale_factor); };
-    m_click_callback    = [](){ std::cout << "Hello\n";  };   
+    m_click_callback    = [](){};   
 }
 
 /////////////////////////////////////////////////////////////
@@ -37,20 +37,7 @@ void ui::Button::setNoHoverCallback(const std::function<void()>& callback)
 }
 
 /////////////////////////////////////////////////////////////
-//  Button Transform Setters
-/////////////////////////////////////////////////////////////
-void ui::Button::setPosition(const sf::Vector2f& pos)
-{
-    m_shape.setPosition(pos);
-}
-
-void ui::Button::setPosition(float x, float y)
-{
-    m_shape.setPosition(x, y);
-}
-
-/////////////////////////////////////////////////////////////
-//  Button Drawable Related Getters 
+//  Button Getters 
 /////////////////////////////////////////////////////////////
 sf::Color ui::Button::getFillColor() const 
 {
@@ -63,13 +50,12 @@ const sf::RectangleShape& ui::Button::getDrawableRect() const
 }
 
 /////////////////////////////////////////////////////////////
-// BtnInitData Constructer
+// Conditional
 /////////////////////////////////////////////////////////////
-ui::BtnInitData::BtnInitData(const sf::Color& color, const sf::Vector2f& btn_size)
-:   m_color { color },
-    m_btn_size { btn_size }
-{}
-
+bool ui::Button::isMouseHovered(const sf::Vector2f& mouse_pos) const
+{
+    return m_shape.getGlobalBounds().contains(mouse_pos);
+}
 
 /////////////////////////////////////////////////////////////
 // Entity Overrides
@@ -78,31 +64,56 @@ void ui::Button::handleEvent(const sf::Event& event)
 {
     switch (event.type)
     {
-    case sf::Event::MouseMoved:
-        Entity::is_hovered = m_shape.getGlobalBounds().contains(event.mouseMove.x, event.mouseMove.y);
-        break;
-
-    case sf::Event::MouseButtonPressed:
-        Entity::is_clicked = (m_shape.getGlobalBounds().contains(event.mouseButton.x, event.mouseButton.y)
-        && (event.mouseButton.button == sf::Mouse::Button::Left));
-
+    case sf::Event::MouseButtonReleased:
+        UIEntity::is_mouse_released = (event.mouseButton.button == sf::Mouse::Left);
+    
     default:
         break;
     }
 }
 
 void ui::Button::update(float dt, const sf::Vector2f& mouse_pos)
-{
-    if (Entity::is_hovered)
+{   
+    bool is_mouse_hovered = isMouseHovered(mouse_pos); 
+
+    if (is_mouse_hovered)
         m_hover_callback();
     else
         m_no_hover_callback();
-
-    if (Entity::is_clicked)
+    
+    if (is_mouse_released && is_mouse_hovered)
         m_click_callback();
+
+    is_mouse_released = false;
 }
 
 void ui::Button::render(sf::RenderTarget& dest)
 {
     dest.draw(m_shape);
 }
+
+/////////////////////////////////////////////////////////////
+// UIEntity Overrides
+/////////////////////////////////////////////////////////////
+void ui::Button::setPosition(const sf::Vector2f& pos)
+{
+    m_shape.setPosition(pos);
+}
+
+void ui::Button::setPosition(float x, float y)
+{
+    m_shape.setPosition(x, y);
+}
+
+sf::Vector2f ui::Button::getSize() const
+{
+    return m_shape.getSize();
+}
+
+/////////////////////////////////////////////////////////////
+// BtnInitData Constructer
+/////////////////////////////////////////////////////////////
+ui::BtnInitData::BtnInitData(const sf::Color& color, const sf::Vector2f& btn_size)
+:   m_color { color },
+    m_size  { btn_size }
+{}

@@ -17,16 +17,7 @@ namespace utils
     }
 
     template <typename T>
-    inline sf::Vector2f toVector2f(const T& vect)
-    {
-        return sf::Vector2f(
-            static_cast<float>(vect.x), 
-            static_cast<float>(vect.y)
-        );
-    }
-
-    template <typename T>
-    inline sf::Vector2f midpointOfSizeVector(const T& vect)
+    inline sf::Vector2f midOfVect(const T& vect)
     {
         return sf::Vector2f(
             static_cast<float>(vect.x / 2.0f),
@@ -41,15 +32,33 @@ namespace utils
     }
 
     template <typename T>
-    inline T multiplyVectByVect(const T& vect1, const T& vect2)
+    inline T multVectByVect(const T& vect1, const T& vect2)
     {
         return {vect1.x * vect2.x, vect1.y * vect2.y};
     }
 
     template <typename T>
-    inline T multiplyVectByFactor(const T& vect, float factor)
+    inline T multVectByFactor(const T& vect, float factor)
     {
         return {vect.x * factor, vect.y * factor};
+    }
+
+    template <typename T>
+    inline T divVectByVect(const T& vect1, const T& vect2)
+    {
+        return {vect1.x / vect2.x, vect1.y / vect2.y};
+    }
+
+    template <typename T>
+    inline T divVectByFactor(const T& vect, float factor)
+    {
+        return {vect.x / factor, vect.y / factor};
+    }
+
+    template <typename T>
+    inline float vectLength(const T& vect)
+    {
+        return sqrt((vect.x * vect.x) + (vect.y * vect.y));
     }
 }
 
