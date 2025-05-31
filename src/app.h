@@ -6,7 +6,7 @@
 #include "BrushLogic.h"
 #include "BrushLogicUI.h"
 #include "Canvas.h"
-#include "Entity.h"
+#include "EntityTypes.h"
 #include "Utils.h"
 
 #include <SFML/Graphics.hpp>
@@ -29,7 +29,7 @@ private:
     inline static const int WINDOW_WIDTH_PX   = 1280;
     inline static const int WINDOW_HEIGHT_PX  = 720;
     inline static const int MAX_FPS = 120;
-    inline static const sf::Color WINDOW_BG_COLOR {0x393E46FF};
+    inline static const sf::Color WINDOW_BG_COLOR {0x222831FF};
 
     sf::RenderWindow m_window;
 
@@ -48,9 +48,9 @@ private:
     inline static const float BRUSH_STARTING_SIZE = 20.0f;
     
     // -- BrushLogicUI Config --
-    inline static const sf::Vector2f BRUSH_UI_STARTING_POS {1003, 0};
-    inline static const sf::Vector2f BRUSH_UI_SIZE {277, WINDOW_HEIGHT_PX};
-    inline static const sf::Color BRUSH_UI_BG_COL {0x222831FF};
+    inline static const sf::Vector2f BRUSH_UI_STARTING_POS {1003.0f, 0.0f};
+    inline static const sf::Vector2f BRUSH_UI_SIZE {277.0f, WINDOW_HEIGHT_PX};
+    inline static const sf::Color BRUSH_UI_BG_COL {0x393E46FF};
 
     /////////////////////////////////////////////////////////////
     // Private Method Declarations  

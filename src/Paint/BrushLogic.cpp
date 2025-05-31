@@ -86,4 +86,3 @@ void BrushLogic::outputBrushIsNull(std::string_view func_name) const
 {
     dbg::outputErr(CLASS_NAME, func_name, "m_brush_ptr is null!");
 }
-

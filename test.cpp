@@ -1,38 +1,52 @@
-#include <bits/stdc++.h>
+Question #1
 
-using namespace std;
+Write a program that asks the user to enter two integers, one named smaller, the other named larger. If the user enters a smaller value for the second integer, use a block and a temporary variable to swap the smaller and larger values. Then print the values of the smaller and larger variables. Add comments to your code indicating where each variable dies. Note: When you print the values, smaller should hold the smaller input and larger the larger input, no matter which order they were entered in.
 
-string ltrim(const string &);
-string rtrim(const string &);
+The program output should match the following:
 
-/*
- * Complete the 'pageCount' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts following parameters:
- *  1. INTEGER n
- *  2. INTEGER p
- */
+Enter an integer: 4
+Enter a larger integer: 2
+Swapping the values
+The smaller value is 2
+The larger value is 4
 
-int pageCount(int n, int p) {
-    bool is_left_side = (n / 2) > p;
-    int page_counter = 0;
-    int current_page = (is_left_side ? 1 : n);
-    int page_increment = (is_left_side ? 1 : -1);
-    
-    for (int curr_page = current_page; curr_page != p; curr_page += page_increment)
-    {
-        if (current_page % 2 == 0)
-            page_counter++;
-    }
-    
-    return page_counter;
-}
+-- Below is my code.
 
-int main()
+#include <iostream>
+
+int getInteger(std::string_view prompt)
 {
-    constexpr int book_pages = 6;
-    constexpr int page_target = 2;
+    int n {};
+    std::cout << prompt;
+    std::cin >> n;
 
-    std::cout << pageCount(book_pages, page_target) << '\n';
+    return n;
 }
+
+int main() 
+{// Block of main starts here
+    int smaller { getInteger("Enter an integer: ") };
+    int larger { getInteger("Enter a larger integer: ") };
+
+    // Preferable we could have used a function, but this is
+    // For the challenge requirements.
+    if (smaller > larger)
+    { // Nested block starts here
+        std::cout << "Swapping the values\n";
+
+        int temp = smaller;
+        smaller = larger;
+        larger = temp;
+    } // Nested block ends here, temp the variable we initialized will be destroyed here.
+
+    std::cout << "The smaller value is " << smaller
+              << "The larger value is " << larger 
+              << '\n';
+
+}// Block of main ends here. smaller, and larger will be destroyed here.
+
+Question #2
+
+What’s the difference between a variable’s scope, duration, and lifetime? By default, what kind of scope and duration do local variables have (and what do those mean)?
+
+-- My answer: a variables scope is the block where it is located in? the duration means the lifetime of the object, meaning when it will be destoryed, lifetime is the same as duration? by default, scope and duration for local variables is when the block starts and ends?

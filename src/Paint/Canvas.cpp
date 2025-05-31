@@ -1,6 +1,6 @@
 #include "Canvas.h"
 
-paint::Canvas::Canvas(            
+Paint::Canvas::Canvas(            
     BrushLogic* brush_logic_ptr,
     const sf::Vector2f& canvas_pos,
     const sf::Vector2u& canvas_size,
@@ -14,7 +14,7 @@ paint::Canvas::Canvas(
     configRenderObjects();
 }
 
-void paint::Canvas::configRenderObjects()
+void Paint::Canvas::configRenderObjects()
 {   
     m_render_texture.create(m_canvas_size.x, m_canvas_size.y);
     m_render_texture.clear(m_canvas_col);
@@ -23,7 +23,7 @@ void paint::Canvas::configRenderObjects()
     m_sprite.setPosition(m_canvas_pos);
 }
 
-void paint::Canvas::applySmoothBrushStrokes()
+void Paint::Canvas::applySmoothBrushStrokes()
 {
     const sf::Vector2f unmapped_curr_brush_pos = m_brush_logic_ptr->getPosition(); 
     const sf::Vector2f journey_vector =  unmapped_curr_brush_pos - unmapped_last_brush_pos;
@@ -46,7 +46,7 @@ void paint::Canvas::applySmoothBrushStrokes()
     unmapped_last_brush_pos = unmapped_curr_brush_pos;
 }
 
-void paint::Canvas::applyBrushDab(const sf::Vector2f& unmapped_brush_pos)
+void Paint::Canvas::applyBrushDab(const sf::Vector2f& unmapped_brush_pos)
 {   
     const sf::Vector2f mapped_current_new_brush_pos = unmapped_brush_pos - m_canvas_pos;
 
@@ -58,7 +58,7 @@ void paint::Canvas::applyBrushDab(const sf::Vector2f& unmapped_brush_pos)
 /////////////////////////////////////////////////////////////
 // Entity Overrides
 /////////////////////////////////////////////////////////////
-void paint::Canvas::render(sf::RenderTarget& dest) 
+void Paint::Canvas::render(sf::RenderTarget& dest) 
 {
     if (is_pressed
         && m_sprite.getGlobalBounds().contains(
@@ -69,7 +69,7 @@ void paint::Canvas::render(sf::RenderTarget& dest)
     dest.draw(m_sprite);    
 }
 
-void paint::Canvas::handleEvent(const sf::Event& event)
+void Paint::Canvas::handleEvent(const sf::Event& event)
 {
     switch (event.type)
     {

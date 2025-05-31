@@ -1,13 +1,14 @@
 #ifndef BUTTON_H
 #define BUTTON_H
 
-#include "Entity.h"
+#include "EntityTypes.h"
 #include "Utils.h"
+
 #include <functional>
 #include <iostream>
 #include <SFML/Graphics.hpp>
 
-namespace ui
+namespace UI
 {
     class Button : public UIEntity
     {
@@ -17,13 +18,15 @@ namespace ui
         /////////////////////////////////////////////////////////////
         Button(const sf::Color& fill_color, const sf::Vector2f& btn_size);
 
-        /////////////////////////////////////////////////////////////
-        // Setters  
-        /////////////////////////////////////////////////////////////
+        #pragma region Constructer Defs
+
         void setClickCallback(const std::function<void()>& callback);
         void setHoverCallback(const std::function<void()>& callback);
         void setNoHoverCallback(const std::function<void()>& callback);
-
+        void setOutlineColor(const sf::Color& col);
+        void setOutlineThickness(float thickness);
+        
+        #pragma endregion Constructer Defs
         /////////////////////////////////////////////////////////////
         // Getters  
         /////////////////////////////////////////////////////////////
@@ -65,13 +68,6 @@ namespace ui
     // Create a CircleButton and RectButton class
     // Each class should be able to handle holding one icon?
     // Turn the Button into a Base Class.
-
-    struct BtnInitData
-    {
-        BtnInitData(const sf::Color& color, const sf::Vector2f& size);
-        const sf::Color m_color;
-        const sf::Vector2f m_size;
-    };
 } 
 
 #endif

@@ -214,4 +214,12 @@ CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/node_handle.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_map.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_multimap.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/erase_if.h
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/erase_if.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ostream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/ios \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/basic_ios.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/basic_ios.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/ostream.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc

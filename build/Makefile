@@ -224,77 +224,149 @@ src/Paint/Canvas.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Paint/Canvas.cpp.s
 .PHONY : src/Paint/Canvas.cpp.s
 
-src/PaintUI/BrushLogicUI.obj: src/PaintUI/BrushLogicUI.cpp.obj
-.PHONY : src/PaintUI/BrushLogicUI.obj
+src/PaintUIComponents/BrushColorPallete.obj: src/PaintUIComponents/BrushColorPallete.cpp.obj
+.PHONY : src/PaintUIComponents/BrushColorPallete.obj
 
 # target to build an object file
-src/PaintUI/BrushLogicUI.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.obj
-.PHONY : src/PaintUI/BrushLogicUI.cpp.obj
+src/PaintUIComponents/BrushColorPallete.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj
+.PHONY : src/PaintUIComponents/BrushColorPallete.cpp.obj
 
-src/PaintUI/BrushLogicUI.i: src/PaintUI/BrushLogicUI.cpp.i
-.PHONY : src/PaintUI/BrushLogicUI.i
+src/PaintUIComponents/BrushColorPallete.i: src/PaintUIComponents/BrushColorPallete.cpp.i
+.PHONY : src/PaintUIComponents/BrushColorPallete.i
 
 # target to preprocess a source file
-src/PaintUI/BrushLogicUI.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.i
-.PHONY : src/PaintUI/BrushLogicUI.cpp.i
+src/PaintUIComponents/BrushColorPallete.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.i
+.PHONY : src/PaintUIComponents/BrushColorPallete.cpp.i
 
-src/PaintUI/BrushLogicUI.s: src/PaintUI/BrushLogicUI.cpp.s
-.PHONY : src/PaintUI/BrushLogicUI.s
+src/PaintUIComponents/BrushColorPallete.s: src/PaintUIComponents/BrushColorPallete.cpp.s
+.PHONY : src/PaintUIComponents/BrushColorPallete.s
 
 # target to generate assembly for a file
-src/PaintUI/BrushLogicUI.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.s
-.PHONY : src/PaintUI/BrushLogicUI.cpp.s
+src/PaintUIComponents/BrushColorPallete.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.s
+.PHONY : src/PaintUIComponents/BrushColorPallete.cpp.s
 
-src/PaintUI/Button.obj: src/PaintUI/Button.cpp.obj
-.PHONY : src/PaintUI/Button.obj
+src/PaintUIComponents/BrushLogicUI.obj: src/PaintUIComponents/BrushLogicUI.cpp.obj
+.PHONY : src/PaintUIComponents/BrushLogicUI.obj
 
 # target to build an object file
-src/PaintUI/Button.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj
-.PHONY : src/PaintUI/Button.cpp.obj
+src/PaintUIComponents/BrushLogicUI.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj
+.PHONY : src/PaintUIComponents/BrushLogicUI.cpp.obj
 
-src/PaintUI/Button.i: src/PaintUI/Button.cpp.i
-.PHONY : src/PaintUI/Button.i
+src/PaintUIComponents/BrushLogicUI.i: src/PaintUIComponents/BrushLogicUI.cpp.i
+.PHONY : src/PaintUIComponents/BrushLogicUI.i
 
 # target to preprocess a source file
-src/PaintUI/Button.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/Button.cpp.i
-.PHONY : src/PaintUI/Button.cpp.i
+src/PaintUIComponents/BrushLogicUI.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.i
+.PHONY : src/PaintUIComponents/BrushLogicUI.cpp.i
 
-src/PaintUI/Button.s: src/PaintUI/Button.cpp.s
-.PHONY : src/PaintUI/Button.s
+src/PaintUIComponents/BrushLogicUI.s: src/PaintUIComponents/BrushLogicUI.cpp.s
+.PHONY : src/PaintUIComponents/BrushLogicUI.s
 
 # target to generate assembly for a file
-src/PaintUI/Button.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/Button.cpp.s
-.PHONY : src/PaintUI/Button.cpp.s
+src/PaintUIComponents/BrushLogicUI.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.s
+.PHONY : src/PaintUIComponents/BrushLogicUI.cpp.s
 
-src/PaintUI/TextLabel.obj: src/PaintUI/TextLabel.cpp.obj
-.PHONY : src/PaintUI/TextLabel.obj
+src/PaintUIComponents/BrushSizeIncrement.obj: src/PaintUIComponents/BrushSizeIncrement.cpp.obj
+.PHONY : src/PaintUIComponents/BrushSizeIncrement.obj
 
 # target to build an object file
-src/PaintUI/TextLabel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.obj
-.PHONY : src/PaintUI/TextLabel.cpp.obj
+src/PaintUIComponents/BrushSizeIncrement.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj
+.PHONY : src/PaintUIComponents/BrushSizeIncrement.cpp.obj
 
-src/PaintUI/TextLabel.i: src/PaintUI/TextLabel.cpp.i
-.PHONY : src/PaintUI/TextLabel.i
+src/PaintUIComponents/BrushSizeIncrement.i: src/PaintUIComponents/BrushSizeIncrement.cpp.i
+.PHONY : src/PaintUIComponents/BrushSizeIncrement.i
 
 # target to preprocess a source file
-src/PaintUI/TextLabel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.i
-.PHONY : src/PaintUI/TextLabel.cpp.i
+src/PaintUIComponents/BrushSizeIncrement.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.i
+.PHONY : src/PaintUIComponents/BrushSizeIncrement.cpp.i
 
-src/PaintUI/TextLabel.s: src/PaintUI/TextLabel.cpp.s
-.PHONY : src/PaintUI/TextLabel.s
+src/PaintUIComponents/BrushSizeIncrement.s: src/PaintUIComponents/BrushSizeIncrement.cpp.s
+.PHONY : src/PaintUIComponents/BrushSizeIncrement.s
 
 # target to generate assembly for a file
-src/PaintUI/TextLabel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.s
-.PHONY : src/PaintUI/TextLabel.cpp.s
+src/PaintUIComponents/BrushSizeIncrement.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.s
+.PHONY : src/PaintUIComponents/BrushSizeIncrement.cpp.s
+
+src/UIComponents/Button.obj: src/UIComponents/Button.cpp.obj
+.PHONY : src/UIComponents/Button.obj
+
+# target to build an object file
+src/UIComponents/Button.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Button.cpp.obj
+.PHONY : src/UIComponents/Button.cpp.obj
+
+src/UIComponents/Button.i: src/UIComponents/Button.cpp.i
+.PHONY : src/UIComponents/Button.i
+
+# target to preprocess a source file
+src/UIComponents/Button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Button.cpp.i
+.PHONY : src/UIComponents/Button.cpp.i
+
+src/UIComponents/Button.s: src/UIComponents/Button.cpp.s
+.PHONY : src/UIComponents/Button.s
+
+# target to generate assembly for a file
+src/UIComponents/Button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Button.cpp.s
+.PHONY : src/UIComponents/Button.cpp.s
+
+src/UIComponents/TextLabel.obj: src/UIComponents/TextLabel.cpp.obj
+.PHONY : src/UIComponents/TextLabel.obj
+
+# target to build an object file
+src/UIComponents/TextLabel.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj
+.PHONY : src/UIComponents/TextLabel.cpp.obj
+
+src/UIComponents/TextLabel.i: src/UIComponents/TextLabel.cpp.i
+.PHONY : src/UIComponents/TextLabel.i
+
+# target to preprocess a source file
+src/UIComponents/TextLabel.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.i
+.PHONY : src/UIComponents/TextLabel.cpp.i
+
+src/UIComponents/TextLabel.s: src/UIComponents/TextLabel.cpp.s
+.PHONY : src/UIComponents/TextLabel.s
+
+# target to generate assembly for a file
+src/UIComponents/TextLabel.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.s
+.PHONY : src/UIComponents/TextLabel.cpp.s
+
+src/UIComponents/UIEntityContainerComponent.obj: src/UIComponents/UIEntityContainerComponent.cpp.obj
+.PHONY : src/UIComponents/UIEntityContainerComponent.obj
+
+# target to build an object file
+src/UIComponents/UIEntityContainerComponent.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj
+.PHONY : src/UIComponents/UIEntityContainerComponent.cpp.obj
+
+src/UIComponents/UIEntityContainerComponent.i: src/UIComponents/UIEntityContainerComponent.cpp.i
+.PHONY : src/UIComponents/UIEntityContainerComponent.i
+
+# target to preprocess a source file
+src/UIComponents/UIEntityContainerComponent.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.i
+.PHONY : src/UIComponents/UIEntityContainerComponent.cpp.i
+
+src/UIComponents/UIEntityContainerComponent.s: src/UIComponents/UIEntityContainerComponent.cpp.s
+.PHONY : src/UIComponents/UIEntityContainerComponent.s
+
+# target to generate assembly for a file
+src/UIComponents/UIEntityContainerComponent.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.s
+.PHONY : src/UIComponents/UIEntityContainerComponent.cpp.s
 
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
@@ -341,15 +413,24 @@ help:
 	@echo ... src/Paint/Canvas.obj
 	@echo ... src/Paint/Canvas.i
 	@echo ... src/Paint/Canvas.s
-	@echo ... src/PaintUI/BrushLogicUI.obj
-	@echo ... src/PaintUI/BrushLogicUI.i
-	@echo ... src/PaintUI/BrushLogicUI.s
-	@echo ... src/PaintUI/Button.obj
-	@echo ... src/PaintUI/Button.i
-	@echo ... src/PaintUI/Button.s
-	@echo ... src/PaintUI/TextLabel.obj
-	@echo ... src/PaintUI/TextLabel.i
-	@echo ... src/PaintUI/TextLabel.s
+	@echo ... src/PaintUIComponents/BrushColorPallete.obj
+	@echo ... src/PaintUIComponents/BrushColorPallete.i
+	@echo ... src/PaintUIComponents/BrushColorPallete.s
+	@echo ... src/PaintUIComponents/BrushLogicUI.obj
+	@echo ... src/PaintUIComponents/BrushLogicUI.i
+	@echo ... src/PaintUIComponents/BrushLogicUI.s
+	@echo ... src/PaintUIComponents/BrushSizeIncrement.obj
+	@echo ... src/PaintUIComponents/BrushSizeIncrement.i
+	@echo ... src/PaintUIComponents/BrushSizeIncrement.s
+	@echo ... src/UIComponents/Button.obj
+	@echo ... src/UIComponents/Button.i
+	@echo ... src/UIComponents/Button.s
+	@echo ... src/UIComponents/TextLabel.obj
+	@echo ... src/UIComponents/TextLabel.i
+	@echo ... src/UIComponents/TextLabel.s
+	@echo ... src/UIComponents/UIEntityContainerComponent.obj
+	@echo ... src/UIComponents/UIEntityContainerComponent.i
+	@echo ... src/UIComponents/UIEntityContainerComponent.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

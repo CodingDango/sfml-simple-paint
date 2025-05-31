@@ -3,12 +3,11 @@
 /////////////////////////////////////////////////////////////
 //  Button Constructers
 /////////////////////////////////////////////////////////////
-ui::Button::Button(const sf::Color& fill_color, const sf::Vector2f& btn_size)
+UI::Button::Button(const sf::Color& fill_color, const sf::Vector2f& btn_size)
 :    
     m_shape { btn_size },
     m_fill_color { fill_color }
 {
-    m_shape.setOrigin(btn_size.x / 2, btn_size.y / 2);
     m_shape.setFillColor(m_fill_color);
     m_shape.setScale(m_normal_scale_factor, m_normal_scale_factor);
 
@@ -21,30 +20,40 @@ ui::Button::Button(const sf::Color& fill_color, const sf::Vector2f& btn_size)
 /////////////////////////////////////////////////////////////
 //  Button Callback Setters
 /////////////////////////////////////////////////////////////
-void ui::Button::setClickCallback(const std::function<void()>& callback)
+void UI::Button::setClickCallback(const std::function<void()>& callback)
 {
     m_click_callback = callback;
 }
 
-void ui::Button::setHoverCallback(const std::function<void()>& callback)
+void UI::Button::setHoverCallback(const std::function<void()>& callback)
 {
     m_hover_callback = callback;
 }
 
-void ui::Button::setNoHoverCallback(const std::function<void()>& callback)
+void UI::Button::setNoHoverCallback(const std::function<void()>& callback)
 {
     m_no_hover_callback = callback;
+}
+
+void UI::Button::setOutlineColor(const sf::Color& col)
+{
+    m_shape.setOutlineColor(col);
+}
+
+void UI::Button::setOutlineThickness(float thickness)
+{
+    m_shape.setOutlineThickness(thickness);
 }
 
 /////////////////////////////////////////////////////////////
 //  Button Getters 
 /////////////////////////////////////////////////////////////
-sf::Color ui::Button::getFillColor() const 
+sf::Color UI::Button::getFillColor() const 
 {
     return m_fill_color;
 }
 
-const sf::RectangleShape& ui::Button::getDrawableRect() const
+const sf::RectangleShape& UI::Button::getDrawableRect() const
 {
     return m_shape;
 }
@@ -52,7 +61,7 @@ const sf::RectangleShape& ui::Button::getDrawableRect() const
 /////////////////////////////////////////////////////////////
 // Conditional
 /////////////////////////////////////////////////////////////
-bool ui::Button::isMouseHovered(const sf::Vector2f& mouse_pos) const
+bool UI::Button::isMouseHovered(const sf::Vector2f& mouse_pos) const
 {
     return m_shape.getGlobalBounds().contains(mouse_pos);
 }
@@ -60,7 +69,7 @@ bool ui::Button::isMouseHovered(const sf::Vector2f& mouse_pos) const
 /////////////////////////////////////////////////////////////
 // Entity Overrides
 /////////////////////////////////////////////////////////////        
-void ui::Button::handleEvent(const sf::Event& event)
+void UI::Button::handleEvent(const sf::Event& event)
 {
     switch (event.type)
     {
@@ -72,7 +81,7 @@ void ui::Button::handleEvent(const sf::Event& event)
     }
 }
 
-void ui::Button::update(float dt, const sf::Vector2f& mouse_pos)
+void UI::Button::update(float dt, const sf::Vector2f& mouse_pos)
 {   
     bool is_mouse_hovered = isMouseHovered(mouse_pos); 
 
@@ -87,7 +96,7 @@ void ui::Button::update(float dt, const sf::Vector2f& mouse_pos)
     is_mouse_released = false;
 }
 
-void ui::Button::render(sf::RenderTarget& dest)
+void UI::Button::render(sf::RenderTarget& dest)
 {
     dest.draw(m_shape);
 }
@@ -95,25 +104,17 @@ void ui::Button::render(sf::RenderTarget& dest)
 /////////////////////////////////////////////////////////////
 // UIEntity Overrides
 /////////////////////////////////////////////////////////////
-void ui::Button::setPosition(const sf::Vector2f& pos)
+void UI::Button::setPosition(const sf::Vector2f& pos)
 {
-    m_shape.setPosition(pos);
+    setPosition(pos.x, pos.y);
 }
 
-void ui::Button::setPosition(float x, float y)
+void UI::Button::setPosition(float x, float y)
 {
     m_shape.setPosition(x, y);
 }
 
-sf::Vector2f ui::Button::getSize() const
+sf::Vector2f UI::Button::getSize() const
 {
     return m_shape.getSize();
 }
-
-/////////////////////////////////////////////////////////////
-// BtnInitData Constructer
-/////////////////////////////////////////////////////////////
-ui::BtnInitData::BtnInitData(const sf::Color& color, const sf::Vector2f& btn_size)
-:   m_color { color },
-    m_size  { btn_size }
-{}

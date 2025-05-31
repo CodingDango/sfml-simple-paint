@@ -2,7 +2,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\main.cpp \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\app.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Brush.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/Entity.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/EntityTypes.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RenderTarget.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Export.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Config.hpp \
@@ -270,7 +270,7 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUI/Button.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Button.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Utils.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
  D:/Coding\ Programs/MSYS/mingw64/include/math.h \
@@ -306,8 +306,12 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/sec_api/string_s.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUI/BrushLogicUI.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUI/Button.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushLogicUI.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/TextLabel.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushColorPallete.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/UIConfig.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushSizeIncrement.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Canvas.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.h \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Utils.h

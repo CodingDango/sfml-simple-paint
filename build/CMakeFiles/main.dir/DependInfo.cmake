@@ -12,9 +12,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/Brush.cpp" "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.cpp" "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/Canvas.cpp" "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj.d"
-  "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUI/BrushLogicUI.cpp" "CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.obj.d"
-  "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUI/Button.cpp" "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUI/Button.cpp.obj.d"
-  "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUI/TextLabel.cpp" "CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUI/TextLabel.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushColorPallete.cpp" "CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushLogicUI.cpp" "CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushSizeIncrement.cpp" "CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj" "gcc" "CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/guiProjects/paint/src/UIComponents/Button.cpp" "CMakeFiles/main.dir/src/UIComponents/Button.cpp.obj" "gcc" "CMakeFiles/main.dir/src/UIComponents/Button.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/guiProjects/paint/src/UIComponents/TextLabel.cpp" "CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj" "gcc" "CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.cpp" "CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj" "gcc" "CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
 

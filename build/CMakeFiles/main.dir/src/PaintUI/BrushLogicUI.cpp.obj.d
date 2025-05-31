@@ -283,6 +283,7 @@ CMakeFiles/main.dir/src/PaintUI/BrushLogicUI.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUI\TextLabel.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Brush.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \

@@ -1,8 +1,10 @@
 #ifndef BRUSH_H
 #define BRUSH_H
 
-#include "Entity.h"
+#include "EntityTypes.h"
+
 #include <SFML/Graphics.hpp>
+
 #include <iostream>
 #include <memory>
 

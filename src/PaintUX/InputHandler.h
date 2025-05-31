@@ -1,5 +1,5 @@
 // #include "BrushLogic.h"
-// #include "Entity.h"
+// #include "EntityTypes.h"
 
 // // Class for handling keyboard inputs
 // class InputHandler : public Entity

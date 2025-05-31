@@ -3,7 +3,7 @@ CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\Canvas.h \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\BrushLogic.h \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\Paint\Brush.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/Entity.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/EntityTypes.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RenderTarget.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Export.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Config.hpp \

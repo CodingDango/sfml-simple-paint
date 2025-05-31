@@ -2,7 +2,7 @@
 #define BRUSH_LOGIC_H
 
 #include "Brush.h"
-#include "Entity.h"
+#include "EntityTypes.h"
 #include "Debug.h"
 
 #include <SFML/Graphics/Shape.hpp>

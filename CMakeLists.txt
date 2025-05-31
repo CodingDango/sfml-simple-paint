@@ -19,10 +19,15 @@ add_executable(
     ./src/Paint/BrushLogic.cpp
     ./src/Paint/Canvas.cpp
     
-    # -- Paint UI Folder
-    ./src/PaintUI/Button.cpp
-    ./src/PaintUI/TextLabel.cpp
-    ./src/PaintUI/BrushLogicUI.cpp
+    # -- UI Components
+    ./src/UIComponents/Button.cpp
+    ./src/UIComponents/TextLabel.cpp
+    ./src/UIComponents/UIEntityContainerComponent.cpp
+
+    # -- Paint UI Components
+    ./src/PaintUIComponents/BrushLogicUI.cpp
+    ./src/PaintUIComponents/BrushColorPallete.cpp
+    ./src/PaintUIComponents/BrushSizeIncrement.cpp
 
     # -- Paint UX Folder
 )
@@ -31,7 +36,8 @@ target_include_directories(
     main PRIVATE
     ./src/
     ./src/Paint
-    ./src/PaintUI
+    ./src/UIComponents
+    ./src/PaintUIComponents
     ./src/Entity
 )
    

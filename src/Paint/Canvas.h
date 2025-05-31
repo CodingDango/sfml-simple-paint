@@ -2,14 +2,14 @@
 #define CANVAS_H
 
 #include "BrushLogic.h"
-#include "Entity.h"
+#include "EntityTypes.h"
 #include "Utils.h"
 
 #include <SFML/Graphics/RenderTarget.hpp>
 #include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/RenderTexture.hpp>
 
-namespace paint
+namespace Paint
 {
     class Canvas : public UIEntity
     {

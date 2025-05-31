@@ -60,6 +60,21 @@ namespace utils
     {
         return sqrt((vect.x * vect.x) + (vect.y * vect.y));
     }
+
+    inline sf::Font loadFontFromFile(const std::string& path)
+    {
+        sf::Font font;
+        font.loadFromFile(path);
+        
+        return font;
+    }
+
+    template <typename T>
+    inline bool isVectNotZero(const T& vect)
+    {
+        return (vect.x != 0 && vect.y != 0);
+    }
 }
+
 
 #endif

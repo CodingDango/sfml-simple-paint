@@ -74,21 +74,30 @@ void App::drawEntities()
 
 void App::initializeEntities()
 {   
-    // -- Brush Logic
+    // Brush Logic 
     m_entities.emplace_back(
-        std::make_unique<BrushLogic>(BRUSH_STARTING_SHAPE, BRUSH_STARTING_COL, BRUSH_STARTING_SIZE)
+        std::make_unique<BrushLogic>(
+            BRUSH_STARTING_SHAPE, 
+            BRUSH_STARTING_COL, 
+            BRUSH_STARTING_SIZE
+        )
     );
 
     BrushLogic* brush_logic_ptr = static_cast<BrushLogic*>(m_entities.back().get());
 
-    // -- Canvas
+    // Canvas 
     m_entities.emplace_back(
-        std::make_unique<paint::Canvas>(brush_logic_ptr, CANVAS_POS, CANVAS_SIZE, CANVAS_BG_COL)
+        std::make_unique<Paint::Canvas>(
+            brush_logic_ptr, 
+            CANVAS_POS, 
+            CANVAS_SIZE, 
+            CANVAS_BG_COL
+        )
     );
 
-    // -- BrushLogicUI
+    // BrushLogicUI 
     m_entities.emplace_back(
-        std::make_unique<ui::BrushLogicUI>(
+        std::make_unique<UI::BrushLogicUI>(
             brush_logic_ptr, 
             BRUSH_UI_STARTING_POS,
             BRUSH_UI_SIZE,

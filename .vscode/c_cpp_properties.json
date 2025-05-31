@@ -5,7 +5,8 @@
       "includePath": [
         "${workspaceFolder}/src/Entity**",
         "${workspaceFolder}/src/Paint**",
-        "${workspaceFolder}/src/PaintUI**",
+        "${workspaceFolder}/src/UIComponents**",
+        "${workspaceFolder}/src/PaintUIComponents**",
         "${workspaceFolder}/src/**",
       ],
       "compilerPath": "D:/Coding Programs/MSYS/mingw64/bin/gcc.exe",
