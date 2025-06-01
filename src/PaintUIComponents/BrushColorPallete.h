@@ -27,7 +27,7 @@ public:
     void setPosition(const sf::Vector2f& pos) override;
 
 private:
-    const sf::Vector2f LABEL_BOX_SIZE {241, 40};
+    const sf::Vector2f LABEL_BOX_SIZE {240, 37};
     UI::UIEntityContainerComponent m_color_btns;
     const std::string LABEL { "BRUSH COLORS "};
     UI::TextLabel m_label {

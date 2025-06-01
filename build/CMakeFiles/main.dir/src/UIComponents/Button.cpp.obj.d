@@ -199,7 +199,7 @@ CMakeFiles/main.dir/src/UIComponents/Button.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iterator \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/String.inl \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Utils.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
  D:/Coding\ Programs/MSYS/mingw64/include/math.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \

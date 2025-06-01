@@ -50,6 +50,11 @@ void BrushSizeIncrement::configureUIElements()
         )
     };
 
+    header_text_ptr->setTextAlignment(
+        UI::TextLabel::AlignmentX::CenterX,
+        UI::TextLabel::AlignmentY::TopY
+    );
+
     header_text_ptr->setTextStyle(UIConfig::LABEL_TEXT_STYLE);
     m_ui_elements.addChild(std::move(header_text_ptr));
 

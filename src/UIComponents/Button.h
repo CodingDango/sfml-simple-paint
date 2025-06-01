@@ -18,15 +18,12 @@ namespace UI
         /////////////////////////////////////////////////////////////
         Button(const sf::Color& fill_color, const sf::Vector2f& btn_size);
 
-        #pragma region Constructer Defs
-
         void setClickCallback(const std::function<void()>& callback);
         void setHoverCallback(const std::function<void()>& callback);
         void setNoHoverCallback(const std::function<void()>& callback);
         void setOutlineColor(const sf::Color& col);
         void setOutlineThickness(float thickness);
-        
-        #pragma endregion Constructer Defs
+
         /////////////////////////////////////////////////////////////
         // Getters  
         /////////////////////////////////////////////////////////////
@@ -64,8 +61,8 @@ namespace UI
         std::function<void()> m_click_callback;
     };
 
-    // # TODO
-    // Create a CircleButton and RectButton class
+    // TODO
+    // Create RectButton class Can hold ONE Drawable, and Transformable/ Object to be its Icon
     // Each class should be able to handle holding one icon?
     // Turn the Button into a Base Class.
 } 

@@ -271,7 +271,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Debug.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/debug.h \
  D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h \
  D:/Coding\ Programs/MSYS/mingw64/include/fmt/base.h \
  D:/Coding\ Programs/MSYS/mingw64/include/string.h \
@@ -295,7 +295,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/TextLabel.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Utils.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Button.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/functional \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_function.h \

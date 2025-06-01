@@ -200,7 +200,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iterator \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stream_iterator.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/System/String.inl \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Utils.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
  D:/Coding\ Programs/MSYS/mingw64/include/math.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
@@ -298,7 +298,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Debug.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/debug.h \
  D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h \
  D:/Coding\ Programs/MSYS/mingw64/include/fmt/base.h \
  D:/Coding\ Programs/MSYS/mingw64/include/string.h \

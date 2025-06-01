@@ -8,7 +8,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "D:/Coding Programs/Code/C++/guiProjects/paint/src/App.cpp" "CMakeFiles/main.dir/src/App.cpp.obj" "gcc" "CMakeFiles/main.dir/src/App.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/Brush.cpp" "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.cpp" "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/Canvas.cpp" "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj.d"
@@ -18,6 +17,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/UIComponents/Button.cpp" "CMakeFiles/main.dir/src/UIComponents/Button.cpp.obj" "gcc" "CMakeFiles/main.dir/src/UIComponents/Button.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/UIComponents/TextLabel.cpp" "CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj" "gcc" "CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.cpp" "CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj" "gcc" "CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj.d"
+  "D:/Coding Programs/Code/C++/guiProjects/paint/src/app.cpp" "CMakeFiles/main.dir/src/app.cpp.obj" "gcc" "CMakeFiles/main.dir/src/app.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/main.cpp" "CMakeFiles/main.dir/src/main.cpp.obj" "gcc" "CMakeFiles/main.dir/src/main.cpp.obj.d"
   )
 

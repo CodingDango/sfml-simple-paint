@@ -7,9 +7,9 @@
 },
 {
   "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\App.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\App.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/App.cpp",
-  "output": "CMakeFiles/main.dir/src/App.cpp.obj"
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\app.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\app.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/app.cpp",
+  "output": "CMakeFiles/main.dir/src/app.cpp.obj"
 },
 {
   "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",

@@ -9,7 +9,7 @@ UI::TextLabel::TextLabel(
     unsigned int char_size,
     const sf::Vector2f& box_size
     // const sf::Color& text_col,
-    // Alignment text_alignment = Center,
+    // AlignmentX text_alignment = CenterY,
     // const sf::Color& box_col = sf::Color::Transparent,
     // const sf::Vector2f& box_dimensions = sf::Vector2f(0, 0)
 )
@@ -42,9 +42,10 @@ void UI::TextLabel::setCharSize(unsigned int size)
 
 }
 
-void UI::TextLabel::setTextAlignment(Alignment alignment)
+void UI::TextLabel::setTextAlignment(AlignmentX x_align, AlignmentY y_align)
 {
-    m_text_alignment = alignment;
+    m_text_alignment_x = x_align;
+    m_text_alignment_y = y_align;
     alignTextInBox();
 }
 
@@ -82,10 +83,6 @@ unsigned int UI::TextLabel::getCharSize() const
     return m_character_size;
 }
 
-UI::TextLabel::Alignment UI::TextLabel::getTextAlignment() const
-{
-    return m_text_alignment;
-}
 
 sf::Color UI::TextLabel::getBoxColor() const
 {
@@ -150,42 +147,58 @@ sf::Vector2f UI::TextLabel::getSize() const
 /////////////////////////////////////////////////////////////
 // Helpers
 /////////////////////////////////////////////////////////////
+
+// TODO DONE! ALIGNMENT KIND OF FIXED
 void UI::TextLabel::alignTextInBox()
 {
     const sf::FloatRect text_bounds = m_text_object.getLocalBounds();
-
+    const sf::FloatRect box_bounds = m_box_shape.getGlobalBounds();
+    
     // This is for the origin
     // For now alignment only affects the X
     // That is why top distance is always at center
     float left_distance {};
-    float top_distance  { text_bounds.height / 2.0f };
+    float top_distance  {};
 
-    switch (m_text_alignment)
+    switch (m_text_alignment_x)
     {
-    case UI::TextLabel::Alignment::Left:
+    case UI::TextLabel::AlignmentX::LeftX:
         left_distance = 0;
         break;
     
-    case UI::TextLabel::Alignment::Center:
-        left_distance = text_bounds.width / 2.0f;
+    case UI::TextLabel::AlignmentX::CenterX:
+        left_distance = (box_bounds.width / 2.0f) - (text_bounds.width / 2.0f);
         break; 
     
-    case UI::TextLabel::Alignment::Right:
-        left_distance = text_bounds.width;
+    case UI::TextLabel::AlignmentX::RightX:
+        left_distance = box_bounds.width - text_bounds.width;
         break;
     
     default:
         break;
     }
 
-    m_text_object.setOrigin(
-        text_bounds.left + left_distance, 
-        text_bounds.top + top_distance
-    );
-         
+    switch (m_text_alignment_y)
+    {
+    case UI::TextLabel::AlignmentY::TopY:
+        top_distance = 0;
+        break;
+    
+    case UI::TextLabel::AlignmentY::CenterY:
+        top_distance = (box_bounds.height / 2.0f) - (text_bounds.height / 2.0f);
+        break; 
+    
+    case UI::TextLabel::AlignmentY::BottomY:
+        top_distance = box_bounds.height - text_bounds.height;
+        break;
+    
+    default:
+        break;
+    }
+            
     m_text_object.setPosition(
-        m_box_shape.getPosition().x + (m_box_shape.getSize().x / 2.0f),
-        m_box_shape.getPosition().y + (m_box_shape.getSize().y / 2.0f)
+        m_box_shape.getPosition().x + left_distance,
+        m_box_shape.getPosition().y + top_distance  
     );
 }
 

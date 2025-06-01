@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/main.dir/src/App.cpp.obj"
-  "CMakeFiles/main.dir/src/App.cpp.obj.d"
   "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj"
   "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj.d"
   "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj"
@@ -19,6 +17,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj.d"
   "CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj"
   "CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj.d"
+  "CMakeFiles/main.dir/src/app.cpp.obj"
+  "CMakeFiles/main.dir/src/app.cpp.obj.d"
   "CMakeFiles/main.dir/src/main.cpp.obj"
   "CMakeFiles/main.dir/src/main.cpp.obj.d"
   "libmain.dll.a"

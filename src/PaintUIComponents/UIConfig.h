@@ -11,7 +11,7 @@ namespace UIConfig
     inline const static sf::Font LABEL_FONT { utils::loadFontFromFile(FONT_FILE_PATH) };
     
     // Font size for the PaintUIComponents
-    inline const static unsigned int LABEL_FONT_SIZE = 12.0f;
+    inline const static unsigned int LABEL_FONT_SIZE = 16.0f;
 
     // Text style for the PaintUIComponents
     inline const static sf::Text::Style LABEL_TEXT_STYLE = sf::Text::Style::Bold; 

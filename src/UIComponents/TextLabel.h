@@ -16,7 +16,8 @@ namespace UI
         /////////////////////////////////////////////////////////////
         // Public Typedefs & Enums
         /////////////////////////////////////////////////////////////
-        enum Alignment { Left, Center, Right };
+        enum AlignmentX { LeftX, CenterX, RightX };
+        enum AlignmentY { TopY, CenterY, BottomY };
 
         /////////////////////////////////////////////////////////////
         // Constructor
@@ -36,24 +37,17 @@ namespace UI
         void setString(const std::string& str);
         void setTextColor(const sf::Color& col);
         void setCharSize(unsigned int size);
-        void setTextAlignment(Alignment alignment);
+        void setTextAlignment(AlignmentX x_align, AlignmentY y_align);
         void setTextStyle(sf::Text::Style style);
 
         std::string getTextCopy() const;
         sf::Color getTextColor() const;
         unsigned int getCharSize() const;
-        Alignment getTextAlignment() const;
         const sf::Text& getActualText() const; 
 
         // --- Box Properties ---
         void setBoxColor(const sf::Color& col);
         void setBoxDimensions(const sf::Vector2f& dimensions);
-        void setBoxCornerRadius( 
-            float top_left,
-            float top_right,
-            float bottom_left,
-            float bottom_right
-        );
 
         sf::Color getBoxColor() const;
         sf::FloatRect getBoxBounds() const; // Renamed from getBoxSize for clarity with SFML's getGlobalBounds/getLocalBounds
@@ -88,7 +82,8 @@ namespace UI
         std::string m_string_content; 
         unsigned int m_character_size; 
         sf::Color m_text_color = sf::Color::White; 
-        Alignment m_text_alignment = Center;       
+        AlignmentX m_text_alignment_x = AlignmentX::CenterX;
+        AlignmentY m_text_alignment_y = AlignmentY::CenterY;     
         sf::Text m_text_object;                    
 
         // -- Box Data --

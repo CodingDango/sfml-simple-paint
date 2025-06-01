@@ -86,20 +86,20 @@ CMakeFiles/main.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/main.cpp.s"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\guiProjects\paint\src\main.cpp" -o CMakeFiles\main.dir\src\main.cpp.s
 
-CMakeFiles/main.dir/src/App.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/App.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/App.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/App.cpp
-CMakeFiles/main.dir/src/App.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/App.cpp.obj"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/App.cpp.obj -MF CMakeFiles\main.dir\src\App.cpp.obj.d -o CMakeFiles\main.dir\src\App.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\App.cpp"
+CMakeFiles/main.dir/src/app.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/app.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/app.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/app.cpp
+CMakeFiles/main.dir/src/app.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/main.dir/src/app.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/app.cpp.obj -MF CMakeFiles\main.dir\src\app.cpp.obj.d -o CMakeFiles\main.dir\src\app.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\app.cpp"
 
-CMakeFiles/main.dir/src/App.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/App.cpp.i"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\guiProjects\paint\src\App.cpp" > CMakeFiles\main.dir\src\App.cpp.i
+CMakeFiles/main.dir/src/app.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/app.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\guiProjects\paint\src\app.cpp" > CMakeFiles\main.dir\src\app.cpp.i
 
-CMakeFiles/main.dir/src/App.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/App.cpp.s"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\guiProjects\paint\src\App.cpp" -o CMakeFiles\main.dir\src\App.cpp.s
+CMakeFiles/main.dir/src/app.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/app.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\guiProjects\paint\src\app.cpp" -o CMakeFiles\main.dir\src\app.cpp.s
 
 CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
@@ -239,7 +239,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.s: cmake_force
 # Object files for target main
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
-"CMakeFiles/main.dir/src/App.cpp.obj" \
+"CMakeFiles/main.dir/src/app.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj" \
@@ -254,7 +254,7 @@ main_OBJECTS = \
 main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
-main.exe: CMakeFiles/main.dir/src/App.cpp.obj
+main.exe: CMakeFiles/main.dir/src/app.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/Brush.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj

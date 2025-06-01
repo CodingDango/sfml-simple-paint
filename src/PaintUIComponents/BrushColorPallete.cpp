@@ -44,6 +44,10 @@ void BrushColorPallete::configureLabel()
 {
     m_label.setTextStyle(UIConfig::LABEL_TEXT_STYLE);
     m_label.setCharSize(UIConfig::LABEL_FONT_SIZE);
+    m_label.setTextAlignment(
+        UI::TextLabel::AlignmentX::CenterX,
+        UI::TextLabel::AlignmentY::TopY
+    );
 }
 
 void BrushColorPallete::loadBtns()
