@@ -29,7 +29,7 @@ public:
 private:
     const sf::Vector2f LABEL_BOX_SIZE {240, 37};
     UI::UIEntityContainerComponent m_color_btns;
-    const std::string LABEL { "BRUSH COLORS "};
+    const std::string LABEL { "Brush Colors"};
     UI::TextLabel m_label {
         UIConfig::LABEL_FONT,
         LABEL,

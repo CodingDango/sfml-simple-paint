@@ -72,8 +72,10 @@ void BrushColorPallete::loadBtns()
         btn_ptr_owner->setClickCallback(btn_click_callback); 
         btn_ptr_owner->setHoverCallback(btn_hover_callback); 
         btn_ptr_owner->setNoHoverCallback(btn_no_hover_callback);
-        btn_ptr_owner->setOutlineThickness(-2.0f);
 
+        btn_ptr_owner->setOutlineThickness(-2.0f);
+        btn_ptr->setOutlineColor(sf::Color::Transparent);
+        
         m_color_btns.addChild(std::move(btn_ptr_owner));
     }
 }

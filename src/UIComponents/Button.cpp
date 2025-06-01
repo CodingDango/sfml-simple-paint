@@ -45,6 +45,11 @@ void UI::Button::setOutlineThickness(float thickness)
     m_shape.setOutlineThickness(thickness);
 }
 
+void UI::Button::setFillColor(const sf::Color& col)
+{
+    m_shape.setFillColor(col);
+}
+
 /////////////////////////////////////////////////////////////
 //  Button Getters 
 /////////////////////////////////////////////////////////////
@@ -74,8 +79,9 @@ void UI::Button::handleEvent(const sf::Event& event)
     switch (event.type)
     {
     case sf::Event::MouseButtonReleased:
-        UIEntity::is_mouse_released = (event.mouseButton.button == sf::Mouse::Left);
-    
+        UIEntity::m_is_mouse_released = (event.mouseButton.button == sf::Mouse::Left);
+        break;
+
     default:
         break;
     }
@@ -85,15 +91,29 @@ void UI::Button::update(float dt, const sf::Vector2f& mouse_pos)
 {   
     bool is_mouse_hovered = isMouseHovered(mouse_pos); 
 
-    if (is_mouse_hovered)
-        m_hover_callback();
-    else
-        m_no_hover_callback();
-    
-    if (is_mouse_released && is_mouse_hovered)
-        m_click_callback();
+    // Check for leave
+    if (!is_mouse_hovered && m_was_hovered)
+    {
+        if (m_no_hover_callback)
+            m_no_hover_callback();
+    }
 
-    is_mouse_released = false;
+    // Check for enter
+    else if (is_mouse_hovered && !m_was_hovered)
+    {
+        if (m_hover_callback)
+            m_hover_callback();
+    }
+
+    // Check for click
+    if (is_mouse_hovered && m_is_mouse_released)
+    {
+        if (m_click_callback)
+            m_click_callback();
+    }
+    
+    m_was_hovered = is_mouse_hovered;
+    m_is_mouse_released = false;
 }
 
 void UI::Button::render(sf::RenderTarget& dest)

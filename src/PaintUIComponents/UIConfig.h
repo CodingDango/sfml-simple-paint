@@ -7,14 +7,14 @@
 namespace UIConfig    
 {
     // Font for the PaintUIComponents
-    inline const static std::string FONT_FILE_PATH { "assets/fonts/Poppins-Regular.ttf" };
-    inline const static sf::Font LABEL_FONT { utils::loadFontFromFile(FONT_FILE_PATH) };
+    inline const std::string FONT_FILE_PATH { "assets/fonts/Poppins-Regular.ttf" };
+    inline const sf::Font LABEL_FONT { utils::loadFontFromFile(FONT_FILE_PATH) };
     
     // Font size for the PaintUIComponents
-    inline const static unsigned int LABEL_FONT_SIZE = 16.0f;
+    inline const unsigned int LABEL_FONT_SIZE = 16.0f;
 
     // Text style for the PaintUIComponents
-    inline const static sf::Text::Style LABEL_TEXT_STYLE = sf::Text::Style::Bold; 
+    inline const sf::Text::Style LABEL_TEXT_STYLE = sf::Text::Style::Bold; 
 }
 
 #endif

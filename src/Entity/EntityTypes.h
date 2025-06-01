@@ -22,10 +22,12 @@ struct UIEntity : public Entity
     virtual void setPosition(const sf::Vector2f& pos) {};
     virtual void setPosition(float x, float y) {};
     
-    bool is_mouse_released = false;
-    bool is_hovered = false;
-    bool is_pressed = false;
-    bool is_hidden = false;
+    bool m_is_mouse_released = false;
+    bool m_is_mouse_moved = false;
+    bool m_is_hovered = false;
+    bool m_was_hovered = false;
+    bool m_is_pressed = false;
+    bool m_is_hidden = false;
 };
 
 #endif

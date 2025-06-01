@@ -27,7 +27,7 @@ add_executable(
     # -- Paint UI Components
     ./src/PaintUIComponents/BrushLogicUI.cpp
     ./src/PaintUIComponents/BrushColorPallete.cpp
-    ./src/PaintUIComponents/BrushSizeIncrement.cpp
+    ./src/PaintUIComponents/BrushShapes.cpp
 
     # -- Paint UX Folder
 )

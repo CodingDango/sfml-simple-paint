@@ -26,20 +26,20 @@ void UI::BrushLogicUI::configBg(
 void UI::BrushLogicUI::configPaintUIComponents()
 {
     // Brush color pallete
-    std::unique_ptr<BrushColorPallete> m_brush_color_pallete { 
+    std::unique_ptr<BrushColorPallete> brush_color_pallete { 
         std::make_unique<BrushColorPallete>(m_brush_logic_ptr) 
     };
 
-    m_brush_color_pallete->setPosition(BRUSH_COLOR_PALLETE_POS);
-    m_ui_entities.addChild(std::move(m_brush_color_pallete));
+    brush_color_pallete->setPosition(BRUSH_COLOR_PALLETE_POS);
+    m_ui_entities.addChild(std::move(brush_color_pallete));
 
-    // Brush Size Increment Component
-    std::unique_ptr<BrushSizeIncrement> m_brush_size_increment_ptr {
-        std::make_unique<BrushSizeIncrement>(m_brush_logic_ptr)
+    // BrushShapes  Component
+    std::unique_ptr<BrushShapes> brush_shapes {
+        std::make_unique<BrushShapes>(m_brush_logic_ptr)
     };
 
-    m_brush_size_increment_ptr->setPosition(BRUSH_SIZE_INCREMENT_POS);
-    m_ui_entities.addChild(std::move(m_brush_size_increment_ptr));
+    brush_shapes->setPosition(BRUSH_SHAPES_POS);
+    m_ui_entities.addChild(std::move(brush_shapes));
 }
 
 /////////////////////////////////////////////////////////////

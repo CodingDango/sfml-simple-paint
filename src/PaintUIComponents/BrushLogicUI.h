@@ -11,7 +11,7 @@
 
 // Paint UI Components
 #include "BrushColorPallete.h"
-#include "BrushSizeIncrement.h"
+#include "BrushShapes.h"
 
 #include "Debug.h"
 #include <SFML/Graphics.hpp>
@@ -49,7 +49,7 @@ namespace UI
         // Paint UI Components Positions 
         /////////////////////////////////////////////////////////////
         inline const static sf::Vector2f BRUSH_COLOR_PALLETE_POS { 1021.f, 540.f };
-        inline const static sf::Vector2f BRUSH_SIZE_INCREMENT_POS { 1021.f, 13.f };
+        inline const static sf::Vector2f BRUSH_SHAPES_POS { 1022.f, 16.f };
         
         /////////////////////////////////////////////////////////////
         // Helpers

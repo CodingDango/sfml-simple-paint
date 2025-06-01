@@ -309,4 +309,5 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.h \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushColorPallete.h \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\UIConfig.h \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushSizeIncrement.h
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushShapes.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h

@@ -60,7 +60,7 @@ void Paint::Canvas::applyBrushDab(const sf::Vector2f& unmapped_brush_pos)
 /////////////////////////////////////////////////////////////
 void Paint::Canvas::render(sf::RenderTarget& dest) 
 {
-    if (is_pressed
+    if (m_is_pressed
         && m_sprite.getGlobalBounds().contains(
         m_brush_logic_ptr->getPosition()))
         applySmoothBrushStrokes();
@@ -81,14 +81,14 @@ void Paint::Canvas::handleEvent(const sf::Event& event)
     case sf::Event::MouseButtonPressed:
         if (event.mouseButton.button == sf::Mouse::Left)
         {
-            is_pressed = true;
+            m_is_pressed = true;
             unmapped_last_brush_pos = m_brush_logic_ptr->getPosition();
         }
         break;
 
     case sf::Event::MouseButtonReleased:
         if (event.mouseButton.button == sf::Mouse::Left)
-            is_pressed = false;
+            m_is_pressed = false;
         break;
 
     default:

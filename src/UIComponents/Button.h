@@ -23,6 +23,7 @@ namespace UI
         void setNoHoverCallback(const std::function<void()>& callback);
         void setOutlineColor(const sf::Color& col);
         void setOutlineThickness(float thickness);
+        void setFillColor(const sf::Color& col);
 
         /////////////////////////////////////////////////////////////
         // Getters  

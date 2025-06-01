@@ -248,29 +248,29 @@ src/PaintUIComponents/BrushLogicUI.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.s
 .PHONY : src/PaintUIComponents/BrushLogicUI.cpp.s
 
-src/PaintUIComponents/BrushSizeIncrement.obj: src/PaintUIComponents/BrushSizeIncrement.cpp.obj
-.PHONY : src/PaintUIComponents/BrushSizeIncrement.obj
+src/PaintUIComponents/BrushShapes.obj: src/PaintUIComponents/BrushShapes.cpp.obj
+.PHONY : src/PaintUIComponents/BrushShapes.obj
 
 # target to build an object file
-src/PaintUIComponents/BrushSizeIncrement.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj
-.PHONY : src/PaintUIComponents/BrushSizeIncrement.cpp.obj
+src/PaintUIComponents/BrushShapes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj
+.PHONY : src/PaintUIComponents/BrushShapes.cpp.obj
 
-src/PaintUIComponents/BrushSizeIncrement.i: src/PaintUIComponents/BrushSizeIncrement.cpp.i
-.PHONY : src/PaintUIComponents/BrushSizeIncrement.i
+src/PaintUIComponents/BrushShapes.i: src/PaintUIComponents/BrushShapes.cpp.i
+.PHONY : src/PaintUIComponents/BrushShapes.i
 
 # target to preprocess a source file
-src/PaintUIComponents/BrushSizeIncrement.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.i
-.PHONY : src/PaintUIComponents/BrushSizeIncrement.cpp.i
+src/PaintUIComponents/BrushShapes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.i
+.PHONY : src/PaintUIComponents/BrushShapes.cpp.i
 
-src/PaintUIComponents/BrushSizeIncrement.s: src/PaintUIComponents/BrushSizeIncrement.cpp.s
-.PHONY : src/PaintUIComponents/BrushSizeIncrement.s
+src/PaintUIComponents/BrushShapes.s: src/PaintUIComponents/BrushShapes.cpp.s
+.PHONY : src/PaintUIComponents/BrushShapes.s
 
 # target to generate assembly for a file
-src/PaintUIComponents/BrushSizeIncrement.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.s
-.PHONY : src/PaintUIComponents/BrushSizeIncrement.cpp.s
+src/PaintUIComponents/BrushShapes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.s
+.PHONY : src/PaintUIComponents/BrushShapes.cpp.s
 
 src/UIComponents/Button.obj: src/UIComponents/Button.cpp.obj
 .PHONY : src/UIComponents/Button.obj
@@ -416,9 +416,9 @@ help:
 	@echo ... src/PaintUIComponents/BrushLogicUI.obj
 	@echo ... src/PaintUIComponents/BrushLogicUI.i
 	@echo ... src/PaintUIComponents/BrushLogicUI.s
-	@echo ... src/PaintUIComponents/BrushSizeIncrement.obj
-	@echo ... src/PaintUIComponents/BrushSizeIncrement.i
-	@echo ... src/PaintUIComponents/BrushSizeIncrement.s
+	@echo ... src/PaintUIComponents/BrushShapes.obj
+	@echo ... src/PaintUIComponents/BrushShapes.i
+	@echo ... src/PaintUIComponents/BrushShapes.s
 	@echo ... src/UIComponents/Button.obj
 	@echo ... src/UIComponents/Button.i
 	@echo ... src/UIComponents/Button.s

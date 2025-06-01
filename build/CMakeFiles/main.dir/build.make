@@ -221,20 +221,20 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.s"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushColorPallete.cpp" -o CMakeFiles\main.dir\src\PaintUIComponents\BrushColorPallete.cpp.s
 
-CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj: CMakeFiles/main.dir/flags.make
-CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
-CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushSizeIncrement.cpp
-CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj -MF CMakeFiles\main.dir\src\PaintUIComponents\BrushSizeIncrement.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUIComponents\BrushSizeIncrement.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushSizeIncrement.cpp"
+CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushShapes.cpp
+CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj -MF CMakeFiles\main.dir\src\PaintUIComponents\BrushShapes.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUIComponents\BrushShapes.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushShapes.cpp"
 
-CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.i"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushSizeIncrement.cpp" > CMakeFiles\main.dir\src\PaintUIComponents\BrushSizeIncrement.cpp.i
+CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushShapes.cpp" > CMakeFiles\main.dir\src\PaintUIComponents\BrushShapes.cpp.i
 
-CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.s"
-	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushSizeIncrement.cpp" -o CMakeFiles\main.dir\src\PaintUIComponents\BrushSizeIncrement.cpp.s
+CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushShapes.cpp" -o CMakeFiles\main.dir\src\PaintUIComponents\BrushShapes.cpp.s
 
 # Object files for target main
 main_OBJECTS = \
@@ -248,7 +248,7 @@ main_OBJECTS = \
 "CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj" \
 "CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj" \
 "CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj" \
-"CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj"
+"CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
@@ -263,7 +263,7 @@ main.exe: CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj
 main.exe: CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj
 main.exe: CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj
 main.exe: CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj
-main.exe: CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj
+main.exe: CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj
 main.exe: CMakeFiles/main.dir/build.make
 main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-graphics.dll.a
 main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-audio.dll.a

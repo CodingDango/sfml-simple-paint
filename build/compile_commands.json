@@ -61,8 +61,8 @@
 },
 {
   "directory": "D:/Coding Programs/Code/C++/guiProjects/paint/build",
-  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUIComponents\\BrushSizeIncrement.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\PaintUIComponents\\BrushSizeIncrement.cpp\"",
-  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushSizeIncrement.cpp",
-  "output": "CMakeFiles/main.dir/src/PaintUIComponents/BrushSizeIncrement.cpp.obj"
+  "command": "\"D:\\Coding Programs\\MSYS\\mingw64\\bin\\g++.exe\"  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++17 -O0 -Wall -ggdb -pedantic -o CMakeFiles\\main.dir\\src\\PaintUIComponents\\BrushShapes.cpp.obj -c \"D:\\Coding Programs\\Code\\C++\\guiProjects\\paint\\src\\PaintUIComponents\\BrushShapes.cpp\"",
+  "file": "D:/Coding Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushShapes.cpp",
+  "output": "CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj"
 }
 ]

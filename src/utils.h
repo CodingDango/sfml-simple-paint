@@ -74,6 +74,15 @@ namespace utils
     {
         return (vect.x != 0 && vect.y != 0);
     }
+
+    inline sf::Color scaleColor(sf::Color col, float factor)
+    {
+        col.r = clamp<int>(255, 0, col.r * factor); 
+        col.g = clamp<int>(255, 0, col.g * factor); 
+        col.b = clamp<int>(255, 0, col.b * factor);
+        
+        return col;
+    }
 }
 
 
