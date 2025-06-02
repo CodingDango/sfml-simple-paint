@@ -272,29 +272,53 @@ src/PaintUIComponents/BrushShapes.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.s
 .PHONY : src/PaintUIComponents/BrushShapes.cpp.s
 
-src/UIComponents/Button.obj: src/UIComponents/Button.cpp.obj
-.PHONY : src/UIComponents/Button.obj
+src/UIComponents/Buttons/ButtonBase.obj: src/UIComponents/Buttons/ButtonBase.cpp.obj
+.PHONY : src/UIComponents/Buttons/ButtonBase.obj
 
 # target to build an object file
-src/UIComponents/Button.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Button.cpp.obj
-.PHONY : src/UIComponents/Button.cpp.obj
+src/UIComponents/Buttons/ButtonBase.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj
+.PHONY : src/UIComponents/Buttons/ButtonBase.cpp.obj
 
-src/UIComponents/Button.i: src/UIComponents/Button.cpp.i
-.PHONY : src/UIComponents/Button.i
+src/UIComponents/Buttons/ButtonBase.i: src/UIComponents/Buttons/ButtonBase.cpp.i
+.PHONY : src/UIComponents/Buttons/ButtonBase.i
 
 # target to preprocess a source file
-src/UIComponents/Button.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Button.cpp.i
-.PHONY : src/UIComponents/Button.cpp.i
+src/UIComponents/Buttons/ButtonBase.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.i
+.PHONY : src/UIComponents/Buttons/ButtonBase.cpp.i
 
-src/UIComponents/Button.s: src/UIComponents/Button.cpp.s
-.PHONY : src/UIComponents/Button.s
+src/UIComponents/Buttons/ButtonBase.s: src/UIComponents/Buttons/ButtonBase.cpp.s
+.PHONY : src/UIComponents/Buttons/ButtonBase.s
 
 # target to generate assembly for a file
-src/UIComponents/Button.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Button.cpp.s
-.PHONY : src/UIComponents/Button.cpp.s
+src/UIComponents/Buttons/ButtonBase.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.s
+.PHONY : src/UIComponents/Buttons/ButtonBase.cpp.s
+
+src/UIComponents/Buttons/StandardButton.obj: src/UIComponents/Buttons/StandardButton.cpp.obj
+.PHONY : src/UIComponents/Buttons/StandardButton.obj
+
+# target to build an object file
+src/UIComponents/Buttons/StandardButton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj
+.PHONY : src/UIComponents/Buttons/StandardButton.cpp.obj
+
+src/UIComponents/Buttons/StandardButton.i: src/UIComponents/Buttons/StandardButton.cpp.i
+.PHONY : src/UIComponents/Buttons/StandardButton.i
+
+# target to preprocess a source file
+src/UIComponents/Buttons/StandardButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.i
+.PHONY : src/UIComponents/Buttons/StandardButton.cpp.i
+
+src/UIComponents/Buttons/StandardButton.s: src/UIComponents/Buttons/StandardButton.cpp.s
+.PHONY : src/UIComponents/Buttons/StandardButton.s
+
+# target to generate assembly for a file
+src/UIComponents/Buttons/StandardButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.s
+.PHONY : src/UIComponents/Buttons/StandardButton.cpp.s
 
 src/UIComponents/TextLabel.obj: src/UIComponents/TextLabel.cpp.obj
 .PHONY : src/UIComponents/TextLabel.obj
@@ -419,9 +443,12 @@ help:
 	@echo ... src/PaintUIComponents/BrushShapes.obj
 	@echo ... src/PaintUIComponents/BrushShapes.i
 	@echo ... src/PaintUIComponents/BrushShapes.s
-	@echo ... src/UIComponents/Button.obj
-	@echo ... src/UIComponents/Button.i
-	@echo ... src/UIComponents/Button.s
+	@echo ... src/UIComponents/Buttons/ButtonBase.obj
+	@echo ... src/UIComponents/Buttons/ButtonBase.i
+	@echo ... src/UIComponents/Buttons/ButtonBase.s
+	@echo ... src/UIComponents/Buttons/StandardButton.obj
+	@echo ... src/UIComponents/Buttons/StandardButton.i
+	@echo ... src/UIComponents/Buttons/StandardButton.s
 	@echo ... src/UIComponents/TextLabel.obj
 	@echo ... src/UIComponents/TextLabel.i
 	@echo ... src/UIComponents/TextLabel.s

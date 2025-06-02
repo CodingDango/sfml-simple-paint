@@ -65,7 +65,7 @@ namespace utils
     {
         sf::Font font;
         font.loadFromFile(path);
-        
+            
         return font;
     }
 
@@ -82,6 +82,16 @@ namespace utils
         col.b = clamp<int>(255, 0, col.b * factor);
         
         return col;
+    }
+
+    inline sf::Texture loadTextureFromFile(const std::string& path, bool set_smooth = false)
+    {
+        sf::Texture texture;
+        texture.loadFromFile(path);
+
+        texture.setSmooth(set_smooth);
+        
+        return texture;
     }
 }
 

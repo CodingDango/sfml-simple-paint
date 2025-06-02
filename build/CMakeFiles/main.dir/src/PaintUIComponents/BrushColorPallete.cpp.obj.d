@@ -1,7 +1,8 @@
 CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj: \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushColorPallete.cpp \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushColorPallete.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Button.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/StandardButton.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/ButtonBase.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/EntityTypes.h \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/RenderTarget.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Export.hpp \

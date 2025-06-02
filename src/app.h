@@ -2,7 +2,6 @@
 #define APP_H
 
 #include "Brush.h"
-#include "Button.h"
 #include "BrushLogic.h"
 #include "BrushLogicUI.h"
 #include "Canvas.h"

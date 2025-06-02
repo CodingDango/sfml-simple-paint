@@ -1,7 +1,7 @@
 #ifndef BRUSH_SHAPES_H
 #define BRUSH_SHAPES_H
 
-#include "Button.h"
+#include "StandardButton.h"
 #include "BrushLogic.h"
 #include "EntityTypes.h"
 #include "TextLabel.h"
@@ -31,6 +31,14 @@ public:
 private:
     BrushLogic* m_brush_logic_ptr;
     UI::UIEntityContainerComponent m_ui_elements;
+
+    inline static const std::vector<sf::Texture> BTN_ICONS_TEXTURES {
+        utils::loadTextureFromFile("assets/images/shape_icons/eraser.png"),
+        utils::loadTextureFromFile("assets/images/shape_icons/circle.png"),
+        utils::loadTextureFromFile("assets/images/shape_icons/rectangle.png"),
+        utils::loadTextureFromFile("assets/images/shape_icons/triangle.png"),
+        utils::loadTextureFromFile("assets/images/shape_icons/star.png"),
+    };
 
     inline static const std::string HEADER_LABEL_STR {"Brush Shapes"};
     inline static const sf::Vector2f HEADER_LABEL_SIZE {240.f, 37.f};

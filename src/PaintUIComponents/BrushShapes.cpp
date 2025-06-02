@@ -61,9 +61,11 @@ void BrushShapes::configureUIElements()
     // The Rectangular Buttons
     for (int i = 0; i < TOTAL_BTNS; i++)
     {
-        std::unique_ptr<UI::Button> button { 
-            std::make_unique<UI::Button>(BTN_BG_COL, BTN_SIZE)
+        std::unique_ptr<UI::StandardButton> button { 
+            std::make_unique<UI::StandardButton>(BTN_BG_COL, BTN_SIZE)
         };
+
+        button->setIconTexture(BTN_ICONS_TEXTURES[i]);
 
         const auto button_ptr = button.get();
 
@@ -93,7 +95,7 @@ void BrushShapes::positionUIElements(sf::Vector2f pos)
 
     for (int i = BUTTONS_IDX_START; i < BUTTONS_IDX_END; i++)
     {   
-        m_ui_elements[i]->setPosition(pos);
+        m_ui_elements[i]->setPosition(pos); 
         pos.x += BTN_SIZE.x;
     }
 }

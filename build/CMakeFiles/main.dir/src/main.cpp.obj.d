@@ -270,8 +270,13 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/atomic_lockfree_defines.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/backward/auto_ptr.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/pstl/glue_memory_defs.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Button.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Brush.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/debug.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/fmt/base.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/string.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/sec_api/string_s.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
  D:/Coding\ Programs/MSYS/mingw64/include/math.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
@@ -288,6 +293,15 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushLogicUI.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/TextLabel.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushColorPallete.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/StandardButton.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/ButtonBase.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/functional \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_function.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/unordered_map \
@@ -297,19 +311,6 @@ CMakeFiles/main.dir/src/main.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/array \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/compare \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Brush.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/debug.h \
- D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h \
- D:/Coding\ Programs/MSYS/mingw64/include/fmt/base.h \
- D:/Coding\ Programs/MSYS/mingw64/include/string.h \
- D:/Coding\ Programs/MSYS/mingw64/include/sec_api/string_s.h \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushLogicUI.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/TextLabel.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushColorPallete.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/UIConfig.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushShapes.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h \

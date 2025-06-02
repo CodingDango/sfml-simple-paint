@@ -55,7 +55,7 @@ void BrushColorPallete::loadBtns()
     for (size_t i = 0; i < m_colors_for_pallete.size(); i++)
     {   
         const auto& btn_col = m_colors_for_pallete[i];
-        std::unique_ptr<UI::Button> btn_ptr_owner = std::make_unique<UI::Button>(btn_col, BOX_COLOR_SIZE);
+        std::unique_ptr<UI::StandardButton> btn_ptr_owner = std::make_unique<UI::StandardButton>(btn_col, BOX_COLOR_SIZE);
 
         const auto btn_ptr = btn_ptr_owner.get();
         const auto& btn_outline_col = BOX_COLOR_OUTLINE_HOVER;

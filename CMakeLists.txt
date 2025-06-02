@@ -20,7 +20,9 @@ add_executable(
     ./src/Paint/Canvas.cpp
     
     # -- UI Components
-    ./src/UIComponents/Button.cpp
+    ./src/UIComponents/Buttons/ButtonBase.cpp
+    ./src/UIComponents/Buttons/StandardButton.cpp
+
     ./src/UIComponents/TextLabel.cpp
     ./src/UIComponents/UIEntityContainerComponent.cpp
 
@@ -37,6 +39,7 @@ target_include_directories(
     ./src/
     ./src/Paint
     ./src/UIComponents
+    ./src/UIComponents/Buttons
     ./src/PaintUIComponents
     ./src/Entity
 )

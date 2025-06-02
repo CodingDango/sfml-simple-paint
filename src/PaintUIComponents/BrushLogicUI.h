@@ -6,7 +6,6 @@
 
 // UI Components
 #include "TextLabel.h"
-#include "Button.h"
 #include "UIEntityContainerComponent.h"
 
 // Paint UI Components

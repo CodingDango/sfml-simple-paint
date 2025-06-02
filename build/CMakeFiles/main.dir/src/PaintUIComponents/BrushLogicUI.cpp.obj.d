@@ -296,7 +296,10 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/TextLabel.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Button.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.h \
+ D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushColorPallete.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/StandardButton.h \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/ButtonBase.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/functional \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_function.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/unordered_map \
@@ -306,8 +309,6 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/enable_special_members.h \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/array \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/compare \
- D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.h \
- D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushColorPallete.h \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\UIConfig.h \
  D:\Coding\ Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushShapes.h \
  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h
