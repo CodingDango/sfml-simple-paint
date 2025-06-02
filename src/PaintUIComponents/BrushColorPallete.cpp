@@ -55,27 +55,38 @@ void BrushColorPallete::loadBtns()
     for (size_t i = 0; i < m_colors_for_pallete.size(); i++)
     {   
         const auto& btn_col = m_colors_for_pallete[i];
-        std::unique_ptr<UI::StandardButton> btn_ptr_owner = std::make_unique<UI::StandardButton>(btn_col, BOX_COLOR_SIZE);
+        std::unique_ptr<UI::ColorPalleteButton> btn_ptr_owner = std::make_unique<UI::ColorPalleteButton>(btn_col, BOX_COLOR_SIZE);
 
         const auto btn_ptr = btn_ptr_owner.get();
         const auto& btn_outline_col = BOX_COLOR_OUTLINE_HOVER;
 
         const auto& btn_click_callback = 
-            [this, btn_col](){ m_brush_logic_ptr->setColor(btn_col); };  
+            [this, btn_col](){ 
+                m_brush_logic_ptr->setColor(btn_col); 
+            };  
 
         const auto& btn_hover_callback = 
-            [this, btn_outline_col, btn_ptr](){ btn_ptr->setOutlineColor(btn_outline_col); };
+            [this, btn_outline_col, btn_ptr](){
+                btn_ptr->setOutlineColor(sf::Color::White);
+                btn_ptr->setInnerMostOutlineColor(sf::Color::Black);
+            };
 
         const auto& btn_no_hover_callback = 
-            [this, btn_ptr](){ btn_ptr->setOutlineColor(sf::Color::Transparent); };
+            [this, btn_ptr](){ 
+                btn_ptr->setOutlineColor(sf::Color::Transparent); 
+                btn_ptr->setInnerMostOutlineColor(sf::Color::Transparent); 
+            };
 
         btn_ptr_owner->setClickCallback(btn_click_callback); 
         btn_ptr_owner->setHoverCallback(btn_hover_callback); 
         btn_ptr_owner->setNoHoverCallback(btn_no_hover_callback);
 
         btn_ptr_owner->setOutlineThickness(-2.0f);
+        btn_ptr_owner->setInnerMostOutlineThickness(-1.0f);
+
         btn_ptr->setOutlineColor(sf::Color::Transparent);
-        
+        btn_ptr->setInnerMostOutlineColor(sf::Color::Transparent);
+
         m_color_btns.addChild(std::move(btn_ptr_owner));
     }
 }

@@ -22,6 +22,7 @@ add_executable(
     # -- UI Components
     ./src/UIComponents/Buttons/ButtonBase.cpp
     ./src/UIComponents/Buttons/StandardButton.cpp
+    ./src/UIComponents/Buttons/ColorPalleteButton.cpp
 
     ./src/UIComponents/TextLabel.cpp
     ./src/UIComponents/UIEntityContainerComponent.cpp

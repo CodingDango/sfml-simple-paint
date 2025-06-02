@@ -296,6 +296,30 @@ src/UIComponents/Buttons/ButtonBase.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.s
 .PHONY : src/UIComponents/Buttons/ButtonBase.cpp.s
 
+src/UIComponents/Buttons/ColorPalleteButton.obj: src/UIComponents/Buttons/ColorPalleteButton.cpp.obj
+.PHONY : src/UIComponents/Buttons/ColorPalleteButton.obj
+
+# target to build an object file
+src/UIComponents/Buttons/ColorPalleteButton.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj
+.PHONY : src/UIComponents/Buttons/ColorPalleteButton.cpp.obj
+
+src/UIComponents/Buttons/ColorPalleteButton.i: src/UIComponents/Buttons/ColorPalleteButton.cpp.i
+.PHONY : src/UIComponents/Buttons/ColorPalleteButton.i
+
+# target to preprocess a source file
+src/UIComponents/Buttons/ColorPalleteButton.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.i
+.PHONY : src/UIComponents/Buttons/ColorPalleteButton.cpp.i
+
+src/UIComponents/Buttons/ColorPalleteButton.s: src/UIComponents/Buttons/ColorPalleteButton.cpp.s
+.PHONY : src/UIComponents/Buttons/ColorPalleteButton.s
+
+# target to generate assembly for a file
+src/UIComponents/Buttons/ColorPalleteButton.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.s
+.PHONY : src/UIComponents/Buttons/ColorPalleteButton.cpp.s
+
 src/UIComponents/Buttons/StandardButton.obj: src/UIComponents/Buttons/StandardButton.cpp.obj
 .PHONY : src/UIComponents/Buttons/StandardButton.obj
 
@@ -446,6 +470,9 @@ help:
 	@echo ... src/UIComponents/Buttons/ButtonBase.obj
 	@echo ... src/UIComponents/Buttons/ButtonBase.i
 	@echo ... src/UIComponents/Buttons/ButtonBase.s
+	@echo ... src/UIComponents/Buttons/ColorPalleteButton.obj
+	@echo ... src/UIComponents/Buttons/ColorPalleteButton.i
+	@echo ... src/UIComponents/Buttons/ColorPalleteButton.s
 	@echo ... src/UIComponents/Buttons/StandardButton.obj
 	@echo ... src/UIComponents/Buttons/StandardButton.i
 	@echo ... src/UIComponents/Buttons/StandardButton.s

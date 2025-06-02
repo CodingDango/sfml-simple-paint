@@ -1,36 +1,40 @@
-#ifndef CUSTOM_RECTANGLE_H
-#define CUSTOM_RECTANGLE_H
+// CustomRectangleShape.h
+#ifndef MY_ROUNDED_RECTANGLE_SHAPE_H
+#define MY_ROUNDED_RECTANGLE_SHAPE_H
 
-#include "CustomShape.h"
-
-#include <SFML/Graphics/Drawable.hpp>
-#include <SFML/Graphics/Transformable.hpp>
+#include "CustomShape.h" // Your abstract base class
 #include <SFML/Graphics/ConvexShape.hpp>
-#include <SFML/Graphics/Color.hpp>
-#include <SFML/Graphics/Rect.hpp>
 
-namespace sf
-{
-    class RenderTarget;
-    class RenderStates;
-}
-
-class CustomRectangle : public CustomShape
-{
+class CustomRectangleShape : public CustomShape {
 public:
+    explicit CustomRectangleShape(const sf::Vector2f& size = sf::Vector2f(100.f, 50.f),
+                                     float radius = 5.f,
+                                     unsigned int cornerPointCount = 15);
+
+    // From CustomShape / sf::Drawable
+    void draw(sf::RenderTarget& target, sf::RenderStates states) const override;
     void setFillColor(const sf::Color& color) override;
-    void setBorderRadius(float top_left, float top_right, float bottom_left, float bottom_right);
     sf::Color getFillColor() const override;
     sf::FloatRect getLocalBounds() const override;
-    void draw(sf::RenderTarget& dest, sf::RenderStates states) const override;
+
+    // Specific to CustomRectangleShape
+    void setSize(const sf::Vector2f& size);
+    const sf::Vector2f& getVisualSize() const; // Using getVisualSize to avoid confusion
+
+    void setCornersRadius(float radius);
+    float getCornersRadius() const;
+
+    void setCornerPointCount(unsigned int count);
+    unsigned int getCornerPointCount() const;
 
 private:
-    
-    // Convex shape for a rectangle?
-    // So make a rectangle shape from scratch using convex shape alone?
-    // I mean.. we literally have to do this right?
-    // We wanted rounded corners after all.
+    void updatePoints(); // Recalculates the vertices for m_convexShape
 
+    sf::Vector2f m_size;
+    float m_radius;
+    unsigned int m_cornerPointCount;
+
+    sf::ConvexShape m_convexShape; // Holds the points and does the drawing
 };
 
-#endif
+#endif // MY_ROUNDED_RECTANGLE_SHAPE_H

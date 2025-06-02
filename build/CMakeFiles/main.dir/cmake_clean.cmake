@@ -13,6 +13,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj.d"
   "CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj"
   "CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj.d"
+  "CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj"
+  "CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj.d"
   "CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj"
   "CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj.d"
   "CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj"
