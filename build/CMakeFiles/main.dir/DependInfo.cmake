@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/Coding Programs/Code/C++/guiProjects/paint/src/Drawables/CustomRectangleShape.cpp" "CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/Brush.cpp" "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.cpp" "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj.d"
   "D:/Coding Programs/Code/C++/guiProjects/paint/src/Paint/Canvas.cpp" "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj" "gcc" "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj.d"

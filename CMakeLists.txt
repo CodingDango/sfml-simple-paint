@@ -14,6 +14,9 @@ add_executable(
     # -- Entity Folder
     # ./src/Entity/Entity.cpp
 
+    # -- Drawables
+    ./src/Drawables/CustomRectangleShape.cpp
+
     # -- Paint Folder 
     ./src/Paint/Brush.cpp
     ./src/Paint/BrushLogic.cpp
@@ -43,6 +46,7 @@ target_include_directories(
     ./src/UIComponents/Buttons
     ./src/PaintUIComponents
     ./src/Entity
+    ./src/Drawables
 )
    
 target_compile_options(

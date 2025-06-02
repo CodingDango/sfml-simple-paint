@@ -128,6 +128,30 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
 .PHONY : main/fast
 
+src/Drawables/CustomRectangleShape.obj: src/Drawables/CustomRectangleShape.cpp.obj
+.PHONY : src/Drawables/CustomRectangleShape.obj
+
+# target to build an object file
+src/Drawables/CustomRectangleShape.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj
+.PHONY : src/Drawables/CustomRectangleShape.cpp.obj
+
+src/Drawables/CustomRectangleShape.i: src/Drawables/CustomRectangleShape.cpp.i
+.PHONY : src/Drawables/CustomRectangleShape.i
+
+# target to preprocess a source file
+src/Drawables/CustomRectangleShape.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.i
+.PHONY : src/Drawables/CustomRectangleShape.cpp.i
+
+src/Drawables/CustomRectangleShape.s: src/Drawables/CustomRectangleShape.cpp.s
+.PHONY : src/Drawables/CustomRectangleShape.s
+
+# target to generate assembly for a file
+src/Drawables/CustomRectangleShape.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.s
+.PHONY : src/Drawables/CustomRectangleShape.cpp.s
+
 src/Paint/Brush.obj: src/Paint/Brush.cpp.obj
 .PHONY : src/Paint/Brush.obj
 
@@ -449,6 +473,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... src/Drawables/CustomRectangleShape.obj
+	@echo ... src/Drawables/CustomRectangleShape.i
+	@echo ... src/Drawables/CustomRectangleShape.s
 	@echo ... src/Paint/Brush.obj
 	@echo ... src/Paint/Brush.i
 	@echo ... src/Paint/Brush.s

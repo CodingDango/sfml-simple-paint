@@ -13,8 +13,7 @@ namespace sf
     class RenderStates;
 } // namespace sf
 
-
-class CustomShape : public sf::Drawable
+class CustomShape : public sf::Drawable, public sf::Transformable
 {
 public:
     virtual ~CustomShape() = default;

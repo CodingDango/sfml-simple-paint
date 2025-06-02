@@ -101,11 +101,26 @@ CMakeFiles/main.dir/src/app.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/app.cpp.s"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\guiProjects\paint\src\app.cpp" -o CMakeFiles\main.dir\src\app.cpp.s
 
+CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj: CMakeFiles/main.dir/flags.make
+CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
+CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Drawables/CustomRectangleShape.cpp
+CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj -MF CMakeFiles\main.dir\src\Drawables\CustomRectangleShape.cpp.obj.d -o CMakeFiles\main.dir\src\Drawables\CustomRectangleShape.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\Drawables\CustomRectangleShape.cpp"
+
+CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.i"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Coding Programs\Code\C++\guiProjects\paint\src\Drawables\CustomRectangleShape.cpp" > CMakeFiles\main.dir\src\Drawables\CustomRectangleShape.cpp.i
+
+CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.s"
+	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Coding Programs\Code\C++\guiProjects\paint\src\Drawables\CustomRectangleShape.cpp" -o CMakeFiles\main.dir\src\Drawables\CustomRectangleShape.cpp.s
+
 CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Brush.cpp
 CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/main.dir/src/Paint/Brush.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Paint/Brush.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Paint/Brush.cpp.obj -MF CMakeFiles\main.dir\src\Paint\Brush.cpp.obj.d -o CMakeFiles\main.dir\src\Paint\Brush.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\Paint\Brush.cpp"
 
 CMakeFiles/main.dir/src/Paint/Brush.cpp.i: cmake_force
@@ -120,7 +135,7 @@ CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.cpp
 CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj -MF CMakeFiles\main.dir\src\Paint\BrushLogic.cpp.obj.d -o CMakeFiles\main.dir\src\Paint\BrushLogic.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\Paint\BrushLogic.cpp"
 
 CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.i: cmake_force
@@ -135,7 +150,7 @@ CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: CMakeFiles/main.dir/flags.make
 CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Canvas.cpp
 CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj -MF CMakeFiles\main.dir\src\Paint\Canvas.cpp.obj.d -o CMakeFiles\main.dir\src\Paint\Canvas.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\Paint\Canvas.cpp"
 
 CMakeFiles/main.dir/src/Paint/Canvas.cpp.i: cmake_force
@@ -150,7 +165,7 @@ CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj: CMakeFiles/main
 CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/ButtonBase.cpp
 CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.obj -MF CMakeFiles\main.dir\src\UIComponents\Buttons\ButtonBase.cpp.obj.d -o CMakeFiles\main.dir\src\UIComponents\Buttons\ButtonBase.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\UIComponents\Buttons\ButtonBase.cpp"
 
 CMakeFiles/main.dir/src/UIComponents/Buttons/ButtonBase.cpp.i: cmake_force
@@ -165,7 +180,7 @@ CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj: CMakeFiles/
 CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/StandardButton.cpp
 CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.obj -MF CMakeFiles\main.dir\src\UIComponents\Buttons\StandardButton.cpp.obj.d -o CMakeFiles\main.dir\src\UIComponents\Buttons\StandardButton.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\UIComponents\Buttons\StandardButton.cpp"
 
 CMakeFiles/main.dir/src/UIComponents/Buttons/StandardButton.cpp.i: cmake_force
@@ -180,7 +195,7 @@ CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj: CMakeFi
 CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/Buttons/ColorPalleteButton.cpp
 CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.obj -MF CMakeFiles\main.dir\src\UIComponents\Buttons\ColorPalleteButton.cpp.obj.d -o CMakeFiles\main.dir\src\UIComponents\Buttons\ColorPalleteButton.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\UIComponents\Buttons\ColorPalleteButton.cpp"
 
 CMakeFiles/main.dir/src/UIComponents/Buttons/ColorPalleteButton.cpp.i: cmake_force
@@ -195,7 +210,7 @@ CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj: CMakeFiles/main.dir/flag
 CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/TextLabel.cpp
 CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.obj -MF CMakeFiles\main.dir\src\UIComponents\TextLabel.cpp.obj.d -o CMakeFiles\main.dir\src\UIComponents\TextLabel.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\UIComponents\TextLabel.cpp"
 
 CMakeFiles/main.dir/src/UIComponents/TextLabel.cpp.i: cmake_force
@@ -210,7 +225,7 @@ CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj: CMakeFi
 CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/UIComponents/UIEntityContainerComponent.cpp
 CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.obj -MF CMakeFiles\main.dir\src\UIComponents\UIEntityContainerComponent.cpp.obj.d -o CMakeFiles\main.dir\src\UIComponents\UIEntityContainerComponent.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\UIComponents\UIEntityContainerComponent.cpp"
 
 CMakeFiles/main.dir/src/UIComponents/UIEntityContainerComponent.cpp.i: cmake_force
@@ -225,7 +240,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: CMakeFiles/main.
 CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushLogicUI.cpp
 CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.obj -MF CMakeFiles\main.dir\src\PaintUIComponents\BrushLogicUI.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUIComponents\BrushLogicUI.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushLogicUI.cpp"
 
 CMakeFiles/main.dir/src/PaintUIComponents/BrushLogicUI.cpp.i: cmake_force
@@ -240,7 +255,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj: CMakeFiles/
 CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushColorPallete.cpp
 CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.obj -MF CMakeFiles\main.dir\src\PaintUIComponents\BrushColorPallete.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUIComponents\BrushColorPallete.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushColorPallete.cpp"
 
 CMakeFiles/main.dir/src/PaintUIComponents/BrushColorPallete.cpp.i: cmake_force
@@ -255,7 +270,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj: CMakeFiles/main.d
 CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj: CMakeFiles/main.dir/includes_CXX.rsp
 CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushShapes.cpp
 CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj: CMakeFiles/main.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj"
 	"D:\Coding Programs\MSYS\mingw64\bin\g++.exe" $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.obj -MF CMakeFiles\main.dir\src\PaintUIComponents\BrushShapes.cpp.obj.d -o CMakeFiles\main.dir\src\PaintUIComponents\BrushShapes.cpp.obj -c "D:\Coding Programs\Code\C++\guiProjects\paint\src\PaintUIComponents\BrushShapes.cpp"
 
 CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.i: cmake_force
@@ -270,6 +285,7 @@ CMakeFiles/main.dir/src/PaintUIComponents/BrushShapes.cpp.s: cmake_force
 main_OBJECTS = \
 "CMakeFiles/main.dir/src/main.cpp.obj" \
 "CMakeFiles/main.dir/src/app.cpp.obj" \
+"CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/Brush.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj" \
 "CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj" \
@@ -287,6 +303,7 @@ main_EXTERNAL_OBJECTS =
 
 main.exe: CMakeFiles/main.dir/src/main.cpp.obj
 main.exe: CMakeFiles/main.dir/src/app.cpp.obj
+main.exe: CMakeFiles/main.dir/src/Drawables/CustomRectangleShape.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/Brush.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj
 main.exe: CMakeFiles/main.dir/src/Paint/Canvas.cpp.obj
@@ -306,7 +323,7 @@ main.exe: D:/Coding\ Programs/MSYS/mingw64/lib/libsfml-system.dll.a
 main.exe: CMakeFiles/main.dir/linkLibs.rsp
 main.exe: CMakeFiles/main.dir/objects1.rsp
 main.exe: CMakeFiles/main.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable main.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Coding Programs\Code\C++\guiProjects\paint\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable main.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\main.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
