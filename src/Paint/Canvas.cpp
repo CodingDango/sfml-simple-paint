@@ -60,12 +60,27 @@ void Paint::Canvas::applyBrushDab(const sf::Vector2f& unmapped_brush_pos)
 /////////////////////////////////////////////////////////////
 void Paint::Canvas::update(float dt, const sf::Vector2f& mouse_pos)
 {
-    UIEntity::m_is_hovered
+    m_is_hovered = m_sprite.getGlobalBounds().contains(mouse_pos);
+
+    // Check for enter
+    if (!m_was_hovered && m_is_hovered)
+        m_unmapped_last_brush_pos = mouse_pos;
+
+    // Checks for just pressed
+
+    if (m_is_hovered && m_is_pressed && !m_was_pressed)
+        m_is_painting = true;
+
+    if (!m_is_pressed)
+        m_is_painting = false;
+
+    m_was_pressed = m_is_pressed;
+    m_was_hovered = m_is_hovered;
 }
 
 void Paint::Canvas::render(sf::RenderTarget& dest) 
 {
-    if (m_is_pressed && m_is_hovered)
+    if (m_is_painting)
         applySmoothBrushStrokes();
 
     m_render_texture.display();
@@ -86,7 +101,8 @@ void Paint::Canvas::handleEvent(const sf::Event& event)
         {
             m_is_pressed = true;
             m_unmapped_last_brush_pos = m_brush_logic_ptr->getPosition();
-        }
+         }
+
         break;
 
     case sf::Event::MouseButtonReleased:

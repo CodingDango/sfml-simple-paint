@@ -37,7 +37,9 @@ namespace Paint
         sf::Sprite m_sprite;
         sf::Vector2f m_unmapped_last_brush_pos;
         bool m_was_hovered = false;
-    
+        bool m_was_pressed = false;
+        bool m_is_painting = false;
+
         void configRenderObjects();
         void applySmoothBrushStrokes();
         void applyBrushDab(const sf::Vector2f& unmapped_brush_pos); 
