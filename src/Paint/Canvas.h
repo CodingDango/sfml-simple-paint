@@ -25,6 +25,7 @@ namespace Paint
         // Entity Overrides
         /////////////////////////////////////////////////////////////
         void render(sf::RenderTarget& dest) override;
+        void update(float dt, const sf::Vector2f& mouse_pos) override;
         void handleEvent(const sf::Event& event) override;
 
     private:
@@ -34,7 +35,8 @@ namespace Paint
         const sf::Color m_canvas_col;
         sf::RenderTexture m_render_texture;
         sf::Sprite m_sprite;
-        sf::Vector2f unmapped_last_brush_pos;
+        sf::Vector2f m_unmapped_last_brush_pos;
+        bool m_was_hovered = false;
     
         void configRenderObjects();
         void applySmoothBrushStrokes();

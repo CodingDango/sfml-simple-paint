@@ -26,7 +26,7 @@ void Paint::Canvas::configRenderObjects()
 void Paint::Canvas::applySmoothBrushStrokes()
 {
     const sf::Vector2f unmapped_curr_brush_pos = m_brush_logic_ptr->getPosition(); 
-    const sf::Vector2f journey_vector =  unmapped_curr_brush_pos - unmapped_last_brush_pos;
+    const sf::Vector2f journey_vector =  unmapped_curr_brush_pos - m_unmapped_last_brush_pos;
     const float journey_length = utils::vectLength(journey_vector);
     sf::Vector2f journey_direction;
 
@@ -37,13 +37,13 @@ void Paint::Canvas::applySmoothBrushStrokes()
 
     for (double i = 0; i < journey_length; i += step_size)
     {
-        const sf::Vector2f dab_pos = unmapped_last_brush_pos + utils::multVectByFactor(journey_direction, i);
+        const sf::Vector2f dab_pos = m_unmapped_last_brush_pos + utils::multVectByFactor(journey_direction, i);
         applyBrushDab(dab_pos);
     }
 
     applyBrushDab(unmapped_curr_brush_pos);
 
-    unmapped_last_brush_pos = unmapped_curr_brush_pos;
+    m_unmapped_last_brush_pos = unmapped_curr_brush_pos;
 }
 
 void Paint::Canvas::applyBrushDab(const sf::Vector2f& unmapped_brush_pos)
@@ -58,11 +58,14 @@ void Paint::Canvas::applyBrushDab(const sf::Vector2f& unmapped_brush_pos)
 /////////////////////////////////////////////////////////////
 // Entity Overrides
 /////////////////////////////////////////////////////////////
+void Paint::Canvas::update(float dt, const sf::Vector2f& mouse_pos)
+{
+    UIEntity::m_is_hovered
+}
+
 void Paint::Canvas::render(sf::RenderTarget& dest) 
 {
-    if (m_is_pressed
-        && m_sprite.getGlobalBounds().contains(
-        m_brush_logic_ptr->getPosition()))
+    if (m_is_pressed && m_is_hovered)
         applySmoothBrushStrokes();
 
     m_render_texture.display();
@@ -82,7 +85,7 @@ void Paint::Canvas::handleEvent(const sf::Event& event)
         if (event.mouseButton.button == sf::Mouse::Left)
         {
             m_is_pressed = true;
-            unmapped_last_brush_pos = m_brush_logic_ptr->getPosition();
+            m_unmapped_last_brush_pos = m_brush_logic_ptr->getPosition();
         }
         break;
 
