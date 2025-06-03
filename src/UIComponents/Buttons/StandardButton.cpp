@@ -92,5 +92,5 @@ void UI::StandardButton::setPosition(float x, float y)
 
 sf::Vector2f UI::StandardButton::getSize() const
 {
-    return m_rectangle.getSize();
+    return m_rectangle.getLocalBounds().getSize();
 }
