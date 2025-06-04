@@ -18,6 +18,20 @@ void UI::ButtonBase::setNoHoverCallback(const std::function<void()>& callback)
     m_no_hover_callback = callback;
 }
 
+void UI::ButtonBase::callClickCallback()
+{
+    m_click_callback();
+}
+
+void UI::ButtonBase::callHoverCallback()
+{
+    m_hover_callback();
+}
+
+void UI::ButtonBase::callNoHoverCallback()
+{
+    m_no_hover_callback();
+}
 
 void UI::ButtonBase::handleMouseCallbacks(const sf::Vector2f& mouse_pos)
 {   

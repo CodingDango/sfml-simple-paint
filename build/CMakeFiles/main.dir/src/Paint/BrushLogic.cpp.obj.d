@@ -292,4 +292,5 @@ CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint \
- D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstring \
+ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h

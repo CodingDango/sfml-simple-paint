@@ -1,4 +1,5 @@
 #include "BrushLogic.h"
+#include "utils.h"
 
 /////////////////////////////////////////////////////////////
 // Constructer Definitions
@@ -42,6 +43,13 @@ void BrushLogic::setPosition(const sf::Vector2f& pos)
     m_brush_ptr->setPosition(pos);
 }
 
+void BrushLogic::setAlpha(unsigned int factor)
+{
+    sf::Color brush_color = m_brush_ptr->getFillColor();
+    brush_color.a = utils::clamp<int>(255, 0, factor);
+    m_brush_ptr->setColor(brush_color);
+}
+
 /////////////////////////////////////////////////////////////
 // Getters Definitions
 /////////////////////////////////////////////////////////////
@@ -69,6 +77,11 @@ const sf::Shape& BrushLogic::getShape() const
         outputBrushIsNull("getShape()");
 
     return m_brush_ptr->getShape();
+}
+
+sf::Color BrushLogic::getFillColor() const
+{
+    return m_brush_ptr->getFillColor();
 }
 
 /////////////////////////////////////////////////////////////

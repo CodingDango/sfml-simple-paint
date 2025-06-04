@@ -39,7 +39,6 @@ void BrushShapes::setPosition(const sf::Vector2f& pos)
 /////////////////////////////////////////////////////////////
 void BrushShapes::configureUIElements()
 {
-
     // Header label
     std::unique_ptr<UI::TextLabel> header_text_ptr {
         std::make_unique<UI::TextLabel>(
@@ -68,13 +67,40 @@ void BrushShapes::configureUIElements()
         button->setIconTexture(BTN_ICONS_TEXTURES[i]);
 
         const auto button_ptr = button.get();
+        int button_idx = i;
 
-        button->setHoverCallback([this, button_ptr](){
-            button_ptr->setFillColor(BTN_BG_COL_HOVER);
+        button->setHoverCallback([this, button_ptr, button_idx](){
+            if (button_ptr != m_selected_btn_ptr)
+                button_ptr->setFillColor(BTN_BG_COL_HOVER);
         });
 
-        button->setNoHoverCallback([this, button_ptr](){
-            button_ptr->setFillColor(BTN_BG_COL);
+        button->setNoHoverCallback([this, button_ptr, button_idx](){
+            if (button_ptr != m_selected_btn_ptr)
+                button_ptr->setFillColor(BTN_BG_COL);
+        });
+
+        button->setClickCallback([this, button_ptr, button_idx](){
+            if (button_idx == ERASER_BTN_IDX 
+                && m_selected_btn_ptr != nullptr
+                && m_selected_btn_ptr != button_ptr)
+            {
+                m_previous_brush_col = m_brush_logic_ptr->getFillColor();
+                m_brush_logic_ptr->setColor(sf::Color::White);
+            }
+            
+            else
+                m_brush_logic_ptr->setColor(m_previous_brush_col);
+        
+            if (m_selected_btn_ptr != nullptr)
+            {
+                const auto previous_btn_ptr = m_selected_btn_ptr;
+                m_selected_btn_ptr = button_ptr;
+                previous_btn_ptr->callNoHoverCallback();
+            }
+
+            button_ptr->setFillColor(BTN_BG_COL_SELECTED);
+            m_brush_logic_ptr->setShape(BTN_SHAPE_TYPE_FOR_BURSH[button_idx]); 
+            m_selected_btn_ptr = button_ptr;
         });
 
         m_ui_elements.addChild(std::move(button));

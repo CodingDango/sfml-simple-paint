@@ -19,6 +19,10 @@ namespace UI
         void setHoverCallback(const std::function<void()>& callback);
         void setNoHoverCallback(const std::function<void()>& callback);
 
+        void callClickCallback();
+        void callHoverCallback();
+        void callNoHoverCallback();
+
         virtual void setOutlineColor(const sf::Color& col) = 0;
         virtual void setOutlineThickness(float thickness) = 0;
         virtual void setFillColor(const sf::Color& col) = 0;

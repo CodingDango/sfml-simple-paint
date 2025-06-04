@@ -24,6 +24,7 @@ public:
     void setSize(float size);
     void setShape(Brush::ShapeType type);
     void setPosition(const sf::Vector2f& pos);
+    void setAlpha(unsigned int new_alpha);
 
     /////////////////////////////////////////////////////////////
     // Getters
@@ -32,6 +33,7 @@ public:
     float getWidth() const;
     sf::FloatRect getBounds() const;
     const sf::Shape& getShape() const;
+    sf::Color getFillColor() const;
 
     /////////////////////////////////////////////////////////////
     // Entity Overrides

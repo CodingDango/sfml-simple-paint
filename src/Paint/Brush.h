@@ -23,6 +23,7 @@ public:
     void setColor(const sf::Color& col);
     void setPosition(const sf::Vector2f vect);
 
+    sf::Color getFillColor() const;
     const sf::Shape& getShape() const;
     ShapeType getShapeType() const; 
 

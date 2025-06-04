@@ -74,6 +74,11 @@ Brush::ShapeType Brush::getShapeType() const
     return m_shape_type;
 }
 
+sf::Color Brush::getFillColor() const
+{
+    return m_color;
+}
+
 void Brush::centerBrushOrigin()
 {
     if (!m_shape_ptr) 

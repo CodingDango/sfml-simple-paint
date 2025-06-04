@@ -546,6 +546,7 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: D:/Coding\ Programs/Code/C++/guiPro
 CMakeFiles/main.dir/src/Paint/BrushLogic.cpp.obj: D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.cpp \
   D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Entity/EntityTypes.h \
   D:/Coding\ Programs/Code/C++/guiProjects/paint/src/debug.h \
+  D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h \
   D:/Coding\ Programs/MSYS/mingw64/include/SFML/Config.hpp \
   D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics.hpp \
   D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/BlendMode.hpp \
@@ -4128,8 +4129,6 @@ D:/Coding\ Programs/Code/C++/guiProjects/paint/src/PaintUIComponents/BrushColorP
 
 D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Canvas.h:
 
-D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h:
-
 D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/Canvas.cpp:
 
 D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.h:
@@ -4141,6 +4140,8 @@ D:/Coding\ Programs/MSYS/mingw64/include/fmt/format.h:
 D:/Coding\ Programs/MSYS/mingw64/include/fmt/base.h:
 
 D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdint:
+
+D:/Coding\ Programs/Code/C++/guiProjects/paint/src/utils.h:
 
 D:/Coding\ Programs/Code/C++/guiProjects/paint/src/Paint/BrushLogic.cpp:
 
