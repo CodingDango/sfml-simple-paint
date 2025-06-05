@@ -31,10 +31,13 @@ public:
 private:
     BrushLogic* m_brush_logic_ptr;
     UI::UIEntityContainerComponent m_ui_elements;
-    const int ERASER_BTN_IDX = 0;
-    sf::Color m_previous_brush_col = sf::Color::White;
     UI::StandardButton* m_selected_btn_ptr = nullptr;
-    
+    const int ERASER_BTN_IDX = 0;
+    const int CIRCLE_BTN_IDX = 1;
+    bool m_is_current_shape_eraser = false;
+    bool was_eraser_selected = false;
+    sf::Color m_previous_brush_col = sf::Color::White;
+
     inline static const std::vector<sf::Texture> BTN_ICONS_TEXTURES {
         utils::loadTextureFromFile("assets/images/shape_icons/eraser.png"),
         utils::loadTextureFromFile("assets/images/shape_icons/circle.png"),
@@ -47,8 +50,8 @@ private:
         Brush::ShapeType::Rectangle,
         Brush::ShapeType::Circle,
         Brush::ShapeType::Rectangle,
-        Brush::ShapeType::Rectangle, // Soon triangle if i can
-        Brush::ShapeType::Rectangle, // Soon star if im smart enough lol.
+        Brush::ShapeType::Triangle, // Soon triangle if i can
+        Brush::ShapeType::Star, // Soon star if im smart enough lol.
     };
 
     inline static const std::string HEADER_LABEL_STR {"Brush Shapes"};

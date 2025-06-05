@@ -253,6 +253,22 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Sprite.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/Text.hpp \
  D:/Coding\ Programs/MSYS/mingw64/include/SFML/Graphics/VertexBuffer.hpp \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
+ D:/Coding\ Programs/MSYS/mingw64/include/math.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/limits \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
+ D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/istream.tcc \

@@ -413,6 +413,7 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: D:/Coding\ Programs/Code/C++/guiPro
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr.h \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr_atomic.h \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/shared_ptr_base.h \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/specfun.h \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/std_abs.h \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_algo.h \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/bits/stl_algobase.h \
@@ -446,6 +447,7 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: D:/Coding\ Programs/Code/C++/guiPro
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cctype \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cerrno \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/clocale \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cmath \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/concepts \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstddef \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/cstdio \
@@ -469,6 +471,7 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: D:/Coding\ Programs/Code/C++/guiPro
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iostream \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/istream \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/iterator \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/limits \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/locale \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/map \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/memory \
@@ -484,6 +487,18 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: D:/Coding\ Programs/Code/C++/guiPro
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/string \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/string_view \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/system_error \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/bessel_function.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/beta_function.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/ell_integral.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/exp_integral.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/gamma.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/hypergeometric.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/legendre_function.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/modified_bessel_func.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_hermite.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/poly_laguerre.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/riemann_zeta.tcc \
+  D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tr1/special_function_util.h \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/tuple \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/type_traits \
   D:/Coding\ Programs/MSYS/mingw64/include/c++/14.2.0/typeinfo \
@@ -512,6 +527,7 @@ CMakeFiles/main.dir/src/Paint/Brush.cpp.obj: D:/Coding\ Programs/Code/C++/guiPro
   D:/Coding\ Programs/MSYS/mingw64/include/limits.h \
   D:/Coding\ Programs/MSYS/mingw64/include/locale.h \
   D:/Coding\ Programs/MSYS/mingw64/include/malloc.h \
+  D:/Coding\ Programs/MSYS/mingw64/include/math.h \
   D:/Coding\ Programs/MSYS/mingw64/include/process.h \
   D:/Coding\ Programs/MSYS/mingw64/include/pthread.h \
   D:/Coding\ Programs/MSYS/mingw64/include/pthread_compat.h \
